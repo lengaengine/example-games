@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66ebafbb6f84d560d213c64538d498fe",
+    "content-hash": "865db446420fc995794ed20424c6f6f6",
     "packages": [
         {
             "name": "lenga/engine",
             "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lengaengine/php-engine.git",
+                "reference": "1a2dcd18f8eb6afb4149af818f7cfb9cc5a5ee2b"
+            },
             "dist": {
-                "type": "path",
-                "url": "../../php-engine",
-                "reference": "0b7dd7db0e3c05ee90438b173914fc99bf22ffa2"
+                "type": "zip",
+                "url": "https://api.github.com/repos/lengaengine/php-engine/zipball/1a2dcd18f8eb6afb4149af818f7cfb9cc5a5ee2b",
+                "reference": "1a2dcd18f8eb6afb4149af818f7cfb9cc5a5ee2b",
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -47,10 +53,11 @@
                 "proprietary"
             ],
             "description": "Lenga Engine PHP runtime bindings",
-            "transport-options": {
-                "symlink": false,
-                "relative": true
-            }
+            "support": {
+                "source": "https://github.com/lengaengine/php-engine/tree/develop",
+                "issues": "https://github.com/lengaengine/php-engine/issues"
+            },
+            "time": "2026-08-01T18:32:22+00:00"
         }
     ],
     "packages-dev": [],

@@ -14,11 +14,8 @@
   "type": "project",
   "repositories": [
     {
-      "type": "path",
-      "url": "../../php-engine",
-      "options": {
-        "symlink": false
-      }
+      "type": "vcs",
+      "url": "https://github.com/lengaengine/php-engine.git"
     }
   ]
 }

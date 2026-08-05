@@ -21,32 +21,24 @@ These are source projects rather than prebuilt game downloads. They evolve indep
 
 ## Requirements
 
-- A Lenga Editor and SDK checkout compatible with the projects in this repository
+- A compatible version of the [Lenga Editor](https://lengaengine.com)
 - PHP 8.5 or newer
 - Composer 2
 
-Each project currently resolves the PHP scripting API from `../../php-engine`. For a source checkout, keep this repository at `<lenga>/samples` and the PHP API repository at `<lenga>/php-engine`:
-
-```text
-lenga/
-|-- php-engine/
-`-- samples/
-    |-- Blasters/
-    |-- Platformer/
-    `-- ...
-```
+Each project declares the public [`lenga/engine`](https://github.com/lengaengine/php-engine) PHP scripting API as a Composer dependency. Composer downloads the compatible API automatically; you do not need the Lenga engine source tree or a particular folder layout.
 
 ## Open A Sample
 
-1. Choose the project you want to explore.
-2. Run `composer install` inside that project's directory to install the PHP scripting API and generate its autoloader.
-3. Start the Lenga Editor and open the project directory from the Project Hub.
-4. Open the project's configured entry scene and press Play.
+1. Clone or download this repository.
+2. Choose the project you want to explore.
+3. Run `composer install` inside that project's directory to install the PHP scripting API and generate its autoloader.
+4. Start the Lenga Editor and open that project directory from the Project Hub.
+5. Open the project's configured entry scene and press Play.
 
 For example:
 
 ```bash
-cd samples/RollerWorld
+cd RollerWorld
 composer install
 ```
 

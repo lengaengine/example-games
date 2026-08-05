@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6f4934b826c79818c7b81156141387b",
+    "content-hash": "205c200d72c1444a0a783b925db67c3f",
     "packages": [
         {
             "name": "lenga/engine",
             "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lengaengine/php-engine.git",
+                "reference": "1a2dcd18f8eb6afb4149af818f7cfb9cc5a5ee2b"
+            },
             "dist": {
-                "type": "path",
-                "url": "../../php-engine",
-                "reference": "5296898c4f1605db9f7bf8109ec67a52165548e2"
+                "type": "zip",
+                "url": "https://api.github.com/repos/lengaengine/php-engine/zipball/1a2dcd18f8eb6afb4149af818f7cfb9cc5a5ee2b",
+                "reference": "1a2dcd18f8eb6afb4149af818f7cfb9cc5a5ee2b",
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -20,6 +26,11 @@
                 "php": "^8.5"
             },
             "require-dev": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "ext-tokenizer": "*",
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
                 "phpunit/phpunit": "^11.0"
             },
             "type": "library",
@@ -42,10 +53,11 @@
                 "proprietary"
             ],
             "description": "Lenga Engine PHP runtime bindings",
-            "transport-options": {
-                "symlink": false,
-                "relative": true
-            }
+            "support": {
+                "source": "https://github.com/lengaengine/php-engine/tree/develop",
+                "issues": "https://github.com/lengaengine/php-engine/issues"
+            },
+            "time": "2026-08-01T18:32:22+00:00"
         }
     ],
     "packages-dev": [],
