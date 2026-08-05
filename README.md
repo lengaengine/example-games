@@ -27,6 +27,8 @@ These are source projects rather than prebuilt game downloads. They evolve indep
 
 Each project declares the public [`lenga/engine`](https://github.com/lengaengine/php-engine) PHP scripting API as a Composer dependency. Composer downloads the compatible API automatically; you do not need the Lenga engine source tree or a particular folder layout.
 
+`ENGINE_VERSION` is the repository-wide source of truth. After each Lenga Engine release, automation updates every sample manifest and lock file to that exact version so all projects remain reproducible and compatible with the corresponding editor/runtime release.
+
 ## Open A Sample
 
 1. Clone or download this repository.
@@ -62,6 +64,8 @@ The most useful learning path is to start with a scene in `Assets/Scenes`, selec
 ## Contributing
 
 Bug fixes and focused examples are welcome. Before submitting a change, read [CONTRIBUTING.md](./CONTRIBUTING.md) and verify that the affected project opens, its PHP files lint successfully, and its entry scene runs in the editor.
+
+Continuous integration installs the public scripting API and validates Composer metadata, PHP syntax, project JSON, configured scene paths, PSR-4 autoloading, release-version alignment, and repository hygiene for every sample. Maintainers can review the [release automation contract](./docs/release-automation.md) when preparing or recovering a coordinated release.
 
 ## Licensing
 

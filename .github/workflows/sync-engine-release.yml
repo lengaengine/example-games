@@ -1,0 +1,68 @@
+name: Sync Released Engine Version
+
+on:
+  repository_dispatch:
+    types:
+      - engine-released
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Exact Lenga Engine release version
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-engine-release
+  cancel-in-progress: false
+
+jobs:
+  sync-engine-version:
+    runs-on: ubuntu-latest
+    env:
+      ENGINE_RELEASE_VERSION: ${{ github.event.client_payload.version || inputs.version }}
+    steps:
+      - name: Check out samples
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.5'
+          tools: composer:v2
+
+      - name: Synchronize engine dependency
+        run: php tools/sync-engine-version.php "$ENGINE_RELEASE_VERSION"
+
+      - name: Verify synchronized repository
+        shell: bash
+        run: |
+          set -euo pipefail
+          php tools/sync-engine-version.php --check
+
+          projects=("Blasters" "HelloWorld" "Platformer" "Pong" "RollerWorld" "Super Blastoid")
+          for project in "${projects[@]}"; do
+            composer --working-dir="$project" validate --strict --no-check-publish
+            composer --working-dir="$project" install --no-interaction --prefer-dist --no-progress
+            php tools/validate-project.php "$project"
+          done
+
+      - name: Commit synchronized release
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if git diff --quiet; then
+            echo "Samples already target Lenga Engine $ENGINE_RELEASE_VERSION."
+            exit 0
+          fi
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add ENGINE_VERSION README.md */composer.json */composer.lock
+          git commit -m "chore(deps): align samples with Lenga $ENGINE_RELEASE_VERSION"
+          git push origin HEAD:main

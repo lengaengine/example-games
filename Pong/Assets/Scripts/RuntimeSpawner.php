@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace My\App\Scripts;
+namespace Lenga\Pong\Scripts;
 
 use Lenga\Engine\Core\Behaviour;
 use Lenga\Engine\Core\GameObject;

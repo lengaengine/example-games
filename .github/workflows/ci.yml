@@ -1,0 +1,87 @@
+name: Samples CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  repository-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out samples
+        uses: actions/checkout@v4
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.5'
+          tools: composer:v2
+
+      - name: Verify engine release alignment
+        run: php tools/sync-engine-version.php --check
+
+      - name: Reject private development paths
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git grep -I -n -E '(/Users/|/home/|[A-Z]:\\Users\\|\.\./\.\./php-engine|"type"[[:space:]]*:[[:space:]]*"path")' -- ':!.github/workflows/ci.yml'; then
+            echo 'Repository files contain a private or local-only dependency path.' >&2
+            exit 1
+          fi
+
+      - name: Reject tracked generated output
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git ls-files | grep -E '(^|/)(vendor|node_modules|build|dist|out|output|Saved)(/|$)|(^|/)imgui\.ini$'; then
+            echo 'Generated or machine-local output is tracked.' >&2
+            exit 1
+          fi
+
+  project-contract:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        project:
+          - Blasters
+          - HelloWorld
+          - Platformer
+          - Pong
+          - RollerWorld
+          - Super Blastoid
+    steps:
+      - name: Check out samples
+        uses: actions/checkout@v4
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.5'
+          tools: composer:v2
+
+      - name: Cache Composer downloads
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/composer/files
+          key: composer-${{ runner.os }}-${{ hashFiles(format('{0}/composer.lock', matrix.project)) }}
+          restore-keys: |
+            composer-${{ runner.os }}-
+
+      - name: Validate Composer metadata
+        run: composer --working-dir="${{ matrix.project }}" validate --strict --no-check-publish
+
+      - name: Install public scripting API
+        run: composer --working-dir="${{ matrix.project }}" install --no-interaction --prefer-dist --no-progress
+
+      - name: Validate project source
+        run: php tools/validate-project.php "${{ matrix.project }}"
+
+      - name: Verify PSR-4 autoloading
+        run: composer --working-dir="${{ matrix.project }}" dump-autoload --optimize --strict-psr --no-interaction
