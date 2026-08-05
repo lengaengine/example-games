@@ -1,0 +1,182 @@
+{
+  "animationController": {
+    "defaultState": "Idle",
+    "name": "KavumbiAnimationController",
+    "parameters": [
+      {
+        "defaultValue": false,
+        "name": "IsWalking",
+        "type": "Bool"
+      },
+      {
+        "defaultValue": false,
+        "name": "IsRunning",
+        "type": "Bool"
+      },
+      {
+        "defaultValue": false,
+        "name": "IsAirborne",
+        "type": "Bool"
+      },
+      {
+        "name": "Light Attack",
+        "type": "Trigger"
+      },
+      {
+        "name": "Heavy Attack",
+        "type": "Trigger"
+      }
+    ],
+    "states": [
+      {
+        "clipPath": "Assets/Animation/Kavumbi/KavumbiIdle.anim",
+        "name": "Idle",
+        "transitions": [
+          {
+            "conditionType": "Parameter",
+            "parameter": "Light Attack",
+            "toState": "Attack Light",
+            "value": true
+          },
+          {
+            "conditionType": "Parameter",
+            "parameter": "Heavy Attack",
+            "toState": "Attack Heavy",
+            "value": true
+          },
+          {
+            "conditionType": "Parameter",
+            "parameter": "IsAirborne",
+            "toState": "Jump",
+            "value": true
+          },
+          {
+            "conditionType": "Parameter",
+            "parameter": "IsWalking",
+            "toState": "Walk",
+            "value": true
+          },
+          {
+            "conditionType": "Parameter",
+            "parameter": "IsRunning",
+            "toState": "Dash",
+            "value": true
+          }
+        ]
+      },
+      {
+        "clipPath": "Assets/Animation/Kavumbi/KavumbiWalk.anim",
+        "name": "Walk",
+        "transitions": [
+          {
+            "conditionType": "Parameter",
+            "parameter": "Light Attack",
+            "toState": "Attack Light",
+            "value": true
+          },
+          {
+            "conditionType": "Parameter",
+            "parameter": "Heavy Attack",
+            "toState": "Attack Heavy",
+            "value": true
+          },
+          {
+            "conditionType": "Parameter",
+            "parameter": "IsAirborne",
+            "toState": "Jump",
+            "value": true
+          },
+          {
+            "conditionType": "Parameter",
+            "parameter": "IsRunning",
+            "toState": "Dash",
+            "value": true
+          },
+          {
+            "conditionType": "Parameter",
+            "parameter": "IsWalking",
+            "toState": "Idle",
+            "value": false
+          }
+        ]
+      },
+      {
+        "clipPath": "Assets/Animation/Kavumbi/KavumbiDash.anim",
+        "name": "Dash",
+        "transitions": [
+          {
+            "conditionType": "Parameter",
+            "parameter": "Light Attack",
+            "toState": "Attack Light",
+            "value": true
+          },
+          {
+            "conditionType": "Parameter",
+            "parameter": "Heavy Attack",
+            "toState": "Attack Heavy",
+            "value": true
+          },
+          {
+            "conditionType": "Parameter",
+            "parameter": "IsAirborne",
+            "toState": "Jump",
+            "value": true
+          },
+          {
+            "conditionType": "Parameter",
+            "parameter": "IsWalking",
+            "toState": "Walk",
+            "value": true
+          },
+          {
+            "conditionType": "Parameter",
+            "parameter": "IsRunning",
+            "toState": "Idle",
+            "value": false
+          }
+        ]
+      },
+      {
+        "clipPath": "Assets/Animation/Kavumbi/KavumbiJump.anim",
+        "name": "Jump",
+        "transitions": []
+      },
+      {
+        "clipPath": "Assets/Animation/Kavumbi/KavumbiAttackLight.anim",
+        "name": "Attack Light",
+        "transitions": [
+          {
+            "conditionType": "Parameter",
+            "parameter": "IsAirborne",
+            "toState": "Jump",
+            "value": true
+          },
+          {
+            "conditionType": "OnComplete",
+            "parameter": "",
+            "toState": "Idle",
+            "value": true
+          }
+        ]
+      },
+      {
+        "clipPath": "Assets/Animation/Kavumbi/KavumbiAttackHeavy.anim",
+        "name": "Attack Heavy",
+        "transitions": [
+          {
+            "conditionType": "Parameter",
+            "parameter": "IsAirborne",
+            "toState": "Jump",
+            "value": true
+          },
+          {
+            "conditionType": "OnComplete",
+            "parameter": "",
+            "toState": "Idle",
+            "value": true
+          }
+        ]
+      }
+    ]
+  }
+}

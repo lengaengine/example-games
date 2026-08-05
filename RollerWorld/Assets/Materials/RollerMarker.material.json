@@ -1,0 +1,11 @@
+{
+  "material": {
+    "name": "RollerMarker",
+    "version": 1,
+    "shader": "Lit"
+  },
+  "baseColor": "#F1F5F9FF",
+  "specularStrength": 0.15,
+  "smoothness": 0.22,
+  "baseTexturePath": ""
+}

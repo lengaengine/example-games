@@ -1,0 +1,22 @@
+{
+  "autoload": {
+    "psr-4": {
+      "SuperBlastoid\\Game\\": "Assets/"
+    }
+  },
+  "name": "lenga/super-blastoid",
+  "require": {
+    "lenga/engine": "dev-develop",
+    "php": "^8.5"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../../php-engine",
+      "options": {
+        "symlink": false
+      }
+    }
+  ],
+  "type": "project"
+}

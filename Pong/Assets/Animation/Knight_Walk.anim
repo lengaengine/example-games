@@ -1,0 +1,39 @@
+{
+  "animationClip": {
+    "frames": [
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_000.png"
+      },
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_001.png"
+      },
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_002.png"
+      },
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_003.png"
+      },
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_004.png"
+      },
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_005.png"
+      },
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_006.png"
+      },
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_007.png"
+      },
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_008.png"
+      },
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_009.png"
+      }
+    ],
+    "framesPerSecond": 12.0,
+    "loop": true,
+    "name": "Knight_Walk"
+  }
+}

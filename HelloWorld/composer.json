@@ -1,0 +1,22 @@
+{
+    "name": "lenga/hello-world",
+    "type": "project",
+    "require": {
+        "php": "^8.5",
+        "lenga/engine": "dev-develop"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sample\\HelloWorld\\": "Assets/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../php-engine",
+            "options": {
+                "symlink": false
+            }
+        }
+    ]
+}

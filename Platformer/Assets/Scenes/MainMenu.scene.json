@@ -1,0 +1,1277 @@
+{
+  "canvases": [
+    {
+      "elements": [
+        {
+          "children": [],
+          "color": "#FFFFFF",
+          "enabled": true,
+          "id": "image",
+          "name": "Menu Backdrop",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 386.9774,
+              "y": 79.0
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 512.0,
+              "y": 600.0
+            }
+          },
+          "sortOrder": 0,
+          "spritePath": "Assets/Sprites/UI/Menu Backdrop (Default).png",
+          "type": "Image",
+          "visible": true
+        },
+        {
+          "children": [],
+          "color": "#FFFFFF",
+          "enabled": true,
+          "fontPath": "Assets/Fonts/rebellion-squad-font/RebellionSquad-ZpprZ.ttf",
+          "fontSize": 64.0,
+          "id": "text",
+          "name": "Title Text - Zambezi",
+          "outlineDistance": {
+            "x": 2.0,
+            "y": 2.0
+          },
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.5,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.5,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": -55.8838,
+              "y": 256.002
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 4.8,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 80.0,
+              "y": 32.0
+            }
+          },
+          "sdfOutlineWidth": 0.0,
+          "sortOrder": 0,
+          "text": "Zambezi",
+          "type": "Text",
+          "useSdf": true,
+          "visible": true
+        },
+        {
+          "children": [],
+          "color": "#FFFFFF",
+          "enabled": true,
+          "fontPath": "Assets/Fonts/rebellion-squad-font/RebellionSquad-ZpprZ.ttf",
+          "fontSize": 64.0,
+          "id": "text-1",
+          "name": "Title Text - Madness",
+          "outlineDistance": {
+            "x": 2.0,
+            "y": 2.0
+          },
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.5,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.5,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": -73.3531,
+              "y": 347.4144
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -4.7,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 80.0,
+              "y": 32.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "Madness",
+          "type": "Text",
+          "visible": true
+        },
+        {
+          "backgroundColor": "#244E82",
+          "children": [],
+          "disabledColor": "#384252B4",
+          "enabled": true,
+          "fontPath": "Assets/Fonts/rebellion-squad-font/RebellionSquad-ZpprZ.ttf",
+          "fontSize": 36.0,
+          "hoverColor": "#EE7E36",
+          "hoverImagePath": "Assets/Sprites/UI/Button BG - Green (Default).png",
+          "id": "button",
+          "imagePath": "Assets/Sprites/UI/Button BG - Orange (Default).png",
+          "interactable": true,
+          "name": "Play Button",
+          "navigation": {
+            "down": "",
+            "left": "",
+            "right": "",
+            "up": ""
+          },
+          "navigationMode": "Automatic",
+          "onClick": [
+            {
+              "behaviourClass": "Lenga\\Platformer\\Scripts\\Menus\\MainMenu",
+              "methodName": "onPlayButtonClicked",
+              "targetGameObjectId": "gameobject"
+            }
+          ],
+          "pressedColor": "#B05B25",
+          "pressedImagePath": "Assets/Sprites/UI/Button BG - Green (Hover).png",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchoredPosition": {
+              "x": 0.0,
+              "y": 80.0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 200.0,
+              "y": 78.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "Play",
+          "textColor": "#FFFFFF",
+          "type": "Button",
+          "visible": true
+        },
+        {
+          "backgroundColor": "#244E82",
+          "children": [],
+          "disabledColor": "#384252B4",
+          "enabled": true,
+          "fontPath": "Assets/Fonts/rebellion-squad-font/RebellionSquad-ZpprZ.ttf",
+          "fontSize": 36.0,
+          "hoverColor": "#EE7E36",
+          "hoverImagePath": "Assets/Sprites/UI/Button BG - Green (Default).png",
+          "id": "button-1",
+          "imagePath": "Assets/Sprites/UI/Button BG - Orange (Default).png",
+          "interactable": true,
+          "name": "Settings Button",
+          "navigation": {
+            "down": "",
+            "left": "",
+            "right": "",
+            "up": ""
+          },
+          "navigationMode": "Automatic",
+          "onClick": [
+            {
+              "behaviourClass": "Lenga\\Platformer\\Scripts\\Menus\\MainMenu",
+              "methodName": "onSettingsButtonClicked",
+              "targetGameObjectId": "gameobject"
+            }
+          ],
+          "pressedColor": "#B05B25",
+          "pressedImagePath": "Assets/Sprites/UI/Button BG - Green (Hover).png",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchoredPosition": {
+              "x": 0.0,
+              "y": 140.0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 200.0,
+              "y": 78.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "Settings",
+          "textColor": "#FFFFFF",
+          "type": "Button",
+          "visible": true
+        },
+        {
+          "backgroundColor": "#244E82",
+          "children": [],
+          "disabledColor": "#384252B4",
+          "enabled": true,
+          "fontPath": "Assets/Fonts/rebellion-squad-font/RebellionSquad-ZpprZ.ttf",
+          "fontSize": 36.0,
+          "hoverColor": "#EE7E36",
+          "hoverImagePath": "Assets/Sprites/UI/Button BG - Green (Default).png",
+          "id": "button-2",
+          "imagePath": "Assets/Sprites/UI/Button BG - Orange (Default).png",
+          "interactable": true,
+          "name": "Quit Button",
+          "navigation": {
+            "down": "",
+            "left": "",
+            "right": "",
+            "up": ""
+          },
+          "navigationMode": "Automatic",
+          "onClick": [
+            {
+              "behaviourClass": "Lenga\\Platformer\\Scripts\\Menus\\MainMenu",
+              "methodName": "onQuitButtonClicked",
+              "targetGameObjectId": "gameobject"
+            }
+          ],
+          "pressedColor": "#B05B24",
+          "pressedImagePath": "Assets/Sprites/UI/Button BG - Green (Hover).png",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchoredPosition": {
+              "x": 0.0,
+              "y": 200.0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 200.0,
+              "y": 78.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "Quit",
+          "textColor": "#FFFFFF",
+          "type": "Button",
+          "visible": true
+        }
+      ],
+      "enabled": true,
+      "firstSelectedElementId": "button",
+      "id": "canvas-1",
+      "matchWidthOrHeight": 0.0,
+      "name": "Title Menu",
+      "referenceResolution": {
+        "x": 1280.0,
+        "y": 720.0
+      },
+      "renderMode": "ScreenSpaceOverlay",
+      "sortOrder": 0,
+      "visible": true
+    },
+    {
+      "elements": [
+        {
+          "children": [],
+          "color": "#FFFFFF",
+          "enabled": true,
+          "id": "image-1",
+          "name": "Menu Backdrop",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 386.9774,
+              "y": 79.0
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 512.0,
+              "y": 600.0
+            }
+          },
+          "sortOrder": 0,
+          "spritePath": "Assets/Sprites/UI/Menu Backdrop (Default).png",
+          "type": "Image",
+          "visible": true
+        },
+        {
+          "children": [],
+          "color": "#FFFFFF",
+          "enabled": true,
+          "fontPath": "Assets/Fonts/rebellion-squad-font/RebellionSquad-ZpprZ.ttf",
+          "fontSize": 64.0,
+          "id": "text-2",
+          "name": "Title Text - Settings",
+          "outlineColor": "#000000",
+          "outlineDistance": {
+            "x": 2.0,
+            "y": 2.0
+          },
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.5,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.5,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": -55.8838,
+              "y": 256.002
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 4.8,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 80.0,
+              "y": 32.0
+            }
+          },
+          "sdfOutlineWidth": 0.0,
+          "sdfSoftness": 0.5,
+          "sortOrder": 0,
+          "text": "Settings",
+          "type": "Text",
+          "useSdf": true,
+          "visible": true
+        },
+        {
+          "backgroundColor": "#244E82",
+          "children": [],
+          "disabledColor": "#384252B4",
+          "enabled": true,
+          "fontPath": "Assets/Fonts/rebellion-squad-font/RebellionSquad-ZpprZ.ttf",
+          "fontSize": 36.0,
+          "hoverColor": "#EE7E36",
+          "hoverImagePath": "Assets/Sprites/UI/Button BG - Green (Default).png",
+          "id": "play-button-1",
+          "imagePath": "Assets/Sprites/UI/Button BG - Orange (Default).png",
+          "interactable": true,
+          "name": "Audio Settings Button",
+          "navigation": {
+            "down": "",
+            "left": "",
+            "right": "",
+            "up": ""
+          },
+          "navigationMode": "Automatic",
+          "onClick": [
+            {
+              "behaviourClass": "Lenga\\Platformer\\Scripts\\Menus\\MainMenu",
+              "methodName": "onAudioSettingsButtonClicked",
+              "targetGameObjectId": "gameobject"
+            }
+          ],
+          "pressedColor": "#B05B25",
+          "pressedImagePath": "Assets/Sprites/UI/Button BG - Green (Hover).png",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchoredPosition": {
+              "x": 0.0,
+              "y": 80.0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 200.0,
+              "y": 78.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "Audio",
+          "textColor": "#FFFFFF",
+          "type": "Button",
+          "visible": true
+        },
+        {
+          "backgroundColor": "#244E82",
+          "children": [],
+          "disabledColor": "#384252B4",
+          "enabled": true,
+          "fontPath": "Assets/Fonts/rebellion-squad-font/RebellionSquad-ZpprZ.ttf",
+          "fontSize": 36.0,
+          "hoverColor": "#EE7E36",
+          "hoverImagePath": "Assets/Sprites/UI/Button BG - Green (Default).png",
+          "id": "audio-settings-button-1",
+          "imagePath": "Assets/Sprites/UI/Button BG - Orange (Default).png",
+          "interactable": true,
+          "name": "Controller Settings Button",
+          "navigation": {
+            "down": "",
+            "left": "",
+            "right": "",
+            "up": ""
+          },
+          "navigationMode": "Automatic",
+          "onClick": [
+            {
+              "behaviourClass": "Lenga\\Platformer\\Scripts\\Menus\\MainMenu",
+              "methodName": "onControllerSettingsButtonClicked",
+              "targetGameObjectId": "gameobject"
+            }
+          ],
+          "pressedColor": "#B05B25",
+          "pressedImagePath": "Assets/Sprites/UI/Button BG - Green (Hover).png",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchoredPosition": {
+              "x": 0.0,
+              "y": 140.0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 200.0,
+              "y": 78.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "Controller",
+          "textColor": "#FFFFFF",
+          "type": "Button",
+          "visible": true
+        },
+        {
+          "backgroundColor": "#244E82",
+          "children": [],
+          "disabledColor": "#384252B4",
+          "enabled": true,
+          "fontPath": "Assets/Fonts/rebellion-squad-font/RebellionSquad-ZpprZ.ttf",
+          "fontSize": 36.0,
+          "hoverColor": "#EE7E36",
+          "hoverImagePath": "Assets/Sprites/UI/Button BG - Green (Default).png",
+          "id": "audio-settings-button-1-1",
+          "imagePath": "Assets/Sprites/UI/Button BG - Orange (Default).png",
+          "interactable": true,
+          "name": "Credits Button",
+          "navigation": {
+            "down": "",
+            "left": "",
+            "right": "",
+            "up": ""
+          },
+          "navigationMode": "Automatic",
+          "onClick": [
+            {
+              "behaviourClass": "Lenga\\Platformer\\Scripts\\Menus\\MainMenu",
+              "methodName": "onCreditsButtonClicked",
+              "targetGameObjectId": "gameobject"
+            }
+          ],
+          "pressedColor": "#B05B25",
+          "pressedImagePath": "Assets/Sprites/UI/Button BG - Green (Hover).png",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchoredPosition": {
+              "x": 0.0,
+              "y": 200.0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 200.0,
+              "y": 78.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "Credits",
+          "textColor": "#FFFFFF",
+          "type": "Button",
+          "visible": true
+        }
+      ],
+      "enabled": false,
+      "firstSelectedElementId": "play-button-1",
+      "id": "canvas",
+      "matchWidthOrHeight": 0.0,
+      "name": "Settings Menu",
+      "referenceResolution": {
+        "x": 1280.0,
+        "y": 720.0
+      },
+      "renderMode": "ScreenSpaceOverlay",
+      "sortOrder": 0,
+      "visible": true
+    },
+    {
+      "elements": [
+        {
+          "children": [],
+          "color": "#FFFFFF",
+          "enabled": true,
+          "id": "frame-1",
+          "name": "Menu Backdrop",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 386.9774,
+              "y": 79.0
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 512.0,
+              "y": 600.0
+            }
+          },
+          "sortOrder": 0,
+          "spritePath": "Assets/Sprites/UI/Menu Backdrop (Default).png",
+          "type": "Image",
+          "visible": true
+        },
+        {
+          "backgroundColor": "#384252",
+          "backgroundSize": {
+            "x": 100.0,
+            "y": 25.0
+          },
+          "children": [],
+          "enabled": true,
+          "fillColor": "#22C59B",
+          "fillSize": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "handleColor": "#FFFFFF",
+          "handleSize": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "id": "slider",
+          "interactable": true,
+          "maxValue": 1.0,
+          "minValue": 0.0,
+          "name": "SFX Slider",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 604.4442,
+              "y": 375.7037
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 220.0,
+              "y": 24.0
+            }
+          },
+          "showHandle": true,
+          "sortOrder": 0,
+          "type": "Slider",
+          "value": 1.0,
+          "visible": true,
+          "wholeNumbers": false
+        },
+        {
+          "backgroundColor": "#384252",
+          "backgroundSize": {
+            "x": 100.0,
+            "y": 25.0
+          },
+          "children": [],
+          "enabled": true,
+          "fillColor": "#22C59B",
+          "fillSize": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "handleColor": "#FFFFFF",
+          "handleSize": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "id": "sfx-slider-1",
+          "interactable": true,
+          "maxValue": 1.0,
+          "minValue": 0.0,
+          "name": "BGM Slider",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 604.4442,
+              "y": 432.5926
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 220.0,
+              "y": 24.0
+            }
+          },
+          "showHandle": true,
+          "sortOrder": 0,
+          "type": "Slider",
+          "value": 1.0,
+          "visible": true,
+          "wholeNumbers": false
+        },
+        {
+          "children": [],
+          "color": "#FFFFFF",
+          "enabled": true,
+          "fontPath": "Assets/Fonts/rebellion-squad-font/RebellionSquad-ZpprZ.ttf",
+          "fontSize": 36.0,
+          "id": "text-3",
+          "name": "SFX Label",
+          "outlineColor": "#000000",
+          "outlineDistance": {
+            "x": 2.0,
+            "y": 2.0
+          },
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 538.0746,
+              "y": 367.4074
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 160.0,
+              "y": 32.0
+            }
+          },
+          "sdfOutlineWidth": 0.0,
+          "sdfSoftness": 0.5,
+          "sortOrder": 0,
+          "text": "SFX",
+          "type": "Text",
+          "useSdf": false,
+          "visible": true
+        },
+        {
+          "children": [],
+          "color": "#FFFFFF",
+          "enabled": true,
+          "fontPath": "Assets/Fonts/rebellion-squad-font/RebellionSquad-ZpprZ.ttf",
+          "fontSize": 36.0,
+          "id": "sfx-label-1",
+          "name": "BGM Label",
+          "outlineColor": "#000000",
+          "outlineDistance": {
+            "x": 2.0,
+            "y": 2.0
+          },
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 538.0746,
+              "y": 424.2963
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 160.0,
+              "y": 32.0
+            }
+          },
+          "sdfOutlineWidth": 0.0,
+          "sdfSoftness": 0.5,
+          "sortOrder": 0,
+          "text": "BGM",
+          "type": "Text",
+          "useSdf": false,
+          "visible": true
+        },
+        {
+          "backgroundColor": "#244E82",
+          "children": [],
+          "disabledColor": "#384252B4",
+          "enabled": true,
+          "fontPath": "Assets/Fonts/rebellion-squad-font/RebellionSquad-ZpprZ.ttf",
+          "fontSize": 36.0,
+          "hoverColor": "#EE7E36",
+          "hoverImagePath": "Assets/Sprites/UI/Button BG - Green (Default).png",
+          "id": "audio-settings-back-button",
+          "imagePath": "Assets/Sprites/UI/Button BG - Orange (Default).png",
+          "interactable": true,
+          "name": "Audio Settings Back Button",
+          "navigation": {
+            "down": "",
+            "left": "",
+            "right": "",
+            "up": ""
+          },
+          "navigationMode": "Automatic",
+          "onClick": [
+            {
+              "behaviourClass": "Lenga\\Platformer\\Scripts\\Menus\\MainMenu",
+              "methodName": "onCloseAudioSettingsButtonClicked",
+              "targetGameObjectId": "gameobject"
+            }
+          ],
+          "pressedColor": "#B05B25",
+          "pressedImagePath": "Assets/Sprites/UI/Button BG - Green (Hover).png",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 640.0,
+              "y": 300.0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 200.0,
+              "y": 78.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "Back",
+          "textColor": "#FFFFFF",
+          "type": "Button",
+          "visible": true
+        }
+      ],
+      "enabled": false,
+      "firstSelectedElementId": "slider",
+      "id": "canvas-2",
+      "matchWidthOrHeight": 0.0,
+      "name": "Audio Settings Menu",
+      "referenceResolution": {
+        "x": 1280.0,
+        "y": 720.0
+      },
+      "renderMode": "ScreenSpaceOverlay",
+      "sortOrder": 0,
+      "visible": true
+    },
+    {
+      "elements": [
+        {
+          "children": [],
+          "color": "#FFFFFF",
+          "enabled": true,
+          "id": "frame-1-1",
+          "name": "Menu Backdrop",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 386.9774,
+              "y": 79.0
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 512.0,
+              "y": 600.0
+            }
+          },
+          "sortOrder": 0,
+          "spritePath": "Assets/Sprites/UI/Menu Backdrop (Default).png",
+          "type": "Image",
+          "visible": true
+        }
+      ],
+      "enabled": false,
+      "firstSelectedElementId": "",
+      "id": "canvas-3",
+      "matchWidthOrHeight": 0.0,
+      "name": "Controller Settings Menu",
+      "referenceResolution": {
+        "x": 1280.0,
+        "y": 720.0
+      },
+      "renderMode": "ScreenSpaceOverlay",
+      "sortOrder": 0,
+      "visible": true
+    }
+  ],
+  "gameObjects": [
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 180.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -420.2663
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "enabled": true,
+          "fieldOfView": 45.0,
+          "orthographicSize": 174.08,
+          "primary": true,
+          "projection": "Perspective",
+          "type": "Camera"
+        }
+      ],
+      "id": "main-camera",
+      "layer": 0,
+      "name": "Main Camera",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        }
+      ],
+      "id": "gameobject-1",
+      "layer": 0,
+      "name": "VFX",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -58.98868,
+            "y": -98.83582,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "emissionAngle": -90.0,
+          "emissionRate": 20.0,
+          "enabled": true,
+          "gravity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "lifetime": 0.75,
+          "looping": true,
+          "maxParticles": 128,
+          "orderInLayer": 0,
+          "playOnAwake": true,
+          "sortingLayer": "Default",
+          "spreadAngle": 360.0,
+          "startColor": "#FFD860FF",
+          "startSize": 8.0,
+          "startSpeed": 80.0,
+          "texturePath": "",
+          "type": "ParticleSystem"
+        }
+      ],
+      "id": "particle-system",
+      "layer": 0,
+      "name": "Fire FX Left",
+      "parentId": "gameobject-1",
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 60.44661,
+            "y": -85.80869,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "emissionAngle": -90.0,
+          "emissionRate": 20.0,
+          "enabled": true,
+          "gravity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "lifetime": 0.75,
+          "looping": true,
+          "maxParticles": 128,
+          "orderInLayer": 0,
+          "playOnAwake": true,
+          "sortingLayer": "Default",
+          "spreadAngle": 360.0,
+          "startColor": "#FFD860FF",
+          "startSize": 8.0,
+          "startSpeed": 80.0,
+          "texturePath": "",
+          "type": "ParticleSystem"
+        }
+      ],
+      "id": "particle-system-1",
+      "layer": 0,
+      "name": "Fire FX Right",
+      "parentId": "gameobject-1",
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "clip": {
+            "__lengaAssetKind": "AudioClip",
+            "assetPath": "Assets/Audio/BGM/Zambezi Madness Title Theme - A.wav"
+          },
+          "enabled": true,
+          "id": "audiosource",
+          "loop": true,
+          "outputAudioMixer": {
+            "__lengaAssetKind": "AudioMixer",
+            "assetPath": "Assets/Audio/MainAudioMixer.lenga-audiomixer.json"
+          },
+          "outputChannelId": "channel-1",
+          "pitch": 1.0,
+          "playOnAwake": true,
+          "type": "AudioSource",
+          "volume": 1.0
+        },
+        {
+          "class": "Lenga\\Platformer\\Scripts\\Menus\\MainMenu",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "audioSettingsMenu": {
+              "__lengaRefKind": "Canvas",
+              "canvasId": "canvas-2"
+            },
+            "bgmAudioSource": {
+              "__lengaRefKind": "Component",
+              "componentSceneId": "audiosource",
+              "componentType": "AudioSource",
+              "sceneObjectId": "gameobject"
+            },
+            "controlBlurDuration": 0.1,
+            "controlBlurEasingFunction": null,
+            "controlFocusDuration": 0.12,
+            "controlFocusEasingFunction": null,
+            "controlFocusScale": 1.08,
+            "controllerSettingsMenu": {
+              "__lengaRefKind": "Canvas",
+              "canvasId": "canvas-3"
+            },
+            "creditsScreen": null,
+            "defaultBgmVolume": 1.0,
+            "defaultSfxVolume": 1.0,
+            "menuEnterDuration": 0.34,
+            "menuEnterEasingFunction": null,
+            "menuEnterOffsetX": -44.0,
+            "menuEnterRotationDegrees": 1.75,
+            "menuEnterStagger": 0.045,
+            "menuEnterStartScale": 0.94,
+            "settingsMenu": {
+              "__lengaRefKind": "Canvas",
+              "canvasId": "canvas"
+            },
+            "titleMenu": {
+              "__lengaRefKind": "Canvas",
+              "canvasId": "canvas-1"
+            }
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "gameobject",
+      "layer": 0,
+      "name": "Game Manager",
+      "parentId": null,
+      "tag": "Untagged"
+    }
+  ],
+  "scene": {
+    "ambientLightColor": "#4FF378",
+    "ambientLightIntensity": 0.22,
+    "backgroundColor": "#85CF68",
+    "backgroundLayers": [
+      {
+        "depthPreset": "Fixed",
+        "imagePath": "Assets/Images/Scene Backdrop 1.png",
+        "repeat": {
+          "x": false,
+          "y": false
+        },
+        "space": "Screen"
+      }
+    ],
+    "dimension": "2D",
+    "lighting2DEnabled": false,
+    "name": "MainMenu",
+    "skyboxPath": "",
+    "version": 1
+  }
+}

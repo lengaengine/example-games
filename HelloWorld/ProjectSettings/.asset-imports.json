@@ -1,0 +1,54 @@
+{
+  "assetImports": {
+    "assets": [
+      {
+        "assetImport": {
+          "assetId": "fb5cf48373f2cc6038029da413e4d1c1",
+          "model": {
+            "loop": true,
+            "playOnAwake": true,
+            "playbackFps": 30.0,
+            "speed": 1.0
+          },
+          "type": "Model",
+          "version": 2
+        },
+        "path": "Assets/Models/Mechron/Meshy_AI_Animation_Walking_frame_rate_60.fbx.obj"
+      },
+      {
+        "assetImport": {
+          "assetId": "b9dd7bb18ebec33ef5664d35481ee29f",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Models/Mechron/Meshy_AI_texture_0_metallic.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "ebe82ac79fdebb27370b28f27af4b598",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Models/Mechron/Meshy_AI_texture_0_normal.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "002bec0f033cfb303e89aae7b0cff66c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Models/Mechron/Meshy_AI_texture_0_roughness.png"
+      }
+    ],
+    "version": 1
+  }
+}

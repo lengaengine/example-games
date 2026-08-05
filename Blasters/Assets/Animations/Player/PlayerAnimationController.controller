@@ -1,0 +1,298 @@
+{
+  "animationController": {
+    "defaultState": "FlyingForward",
+    "editorGraph": {
+      "nodes": [
+        {
+          "stateId": "state_1",
+          "x": 305.0,
+          "y": 127.0
+        },
+        {
+          "stateId": "state_3",
+          "x": 324.0,
+          "y": -17.0
+        },
+        {
+          "stateId": "state_4",
+          "x": 306.0,
+          "y": 255.0
+        },
+        {
+          "stateId": "state_5",
+          "x": 595.0,
+          "y": 143.0
+        },
+        {
+          "stateId": "state_2",
+          "x": 58.0,
+          "y": 159.0
+        }
+      ]
+    },
+    "name": "PlayerAnimationController",
+    "parameters": [
+      {
+        "name": "HorizontalDirection",
+        "type": "Float"
+      },
+      {
+        "name": "VerticalDirection",
+        "type": "Float"
+      },
+      {
+        "defaultValue": false,
+        "name": "IsBoosting",
+        "type": "Bool"
+      }
+    ],
+    "states": [
+      {
+        "clipPath": "Assets/Animations/Player/PlayerFlyForward.anim",
+        "id": "state_1",
+        "name": "FlyingForward",
+        "transitions": [
+          {
+            "comparison": "Greater",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "Greater",
+                "conditionType": "Parameter",
+                "parameter": "VerticalDirection",
+                "value": 0.0
+              }
+            ],
+            "id": "transition_2",
+            "parameter": "VerticalDirection",
+            "toState": "FlyingUp",
+            "toStateId": "state_3",
+            "value": true
+          },
+          {
+            "comparison": "Less",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "Less",
+                "conditionType": "Parameter",
+                "parameter": "VerticalDirection",
+                "value": 0.0
+              }
+            ],
+            "id": "transition_3",
+            "parameter": "VerticalDirection",
+            "toState": "FlyingDown",
+            "toStateId": "state_4",
+            "value": true
+          },
+          {
+            "comparison": "If",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "If",
+                "conditionType": "Parameter",
+                "parameter": "IsBoosting"
+              }
+            ],
+            "id": "transition_4",
+            "parameter": "IsBoosting",
+            "toState": "Boosting",
+            "toStateId": "state_5",
+            "value": true
+          },
+          {
+            "comparison": "Greater Or Equal",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "Greater Or Equal",
+                "conditionType": "Parameter",
+                "parameter": "HorizontalDirection",
+                "value": 0.0
+              }
+            ],
+            "id": "transition_1",
+            "parameter": "HorizontalDirection",
+            "toState": "FlyingBack",
+            "toStateId": "state_2",
+            "value": true
+          }
+        ]
+      },
+      {
+        "clipPath": "Assets/Animations/Player/PlayerFlyUp.anim",
+        "id": "state_3",
+        "name": "FlyingUp",
+        "transitions": [
+          {
+            "comparison": "Greater Or Equal",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "Greater Or Equal",
+                "conditionType": "Parameter",
+                "parameter": "HorizontalDirection",
+                "value": 0.0
+              }
+            ],
+            "id": "transition_8",
+            "parameter": "HorizontalDirection",
+            "toState": "FlyingForward",
+            "toStateId": "state_1",
+            "value": true
+          },
+          {
+            "comparison": "If",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "If",
+                "conditionType": "Parameter",
+                "parameter": "IsBoosting"
+              }
+            ],
+            "id": "transition_10",
+            "parameter": "IsBoosting",
+            "toState": "Boosting",
+            "toStateId": "state_5",
+            "value": true
+          }
+        ]
+      },
+      {
+        "clipPath": "Assets/Animations/Player/PlayerFlyDown.anim",
+        "id": "state_4",
+        "name": "FlyingDown",
+        "transitions": [
+          {
+            "comparison": "Greater Or Equal",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "Greater Or Equal",
+                "conditionType": "Parameter",
+                "parameter": "HorizontalDirection",
+                "value": 0.0
+              }
+            ],
+            "id": "transition_11",
+            "parameter": "HorizontalDirection",
+            "toState": "FlyingForward",
+            "toStateId": "state_1",
+            "value": true
+          },
+          {
+            "comparison": "Greater",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "Greater",
+                "conditionType": "Parameter",
+                "parameter": "VerticalDirection",
+                "value": 0.0
+              }
+            ],
+            "id": "transition_13",
+            "parameter": "VerticalDirection",
+            "toState": "FlyingUp",
+            "toStateId": "state_3",
+            "value": true
+          }
+        ]
+      },
+      {
+        "clipPath": "Assets/Animations/Player/PlayerBoost.anim",
+        "id": "state_5",
+        "name": "Boosting",
+        "transitions": [
+          {
+            "comparison": "If Not",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "If Not",
+                "conditionType": "Parameter",
+                "parameter": "IsBoosting"
+              }
+            ],
+            "id": "transition_14",
+            "parameter": "IsBoosting",
+            "toState": "FlyingForward",
+            "toStateId": "state_1",
+            "value": true
+          },
+          {
+            "comparison": "If Not",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "If Not",
+                "conditionType": "Parameter",
+                "parameter": "IsBoosting"
+              },
+              {
+                "comparison": "Less",
+                "conditionType": "Parameter",
+                "parameter": "VerticalDirection",
+                "value": 0.0
+              }
+            ],
+            "id": "transition_16",
+            "parameter": "IsBoosting",
+            "toState": "FlyingUp",
+            "toStateId": "state_3",
+            "value": true
+          },
+          {
+            "comparison": "If Not",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "If Not",
+                "conditionType": "Parameter",
+                "parameter": "IsBoosting"
+              },
+              {
+                "comparison": "Greater",
+                "conditionType": "Parameter",
+                "parameter": "VerticalDirection",
+                "value": 0.0
+              }
+            ],
+            "id": "transition_17",
+            "parameter": "IsBoosting",
+            "toState": "FlyingDown",
+            "toStateId": "state_4",
+            "value": true
+          }
+        ]
+      },
+      {
+        "clipPath": "Assets/Animations/Player/PlayerFlyBack.anim",
+        "id": "state_2",
+        "name": "FlyingBack",
+        "transitions": [
+          {
+            "comparison": "Less",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "Less",
+                "conditionType": "Parameter",
+                "parameter": "HorizontalDirection",
+                "value": 0.0
+              }
+            ],
+            "id": "transition_5",
+            "parameter": "HorizontalDirection",
+            "toState": "FlyingForward",
+            "toStateId": "state_1",
+            "value": true
+          }
+        ]
+      }
+    ]
+  }
+}

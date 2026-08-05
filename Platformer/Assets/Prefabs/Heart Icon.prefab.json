@@ -1,0 +1,43 @@
+{
+  "prefab": {
+    "name": "Heart Icon",
+    "rootGameObject": {
+      "active": true,
+      "children": [],
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -20.0,
+            "y": -12.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFFFFF",
+          "orderInLayer": 0,
+          "size": {
+            "x": 2.0,
+            "y": 2.0
+          },
+          "sortingLayer": "Default",
+          "texturePath": "Assets/Sprites/UI/heart.png",
+          "type": "SpriteRenderer"
+        }
+      ],
+      "layer": 1,
+      "name": "Heart Icon",
+      "tag": "UI"
+    }
+  }
+}

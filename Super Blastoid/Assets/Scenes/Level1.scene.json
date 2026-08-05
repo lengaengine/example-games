@@ -1,0 +1,85 @@
+{
+  "canvases": [],
+  "gameObjects": [
+    {
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 2.0,
+            "z": 10.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "fieldOfView": 45.0,
+          "orthographicSize": 5.0,
+          "primary": true,
+          "projection": "Perspective",
+          "type": "Camera"
+        }
+      ],
+      "id": "main-camera",
+      "name": "Main Camera"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": -45.0,
+            "y": 90.0,
+            "z": 10.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 4.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFFFFFFF",
+          "enabled": true,
+          "intensity": 1.0,
+          "shadowBias": 0.0024999999441206455,
+          "shadowDistance": 28.0,
+          "shadowProjectionSize": 18.0,
+          "shadowStrength": 0.6499999761581421,
+          "shadowsEnabled": true,
+          "type": "DirectionalLight"
+        }
+      ],
+      "id": "directional-light",
+      "layer": 0,
+      "name": "Directional Light",
+      "parentId": null,
+      "tag": "Untagged"
+    }
+  ],
+  "scene": {
+    "ambientLightColor": "#FFFFFF",
+    "ambientLightIntensity": 0.2199999988079071,
+    "backgroundColor": "#000000",
+    "dimension": "3D",
+    "lighting2DEnabled": false,
+    "name": "Level1",
+    "skyboxPath": "",
+    "version": 1
+  }
+}

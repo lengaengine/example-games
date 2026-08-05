@@ -1,0 +1,11 @@
+{
+  "material": {
+    "name": "Goal",
+    "version": 1,
+    "shader": "Lit"
+  },
+  "baseColor": "#C03FE0FF",
+  "specularStrength": 0.65,
+  "smoothness": 0.72,
+  "baseTexturePath": ""
+}

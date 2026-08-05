@@ -1,0 +1,1083 @@
+{
+  "canvases": [
+    {
+      "elements": [
+        {
+          "backgroundColor": "#0F1926E8",
+          "children": [],
+          "disabledColor": "#0F1926E8",
+          "enabled": true,
+          "fontPath": "Assets/Fonts/rebellion-squad-font/RebellionSquad-ZpprZ.ttf",
+          "fontSize": 18.0,
+          "hoverColor": "#0F1926E8",
+          "hoverImagePath": "",
+          "id": "effectors-hint-backdrop",
+          "imagePath": "",
+          "interactable": false,
+          "name": "Effectors Hint Backdrop",
+          "navigation": {
+            "down": "",
+            "left": "",
+            "right": "",
+            "up": ""
+          },
+          "navigationMode": "Automatic",
+          "onClick": [],
+          "pressedColor": "#0F1926E8",
+          "pressedImagePath": "",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 16.0,
+              "y": 16.0
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 600.0,
+              "y": 132.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "",
+          "textColor": "#FFFFFF",
+          "type": "Button",
+          "visible": true
+        },
+        {
+          "children": [],
+          "color": "#FFFFFF",
+          "enabled": true,
+          "fontPath": "Assets/Fonts/rebellion-squad-font/RebellionSquad-ZpprZ.ttf",
+          "fontSize": 28.0,
+          "id": "effectors-hint-title",
+          "name": "Effectors Hint Title",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 40.0,
+              "y": 28.0
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 520.0,
+              "y": 28.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "2D Effectors Playground",
+          "type": "Text",
+          "useSdf": true,
+          "visible": true
+        },
+        {
+          "children": [],
+          "color": "#FFFFFF",
+          "enabled": true,
+          "fontPath": "Assets/Fonts/rebellion-squad-font/RebellionSquad-ZpprZ.ttf",
+          "fontSize": 20.0,
+          "id": "effectors-hint-controls",
+          "name": "Effectors Hint Controls",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 40.0,
+              "y": 62.0
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 520.0,
+              "y": 24.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "Move: Horizontal   Jump: Jump   Reset: Cancel",
+          "type": "Text",
+          "useSdf": true,
+          "visible": true
+        },
+        {
+          "children": [],
+          "color": "#FFFFFF",
+          "enabled": true,
+          "fontPath": "Assets/Fonts/rebellion-squad-font/RebellionSquad-ZpprZ.ttf",
+          "fontSize": 18.0,
+          "id": "effectors-hint-route",
+          "name": "Effectors Hint Route",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 40.0,
+              "y": 90.0
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 520.0,
+              "y": 22.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "Try in order: One-Way -> Surface -> Area -> Point -> Buoyancy",
+          "type": "Text",
+          "useSdf": true,
+          "visible": true
+        },
+        {
+          "children": [],
+          "color": "#FFFFFF",
+          "enabled": true,
+          "fontPath": "Assets/Fonts/rebellion-squad-font/RebellionSquad-ZpprZ.ttf",
+          "fontSize": 18.0,
+          "id": "effectors-hint-tip",
+          "name": "Effectors Hint Tip",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 40.0,
+              "y": 112.0
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 520.0,
+              "y": 20.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "In water, tap Jump to swim upward and climb out on the right.",
+          "type": "Text",
+          "useSdf": true,
+          "visible": true
+        }
+      ],
+      "enabled": true,
+      "id": "hud",
+      "matchWidthOrHeight": 0.0,
+      "name": "HUD",
+      "referenceResolution": {
+        "x": 1280.0,
+        "y": 720.0
+      },
+      "renderMode": "ScreenSpaceOverlay",
+      "sortOrder": 0,
+      "visible": true
+    }
+  ],
+  "gameObjects": [
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -40.0,
+            "y": 10.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "enabled": true,
+          "fieldOfView": 45.0,
+          "id": "camera",
+          "orthographicSize": 18.0,
+          "primary": true,
+          "projection": "Orthographic",
+          "type": "Camera"
+        },
+        {
+          "class": "Lenga\\Platformer\\Scripts\\Camera\\CameraFollow",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "maxSpeed": 3.4028234663852886e+38,
+            "offset": {
+              "x": 10.0,
+              "y": -3.0,
+              "z": 0.0
+            },
+            "smoothTime": 0.12,
+            "target": {
+              "__lengaRefKind": "Transform",
+              "sceneObjectId": "probe"
+            }
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "main-camera",
+      "layer": 0,
+      "name": "Main Camera",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 18.0,
+            "y": 22.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 160.0,
+            "y": 4.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#6E4D32",
+          "enabled": true,
+          "id": "rectanglerenderer",
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider2d",
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        }
+      ],
+      "id": "ground",
+      "layer": 0,
+      "name": "Ground",
+      "parentId": null,
+      "tag": "Ground"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -32.0,
+            "y": 12.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 22.0,
+            "y": 2.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#B87731",
+          "enabled": true,
+          "id": "rectanglerenderer",
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider2d",
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        },
+        {
+          "enabled": true,
+          "id": "platformeffector2d",
+          "surfaceBuffer": 4.0,
+          "type": "PlatformEffector2D",
+          "useOneWay": true
+        }
+      ],
+      "id": "one-way-platform",
+      "layer": 0,
+      "name": "One Way Platform",
+      "parentId": null,
+      "tag": "Platform"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -4.0,
+            "y": 12.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 20.0,
+            "y": 2.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#3A8875",
+          "enabled": true,
+          "id": "rectanglerenderer",
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider2d",
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        },
+        {
+          "enabled": true,
+          "forceScale": 10.0,
+          "id": "surfaceeffector2d",
+          "speed": 22.0,
+          "type": "SurfaceEffector2D",
+          "useGlobalDirection": true
+        }
+      ],
+      "id": "surface-platform",
+      "layer": 0,
+      "name": "Surface Effector Platform",
+      "parentId": null,
+      "tag": "Platform"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 24.0,
+            "y": 10.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 12.0,
+            "y": 18.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#7ED6FF88",
+          "enabled": true,
+          "id": "rectanglerenderer",
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider2d",
+          "isTrigger": true,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        },
+        {
+          "drag": 0.15,
+          "enabled": true,
+          "forceAngle": 315.0,
+          "forceMagnitude": 88.0,
+          "id": "areaeffector2d",
+          "type": "AreaEffector2D",
+          "useGlobalAngle": true
+        }
+      ],
+      "id": "wind-zone",
+      "layer": 0,
+      "name": "Area Effector Wind Zone",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 26.0,
+            "y": 12.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 18.0,
+            "y": 2.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#8A623F",
+          "enabled": true,
+          "id": "rectanglerenderer",
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider2d",
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        }
+      ],
+      "id": "wind-ledge",
+      "layer": 0,
+      "name": "Wind Ledge",
+      "parentId": null,
+      "tag": "Platform"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 50.0,
+            "y": 10.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#B38BFF88",
+          "enabled": true,
+          "id": "circlerenderer",
+          "orderInLayer": 0,
+          "radius": 2.5,
+          "sortingLayer": "Default",
+          "type": "CircleRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "circlecollider2d",
+          "isTrigger": true,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "radius": 6.0,
+          "type": "CircleCollider2D"
+        },
+        {
+          "distanceScale": 0.1,
+          "enabled": true,
+          "forceMagnitude": -300.0,
+          "id": "pointeffector2d",
+          "inverseSquared": false,
+          "type": "PointEffector2D"
+        }
+      ],
+      "id": "point-field",
+      "layer": 0,
+      "name": "Point Effector Field",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 78.0,
+            "y": 16.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 20.0,
+            "y": 10.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#4DA6FF88",
+          "enabled": true,
+          "id": "rectanglerenderer",
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider2d",
+          "isTrigger": true,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        },
+        {
+          "density": 1.25,
+          "enabled": true,
+          "flowAngle": 0.0,
+          "flowMagnitude": 18.0,
+          "id": "buoyancyeffector2d",
+          "linearDrag": 2.2,
+          "surfaceLevel": 1.5,
+          "type": "BuoyancyEffector2D"
+        }
+      ],
+      "id": "buoyancy-water",
+      "layer": 0,
+      "name": "Buoyancy Pool",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 68.0,
+            "y": 16.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 2.0,
+            "y": 12.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#6E4D32",
+          "enabled": true,
+          "id": "rectanglerenderer",
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider2d",
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        }
+      ],
+      "id": "pool-wall-left",
+      "layer": 0,
+      "name": "Pool Left Wall",
+      "parentId": null,
+      "tag": "Ground"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 88.0,
+            "y": 17.5,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 2.0,
+            "y": 9.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#6E4D32",
+          "enabled": true,
+          "id": "rectanglerenderer",
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider2d",
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        }
+      ],
+      "id": "pool-wall-right",
+      "layer": 0,
+      "name": "Pool Right Wall",
+      "parentId": null,
+      "tag": "Ground"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 95.0,
+            "y": 14.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 8.0,
+            "y": 1.5,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#8A623F",
+          "enabled": true,
+          "id": "rectanglerenderer",
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider2d",
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        }
+      ],
+      "id": "pool-exit-ledge",
+      "layer": 0,
+      "name": "Pool Exit Ledge",
+      "parentId": null,
+      "tag": "Platform"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 78.0,
+            "y": 21.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 20.0,
+            "y": 2.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#6E4D32",
+          "enabled": true,
+          "id": "rectanglerenderer",
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider2d",
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        }
+      ],
+      "id": "pool-floor",
+      "layer": 0,
+      "name": "Pool Floor",
+      "parentId": null,
+      "tag": "Ground"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -54.0,
+            "y": 14.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFFFFF",
+          "enabled": true,
+          "flipX": false,
+          "flipY": false,
+          "id": "spriterenderer",
+          "orderInLayer": 1,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.8
+          },
+          "size": {
+            "x": 12.0,
+            "y": 12.0
+          },
+          "sortingLayer": "Default",
+          "sourceRect": {
+            "height": 256.0,
+            "width": 256.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png",
+          "type": "SpriteRenderer"
+        },
+        {
+          "bodyType": "Dynamic",
+          "collisionDetection": "Discrete",
+          "enabled": true,
+          "freezeRotation": true,
+          "gravityScale": 1.0,
+          "id": "rigidbody2d",
+          "linearDrag": 0.05,
+          "type": "Rigidbody2D",
+          "useGravity": true,
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider2d",
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 3.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 3.0,
+            "y": 6.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        },
+        {
+          "class": "Lenga\\Platformer\\Scripts\\Physics\\Effectors\\EffectorProbeController",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "acceleration": 180.0,
+            "deadZone": 0.1,
+            "jumpVelocity": 150.0,
+            "respawnY": 72.0,
+            "speed": 26.0,
+            "swimStrokeVelocity": 95.0
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "probe",
+      "layer": 1,
+      "name": "Effector Probe",
+      "parentId": null,
+      "tag": "Player"
+    }
+  ],
+  "scene": {
+    "ambientLightColor": "#FFFFFF",
+    "ambientLightIntensity": 0.22,
+    "backgroundColor": "#D9E6F7",
+    "backgroundLayers": [],
+    "dimension": "2D",
+    "lighting2DEnabled": false,
+    "name": "Effectors2D",
+    "skyboxPath": "",
+    "version": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "baseColor": "#23DDF6",
+  "baseTexturePath": "",
+  "material": {
+    "name": "RollerBall",
+    "shader": "Lit",
+    "version": 1
+  },
+  "shaderAssetPath": "",
+  "smoothness": 0.8999999761581421,
+  "specularStrength": 0.9200000166893005
+}

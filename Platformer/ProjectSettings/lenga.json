@@ -1,0 +1,475 @@
+{
+    "build": {
+        "allowRestrictedPhpApis": false,
+        "entryScene": "MainMenu",
+        "output": "build/dist",
+        "platforms": {
+            "macOS": {
+                "minimumSystemVersion": "26.0"
+            }
+        },
+        "profile": "Development",
+        "scenes": [
+            {
+                "enabled": true,
+                "name": "Effectors2D",
+                "path": "Assets/Scenes/Effectors2D.scene.json"
+            },
+            {
+                "enabled": true,
+                "name": "Level1",
+                "path": "Assets/Scenes/Level1.scene.json"
+            },
+            {
+                "enabled": true,
+                "name": "MainMenu",
+                "path": "Assets/Scenes/MainMenu.scene.json"
+            },
+            {
+                "enabled": true,
+                "name": "TestLevel",
+                "path": "Assets/Scenes/TestLevel.scene.json"
+            }
+        ]
+    },
+    "diagnostics": {
+        "runtimeOverlay": {
+            "anchor": "TopRight",
+            "enabled": false,
+            "showBreakdown": true,
+            "showFps": true,
+            "showFrameTime": true,
+            "showWorstFrame": true
+        }
+    },
+    "editor": {
+        "activeViewportTab": "Scene",
+        "assetBrowser": {
+            "viewMode": "list"
+        },
+        "importDefaults": {
+            "audio": {
+                "usage": "SoundEffect"
+            },
+            "model3D": {
+                "loop": true,
+                "playOnAwake": true,
+                "playbackFps": 30.0,
+                "speed": 1.0
+            },
+            "texture2D": {
+                "filter": "Point"
+            }
+        },
+        "lastEditedScene": "Assets/Scenes/Level1.scene.json",
+        "sceneView": {
+            "gridSpacing2D": 5.0,
+            "gridSpacing3D": 1.0,
+            "orbitSensitivity": 0.004000000189989805,
+            "selectionBounds": {
+                "color": "#3AD3FF",
+                "thickness": 2.0
+            },
+            "showGrid": true,
+            "showParticlePreview": true,
+            "snap": {
+                "enabled": true,
+                "rotateDegrees": 15.0,
+                "scale": 0.10000000149011612,
+                "translate2D": 5.0,
+                "translate3D": 1.0
+            },
+            "statesByScene": {
+                "Assets/Scenes/Effectors2D.scene.json": {
+                    "distance": 115.77286529541016,
+                    "pitch": 0.0,
+                    "roll2D": -0.0,
+                    "target": {
+                        "x": 15.848,
+                        "y": 11.21408,
+                        "z": 2.288818e-05
+                    },
+                    "yaw": 0.0
+                },
+                "Assets/Scenes/Level1.scene.json": {
+                    "distance": 73.15066528320313,
+                    "pitch": 0.0,
+                    "projection": "Perspective",
+                    "roll2D": -0.0,
+                    "target": {
+                        "x": 60.125,
+                        "y": 47.3,
+                        "z": 0.0
+                    },
+                    "yaw": 0.0
+                },
+                "Assets/Scenes/MainMenu.scene.json": {
+                    "distance": 182.91419982910156,
+                    "pitch": 0.0,
+                    "roll2D": -0.0,
+                    "target": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "yaw": 0.0
+                },
+                "Assets/Scenes/TestLevel.scene.json": {
+                    "distance": 233.94509887695313,
+                    "pitch": 0.0,
+                    "roll2D": -0.0,
+                    "target": {
+                        "x": 163.53965759277344,
+                        "y": -2.1828267574310303,
+                        "z": 0.0
+                    },
+                    "yaw": 0.0
+                }
+            }
+        }
+    },
+    "entry": {
+        "scene": "MainMenu"
+    },
+    "id": "com.lenga.platformer",
+    "input": {
+        "axes": [
+            {
+                "bindings": [
+                    {
+                        "code": 65,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": -1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 263,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": -1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 68,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 262,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 4,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": -1.0,
+                        "source": "GamepadButton",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 2,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "GamepadButton",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 0,
+                        "deadzone": 0.20000000298023224,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "GamepadAxis",
+                        "threshold": 0.5
+                    }
+                ],
+                "deadzone": 0.0010000000474974513,
+                "gravity": 1000.0,
+                "invert": false,
+                "name": "Horizontal",
+                "pressThreshold": 0.5,
+                "sensitivity": 1000.0,
+                "snap": false
+            },
+            {
+                "bindings": [
+                    {
+                        "code": 87,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": -1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 265,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": -1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 83,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 264,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 1,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": -1.0,
+                        "source": "GamepadButton",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 3,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "GamepadButton",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 1,
+                        "deadzone": 0.20000000298023224,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "GamepadAxis",
+                        "threshold": 0.5
+                    }
+                ],
+                "deadzone": 0.0010000000474974513,
+                "gravity": 1000.0,
+                "invert": false,
+                "name": "Vertical",
+                "pressThreshold": 0.5,
+                "sensitivity": 1000.0,
+                "snap": false
+            },
+            {
+                "bindings": [
+                    {
+                        "code": 32,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 7,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "GamepadButton",
+                        "threshold": 0.5
+                    }
+                ],
+                "deadzone": 0.0010000000474974513,
+                "gravity": 1000.0,
+                "invert": false,
+                "name": "Jump",
+                "pressThreshold": 0.5,
+                "sensitivity": 1000.0,
+                "snap": false
+            },
+            {
+                "bindings": [
+                    {
+                        "code": 90,
+                        "deadzone": 0.0,
+                        "gamepad": 0,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 8,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "GamepadButton",
+                        "threshold": 0.5
+                    }
+                ],
+                "deadzone": 0.0010000000474974513,
+                "gravity": 1000.0,
+                "invert": false,
+                "name": "Light Attack",
+                "pressThreshold": 0.5,
+                "sensitivity": 1000.0,
+                "snap": false
+            },
+            {
+                "bindings": [
+                    {
+                        "code": 256,
+                        "deadzone": 0.0,
+                        "gamepad": 0,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 15,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "GamepadButton",
+                        "threshold": 0.5
+                    }
+                ],
+                "deadzone": 0.0010000000474974513,
+                "gravity": 1000.0,
+                "invert": false,
+                "name": "Pause",
+                "pressThreshold": 0.5,
+                "sensitivity": 1000.0,
+                "snap": false
+            },
+            {
+                "bindings": [
+                    {
+                        "code": 257,
+                        "deadzone": 0.0,
+                        "gamepad": 0,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 7,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "GamepadButton",
+                        "threshold": 0.5
+                    }
+                ],
+                "deadzone": 0.0010000000474974513,
+                "gravity": 1000.0,
+                "invert": false,
+                "name": "Confirm",
+                "pressThreshold": 0.5,
+                "sensitivity": 1000.0,
+                "snap": false
+            },
+            {
+                "bindings": [
+                    {
+                        "code": 256,
+                        "deadzone": 0.0,
+                        "gamepad": 0,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 6,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "GamepadButton",
+                        "threshold": 0.5
+                    }
+                ],
+                "deadzone": 0.0010000000474974513,
+                "gravity": 1000.0,
+                "invert": false,
+                "name": "Cancel",
+                "pressThreshold": 0.5,
+                "sensitivity": 1000.0,
+                "snap": false
+            },
+            {
+                "bindings": [
+                    {
+                        "code": 5,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "GamepadButton",
+                        "threshold": 0.5
+                    }
+                ],
+                "deadzone": 0.0010000000474974513,
+                "gravity": 1000.0,
+                "invert": false,
+                "name": "Heavy Attack",
+                "pressThreshold": 0.5,
+                "sensitivity": 1000.0,
+                "snap": false
+            }
+        ]
+    },
+    "name": "Platformer",
+    "projectType": "2D",
+    "sortingLayers": [
+        "Background",
+        "Default",
+        "Foreground",
+        "UI"
+    ],
+    "tags": [
+        "Untagged",
+        "Player",
+        "Platform",
+        "UI"
+    ],
+    "targetFps": 60,
+    "uncappedFrameRate": false,
+    "version": "0.1.0",
+    "window": {
+        "height": 720,
+        "mode": "Windowed",
+        "title": "Platformer",
+        "width": 1280
+    }
+}

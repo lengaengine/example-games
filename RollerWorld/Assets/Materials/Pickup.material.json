@@ -1,0 +1,12 @@
+{
+  "baseColor": "#8C9811",
+  "baseTexturePath": "",
+  "material": {
+    "name": "Pickup",
+    "shader": "Lit",
+    "version": 1
+  },
+  "shaderAssetPath": "Assets/Shaders/PickupBands.shader.json",
+  "smoothness": 0.6399999856948853,
+  "specularStrength": 0.8500000238418579
+}

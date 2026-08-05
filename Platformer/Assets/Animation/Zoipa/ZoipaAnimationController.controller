@@ -1,0 +1,220 @@
+{
+  "animationController": {
+    "defaultState": "Idle",
+    "editorGraph": {
+      "nodes": [
+        {
+          "stateId": "state_1",
+          "x": 36.0,
+          "y": -33.0
+        },
+        {
+          "stateId": "state_2",
+          "x": 276.0,
+          "y": 127.0
+        },
+        {
+          "stateId": "state_3",
+          "x": 372.0,
+          "y": -33.0
+        },
+        {
+          "stateId": "state_4",
+          "x": 38.0,
+          "y": 207.0
+        }
+      ]
+    },
+    "name": "ZoipaAnimationController",
+    "parameters": [
+      {
+        "defaultValue": false,
+        "name": "IsWalking",
+        "type": "Bool"
+      },
+      {
+        "defaultValue": false,
+        "name": "IsCasting",
+        "type": "Bool"
+      },
+      {
+        "name": "Damage",
+        "type": "Trigger"
+      }
+    ],
+    "states": [
+      {
+        "clipPath": "Assets/Animation/Zoipa/ZoipaCast.anim",
+        "id": "state_1",
+        "name": "Cast",
+        "transitions": [
+          {
+            "comparison": "If Not",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "If Not",
+                "conditionType": "Parameter",
+                "parameter": "IsCasting"
+              }
+            ],
+            "id": "transition_1",
+            "parameter": "IsCasting",
+            "toState": "Idle",
+            "toStateId": "state_2"
+          },
+          {
+            "comparison": "Fire",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "Fire",
+                "conditionType": "Parameter",
+                "parameter": "Damage"
+              }
+            ],
+            "id": "transition_2",
+            "parameter": "Damage",
+            "toState": "HitReact",
+            "toStateId": "state_4"
+          },
+          {
+            "comparison": "If",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "If",
+                "conditionType": "Parameter",
+                "parameter": "IsWalking"
+              }
+            ],
+            "id": "transition_3",
+            "parameter": "IsWalking",
+            "toState": "Walk",
+            "toStateId": "state_3"
+          }
+        ]
+      },
+      {
+        "clipPath": "Assets/Animation/Zoipa/ZoipaIdle.anim",
+        "id": "state_2",
+        "name": "Idle",
+        "transitions": [
+          {
+            "comparison": "If",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "If",
+                "conditionType": "Parameter",
+                "parameter": "IsCasting"
+              }
+            ],
+            "id": "transition_4",
+            "parameter": "IsCasting",
+            "toState": "Cast",
+            "toStateId": "state_1"
+          },
+          {
+            "comparison": "Fire",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "Fire",
+                "conditionType": "Parameter",
+                "parameter": "Damage"
+              }
+            ],
+            "id": "transition_5",
+            "parameter": "Damage",
+            "toState": "HitReact",
+            "toStateId": "state_4"
+          },
+          {
+            "comparison": "If",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "If",
+                "conditionType": "Parameter",
+                "parameter": "IsWalking"
+              }
+            ],
+            "id": "transition_6",
+            "parameter": "IsWalking",
+            "toState": "Walk",
+            "toStateId": "state_3"
+          },
+          {
+            "comparison": "If",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "If",
+                "conditionType": "Parameter",
+                "parameter": "IsWalking"
+              }
+            ],
+            "id": "transition_7",
+            "parameter": "IsWalking",
+            "toState": "Walk",
+            "toStateId": "state_3"
+          }
+        ]
+      },
+      {
+        "clipPath": "Assets/Animation/Zoipa/ZoipaWalk.anim",
+        "id": "state_3",
+        "name": "Walk",
+        "transitions": [
+          {
+            "comparison": "If Not",
+            "conditionType": "Parameter",
+            "conditions": [
+              {
+                "comparison": "If Not",
+                "conditionType": "Parameter",
+                "parameter": "IsWalking"
+              }
+            ],
+            "id": "transition_8",
+            "parameter": "IsWalking",
+            "toState": "Idle",
+            "toStateId": "state_2"
+          }
+        ]
+      },
+      {
+        "clipPath": "Assets/Animation/Zoipa/ZoipaHitReact.anim",
+        "id": "state_4",
+        "name": "HitReact",
+        "transitions": [
+          {
+            "conditionType": "OnComplete",
+            "conditions": [
+              {
+                "conditionType": "OnComplete"
+              }
+            ],
+            "id": "transition_9",
+            "parameter": "",
+            "toState": "Idle",
+            "toStateId": "state_2"
+          },
+          {
+            "conditionType": "OnComplete",
+            "conditions": [
+              {
+                "conditionType": "OnComplete"
+              }
+            ],
+            "id": "transition_10",
+            "parameter": "",
+            "toState": "Idle",
+            "toStateId": "state_2"
+          }
+        ]
+      }
+    ]
+  }
+}

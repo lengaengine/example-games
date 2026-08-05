@@ -1,0 +1,39 @@
+{
+  "animationClip": {
+    "frames": [
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__IDLE_000.png"
+      },
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__IDLE_001.png"
+      },
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__IDLE_002.png"
+      },
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__IDLE_003.png"
+      },
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__IDLE_004.png"
+      },
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__IDLE_005.png"
+      },
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__HURT_006.png"
+      },
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__HURT_007.png"
+      },
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__HURT_008.png"
+      },
+      {
+        "texturePath": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__IDLE_009.png"
+      }
+    ],
+    "framesPerSecond": 12.0,
+    "loop": true,
+    "name": "Knight_Idle"
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "__lengaAssetKind": "AudioMixer",
+  "audioMixer": {
+    "autoSuspend": false,
+    "channels": [
+      {
+        "color": "#41D9FFFF",
+        "effects": [],
+        "effectsBypassed": false,
+        "equalizer": [
+          {
+            "enabled": true,
+            "frequencyHz": 120.0,
+            "gainDb": 0.0,
+            "name": "Low",
+            "width": 1.0
+          },
+          {
+            "enabled": true,
+            "frequencyHz": 1000.0,
+            "gainDb": 0.0,
+            "name": "Mid",
+            "width": 1.0
+          },
+          {
+            "enabled": true,
+            "frequencyHz": 8000.0,
+            "gainDb": 0.0,
+            "name": "High",
+            "width": 1.0
+          }
+        ],
+        "id": "master",
+        "muted": false,
+        "name": "Master",
+        "output": "",
+        "pan": 0.0,
+        "pitch": 1.0,
+        "solo": false,
+        "volumeDb": 0.0
+      },
+      {
+        "color": "#00C6FFFF",
+        "effects": [
+          {
+            "enabled": true,
+            "id": "effect-1",
+            "mix": 1.0,
+            "parameters": {
+              "cutoffHz": 360.0
+            },
+            "type": "LowPass"
+          }
+        ],
+        "effectsBypassed": false,
+        "equalizer": [
+          {
+            "enabled": true,
+            "frequencyHz": 120.0,
+            "gainDb": 0.0,
+            "name": "Low",
+            "width": 1.0
+          },
+          {
+            "enabled": true,
+            "frequencyHz": 1000.0,
+            "gainDb": 0.0,
+            "name": "Mid",
+            "width": 1.0
+          },
+          {
+            "enabled": true,
+            "frequencyHz": 8000.0,
+            "gainDb": 0.0,
+            "name": "High",
+            "width": 1.0
+          }
+        ],
+        "id": "channel-1",
+        "muted": false,
+        "name": "BGM",
+        "output": "master",
+        "pan": 0.0,
+        "pitch": 1.0,
+        "solo": false,
+        "volumeDb": -5.0
+      },
+      {
+        "color": "#00C6FFFF",
+        "effects": [],
+        "effectsBypassed": false,
+        "equalizer": [
+          {
+            "enabled": true,
+            "frequencyHz": 120.0,
+            "gainDb": 0.0,
+            "name": "Low",
+            "width": 1.0
+          },
+          {
+            "enabled": true,
+            "frequencyHz": 1000.0,
+            "gainDb": 0.0,
+            "name": "Mid",
+            "width": 1.0
+          },
+          {
+            "enabled": true,
+            "frequencyHz": 8000.0,
+            "gainDb": 0.0,
+            "name": "High",
+            "width": 1.0
+          }
+        ],
+        "id": "channel-2",
+        "muted": false,
+        "name": "SFX",
+        "output": "master",
+        "pan": 0.0,
+        "pitch": 1.0,
+        "solo": false,
+        "volumeDb": 0.0
+      }
+    ],
+    "name": "MainAudioMixer",
+    "presets": [
+      {
+        "channels": [
+          {
+            "color": "#41D9FFFF",
+            "effects": [],
+            "effectsBypassed": false,
+            "equalizer": [
+              {
+                "enabled": true,
+                "frequencyHz": 120.0,
+                "gainDb": 0.0,
+                "name": "Low",
+                "width": 1.0
+              },
+              {
+                "enabled": true,
+                "frequencyHz": 1000.0,
+                "gainDb": 0.0,
+                "name": "Mid",
+                "width": 1.0
+              },
+              {
+                "enabled": true,
+                "frequencyHz": 8000.0,
+                "gainDb": 0.0,
+                "name": "High",
+                "width": 1.0
+              }
+            ],
+            "id": "master",
+            "muted": false,
+            "name": "Master",
+            "output": "",
+            "pan": 0.0,
+            "pitch": 1.0,
+            "solo": false,
+            "volumeDb": 0.0
+          },
+          {
+            "color": "#00C6FFFF",
+            "effects": [],
+            "effectsBypassed": false,
+            "equalizer": [
+              {
+                "enabled": true,
+                "frequencyHz": 120.0,
+                "gainDb": 0.0,
+                "name": "Low",
+                "width": 1.0
+              },
+              {
+                "enabled": true,
+                "frequencyHz": 1000.0,
+                "gainDb": 0.0,
+                "name": "Mid",
+                "width": 1.0
+              },
+              {
+                "enabled": true,
+                "frequencyHz": 8000.0,
+                "gainDb": 0.0,
+                "name": "High",
+                "width": 1.0
+              }
+            ],
+            "id": "channel-1",
+            "muted": false,
+            "name": "BGM",
+            "output": "master",
+            "pan": 0.0,
+            "pitch": 1.0,
+            "solo": false,
+            "volumeDb": 0.0
+          },
+          {
+            "color": "#00C6FFFF",
+            "effects": [],
+            "effectsBypassed": false,
+            "equalizer": [
+              {
+                "enabled": true,
+                "frequencyHz": 120.0,
+                "gainDb": 0.0,
+                "name": "Low",
+                "width": 1.0
+              },
+              {
+                "enabled": true,
+                "frequencyHz": 1000.0,
+                "gainDb": 0.0,
+                "name": "Mid",
+                "width": 1.0
+              },
+              {
+                "enabled": true,
+                "frequencyHz": 8000.0,
+                "gainDb": 0.0,
+                "name": "High",
+                "width": 1.0
+              }
+            ],
+            "id": "channel-2",
+            "muted": false,
+            "name": "SFX",
+            "output": "master",
+            "pan": 0.0,
+            "pitch": 1.0,
+            "solo": false,
+            "volumeDb": 0.0
+          }
+        ],
+        "id": "preset-1",
+        "name": "Unpaused"
+      },
+      {
+        "channels": [
+          {
+            "color": "#41D9FFFF",
+            "effects": [],
+            "effectsBypassed": false,
+            "equalizer": [
+              {
+                "enabled": true,
+                "frequencyHz": 120.0,
+                "gainDb": 0.0,
+                "name": "Low",
+                "width": 1.0
+              },
+              {
+                "enabled": true,
+                "frequencyHz": 1000.0,
+                "gainDb": 0.0,
+                "name": "Mid",
+                "width": 1.0
+              },
+              {
+                "enabled": true,
+                "frequencyHz": 8000.0,
+                "gainDb": 0.0,
+                "name": "High",
+                "width": 1.0
+              }
+            ],
+            "id": "master",
+            "muted": false,
+            "name": "Master",
+            "output": "",
+            "pan": 0.0,
+            "pitch": 1.0,
+            "solo": false,
+            "volumeDb": 0.0
+          },
+          {
+            "color": "#00C6FFFF",
+            "effects": [
+              {
+                "enabled": true,
+                "id": "effect-1",
+                "mix": 1.0,
+                "parameters": {
+                  "cutoffHz": 360.0
+                },
+                "type": "LowPass"
+              }
+            ],
+            "effectsBypassed": false,
+            "equalizer": [
+              {
+                "enabled": true,
+                "frequencyHz": 120.0,
+                "gainDb": 0.0,
+                "name": "Low",
+                "width": 1.0
+              },
+              {
+                "enabled": true,
+                "frequencyHz": 1000.0,
+                "gainDb": 0.0,
+                "name": "Mid",
+                "width": 1.0
+              },
+              {
+                "enabled": true,
+                "frequencyHz": 8000.0,
+                "gainDb": 0.0,
+                "name": "High",
+                "width": 1.0
+              }
+            ],
+            "id": "channel-1",
+            "muted": false,
+            "name": "BGM",
+            "output": "master",
+            "pan": 0.0,
+            "pitch": 1.0,
+            "solo": false,
+            "volumeDb": -5.0
+          },
+          {
+            "color": "#00C6FFFF",
+            "effects": [],
+            "effectsBypassed": false,
+            "equalizer": [
+              {
+                "enabled": true,
+                "frequencyHz": 120.0,
+                "gainDb": 0.0,
+                "name": "Low",
+                "width": 1.0
+              },
+              {
+                "enabled": true,
+                "frequencyHz": 1000.0,
+                "gainDb": 0.0,
+                "name": "Mid",
+                "width": 1.0
+              },
+              {
+                "enabled": true,
+                "frequencyHz": 8000.0,
+                "gainDb": 0.0,
+                "name": "High",
+                "width": 1.0
+              }
+            ],
+            "id": "channel-2",
+            "muted": false,
+            "name": "SFX",
+            "output": "master",
+            "pan": 0.0,
+            "pitch": 1.0,
+            "solo": false,
+            "volumeDb": 0.0
+          }
+        ],
+        "id": "preset-2",
+        "name": "Paused"
+      }
+    ],
+    "suspendThresholdDb": -80.0,
+    "updateMode": "Normal",
+    "version": 1
+  }
+}

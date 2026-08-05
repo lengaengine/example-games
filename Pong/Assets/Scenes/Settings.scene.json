@@ -1,0 +1,75 @@
+{
+  "gameObjects": [
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": -29.999996185302734,
+            "y": 45.000003814697266,
+            "z": -2.8102596161261317e-07
+          },
+          "localPosition": {
+            "x": 7.348468780517578,
+            "y": 6.5,
+            "z": 7.348468780517578
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "fieldOfView": 45.0,
+          "orthographicSize": 10.0,
+          "primary": true,
+          "projection": "Perspective",
+          "type": "Camera"
+        }
+      ],
+      "id": "main-camera",
+      "layer": 0,
+      "name": "Main Camera",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.5,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#0079F1",
+          "type": "CubeRenderer"
+        }
+      ],
+      "id": "cube",
+      "layer": 0,
+      "name": "Player",
+      "parentId": null,
+      "tag": "Untagged"
+    }
+  ],
+  "scene": {
+    "name": "Settings",
+    "version": 1
+  }
+}

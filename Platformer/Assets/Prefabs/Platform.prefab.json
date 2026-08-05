@@ -1,0 +1,57 @@
+{
+  "prefab": {
+    "name": "Platform",
+    "rootGameObject": {
+      "active": true,
+      "children": [],
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -44.70000076293945,
+            "y": 27.243446350097656,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 57.5,
+            "y": 10.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#8A4E09",
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        }
+      ],
+      "layer": 1,
+      "name": "Platform",
+      "tag": "Platform"
+    }
+  }
+}

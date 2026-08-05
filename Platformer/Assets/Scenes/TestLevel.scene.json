@@ -1,0 +1,240 @@
+{
+  "canvases": [],
+  "gameObjects": [
+    {
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 163.53965759277344,
+            "y": -2.1828267574310303,
+            "z": -233.94509887695313
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "fieldOfView": 45.0,
+          "orthographicSize": 96.90323638916016,
+          "primary": true,
+          "projection": "Orthographic",
+          "type": "Camera"
+        }
+      ],
+      "id": "main-camera",
+      "name": "Main Camera"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "cellSize": {
+            "x": 32.0,
+            "y": 32.0
+          },
+          "enabled": true,
+          "layers": [
+            {
+              "collision": true,
+              "id": "ground",
+              "name": "Ground",
+              "orderOffset": 0,
+              "tiles": [],
+              "visible": true
+            }
+          ],
+          "orderInLayer": 0,
+          "sortingLayer": "Default",
+          "tilesetPath": "Assets/Tilesets/PlatformTileset.tileset.json",
+          "type": "Tilemap"
+        }
+      ],
+      "id": "tilemap",
+      "layer": 0,
+      "name": "Tilemap",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 48.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFFFFF",
+          "enabled": true,
+          "orderInLayer": 0,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "texturePath": "",
+          "type": "SpriteRenderer"
+        },
+        {
+          "bodyType": "Dynamic",
+          "collisionDetection": "Discrete",
+          "enabled": true,
+          "gravityScale": 1.0,
+          "linearDrag": 0.0,
+          "type": "Rigidbody2D",
+          "useGravity": true,
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "anchor": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "autoConfigureConnectedAnchor": true,
+          "autoConfigureDistance": true,
+          "connectedAnchor": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "connectedBodyId": "sprite",
+          "distance": 0.0,
+          "enableCollision": false,
+          "enableLimit": false,
+          "enabled": true,
+          "maxDistance": 0.0,
+          "minDistance": 0.0,
+          "type": "DistanceJoint2D"
+        }
+      ],
+      "id": "sprite",
+      "layer": 0,
+      "name": "Sprite",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 48.0,
+            "y": 2.610260009765625,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFFFFF",
+          "enabled": true,
+          "orderInLayer": 0,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "texturePath": "",
+          "type": "SpriteRenderer"
+        }
+      ],
+      "id": "sprite-1",
+      "layer": 0,
+      "name": "Sprite #1",
+      "parentId": null,
+      "tag": "Untagged"
+    }
+  ],
+  "scene": {
+    "ambientLightColor": "#FFFFFF",
+    "ambientLightIntensity": 0.2199999988079071,
+    "backgroundColor": "#FFFFFF",
+    "backgroundLayers": [
+      {
+        "depthPreset": "Fixed",
+        "imagePath": "Assets/Sprites/Spiritual Forest/sky-bg.png",
+        "space": "Screen"
+      },
+      {
+        "depthPreset": "Midground",
+        "imagePath": "Assets/Sprites/Spiritual Forest/mountain-range.png",
+        "parallax": {
+          "x": 0.550000011920929,
+          "y": 0.4000000059604645
+        },
+        "space": "Screen"
+      },
+      {
+        "depthPreset": "Fixed",
+        "imagePath": "",
+        "space": "Screen"
+      }
+    ],
+    "dimension": "2D",
+    "lighting2DEnabled": false,
+    "name": "TestLevel",
+    "skyboxPath": "",
+    "version": 1
+  }
+}

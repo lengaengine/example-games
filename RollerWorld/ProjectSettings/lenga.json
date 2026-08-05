@@ -1,0 +1,337 @@
+{
+    "build": {
+        "allowRestrictedPhpApis": false,
+        "entryScene": "Level1",
+        "output": "build/dist",
+        "platforms": {
+            "macOS": {
+                "minimumSystemVersion": "26.0"
+            }
+        },
+        "profile": "Release",
+        "scenes": [
+            {
+                "enabled": true,
+                "name": "Level1",
+                "path": "Assets/Scenes/Level1.scene.json"
+            },
+            {
+                "enabled": true,
+                "name": "ObstacleCourse",
+                "path": "Assets/Scenes/ObstacleCourse.scene.json"
+            }
+        ]
+    },
+    "diagnostics": {
+        "runtimeOverlay": {
+            "anchor": "TopLeft",
+            "enabled": false,
+            "showBreakdown": true,
+            "showFps": false,
+            "showFrameTime": true,
+            "showWorstFrame": true
+        }
+    },
+    "editor": {
+        "activeViewportTab": "Scene",
+        "assetBrowser": {
+            "viewMode": "list"
+        },
+        "importDefaults": {
+            "audio": {
+                "usage": "SoundEffect"
+            },
+            "model3D": {
+                "loop": true,
+                "playOnAwake": true,
+                "playbackFps": 30.0,
+                "speed": 1.0
+            },
+            "texture2D": {
+                "filter": "Bilinear"
+            }
+        },
+        "lastEditedScene": "Assets/Scenes/Level1.scene.json",
+        "sceneView": {
+            "gridSpacing2D": 32.0,
+            "gridSpacing3D": 1.0,
+            "orbitSensitivity": 0.004000000189989805,
+            "selectionBounds": {
+                "color": "#3AD3FF",
+                "thickness": 2.0
+            },
+            "showGrid": true,
+            "showParticlePreview": true,
+            "snap": {
+                "enabled": true,
+                "rotateDegrees": 15.0,
+                "scale": 0.10000000149011612,
+                "translate2D": 1.0,
+                "translate3D": 1.0
+            },
+            "statesByScene": {
+                "Assets/Scenes/Level1.scene.json": {
+                    "distance": 17.380125045776367,
+                    "pitch": 0.771945059299469,
+                    "projection": "Perspective",
+                    "roll2D": 0.0,
+                    "target": {
+                        "x": 1.268348,
+                        "y": 0.7969475,
+                        "z": 0.0
+                    },
+                    "yaw": 0.21626563370227814
+                },
+                "Assets/Scenes/ObstacleCourse.scene.json": {
+                    "distance": 10.55000114440918,
+                    "pitch": 0.0,
+                    "roll2D": 0.0,
+                    "target": {
+                        "x": 0.0,
+                        "y": 1.85,
+                        "z": 8.0
+                    },
+                    "yaw": 1.5707963705062866
+                }
+            }
+        }
+    },
+    "entry": {
+        "scene": "Level1"
+    },
+    "id": "com.lenga.rollerworld",
+    "input": {
+        "axes": [
+            {
+                "bindings": [
+                    {
+                        "code": 65,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": -1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 263,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": -1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 68,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 262,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 4,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": -1.0,
+                        "source": "GamepadButton",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 2,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "GamepadButton",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 0,
+                        "deadzone": 0.20000000298023224,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "GamepadAxis",
+                        "threshold": 0.5
+                    }
+                ],
+                "deadzone": 0.0010000000474974513,
+                "gravity": 1000.0,
+                "invert": false,
+                "name": "Horizontal",
+                "pressThreshold": 0.5,
+                "sensitivity": 1000.0,
+                "snap": true
+            },
+            {
+                "bindings": [
+                    {
+                        "code": 87,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": -1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 265,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": -1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 83,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 264,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 1,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": -1.0,
+                        "source": "GamepadButton",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 3,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "GamepadButton",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 1,
+                        "deadzone": 0.20000000298023224,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "GamepadAxis",
+                        "threshold": 0.5
+                    }
+                ],
+                "deadzone": 0.0010000000474974513,
+                "gravity": 1000.0,
+                "invert": false,
+                "name": "Vertical",
+                "pressThreshold": 0.5,
+                "sensitivity": 1000.0,
+                "snap": true
+            },
+            {
+                "bindings": [
+                    {
+                        "code": 32,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 7,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "GamepadButton",
+                        "threshold": 0.5
+                    }
+                ],
+                "deadzone": 0.0010000000474974513,
+                "gravity": 1000.0,
+                "invert": false,
+                "name": "Jump",
+                "pressThreshold": 0.5,
+                "sensitivity": 1000.0,
+                "snap": false
+            },
+            {
+                "bindings": [
+                    {
+                        "code": 256,
+                        "deadzone": 0.0,
+                        "gamepad": 0,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "KeyboardKey",
+                        "threshold": 0.5
+                    },
+                    {
+                        "code": 15,
+                        "deadzone": 0.0,
+                        "gamepad": -1,
+                        "invert": false,
+                        "scale": 1.0,
+                        "source": "GamepadButton",
+                        "threshold": 0.5
+                    }
+                ],
+                "deadzone": 0.0010000000474974513,
+                "gravity": 1000.0,
+                "invert": false,
+                "name": "Pause",
+                "pressThreshold": 0.5,
+                "sensitivity": 1000.0,
+                "snap": false
+            }
+        ]
+    },
+    "name": "RollerWorld",
+    "projectType": "3D",
+    "sortingLayers": [
+        "Background",
+        "Default",
+        "Foreground",
+        "UI"
+    ],
+    "tags": [
+        "Untagged",
+        "Player",
+        "Collectible",
+        "Goal",
+        "Ground"
+    ],
+    "targetFps": 60,
+    "uncappedFrameRate": false,
+    "version": "0.1.0",
+    "window": {
+        "height": 720,
+        "mode": "Windowed",
+        "title": "RollerWorld",
+        "width": 1280
+    }
+}

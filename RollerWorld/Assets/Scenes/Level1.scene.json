@@ -1,0 +1,2292 @@
+{
+  "canvases": [
+    {
+      "elements": [
+        {
+          "children": [],
+          "color": "#F1F5F9",
+          "enabled": true,
+          "fontSize": 56.0,
+          "id": "title-text",
+          "name": "Title Text",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 32.0,
+              "y": 24.0
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 500.0,
+              "y": 64.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "RollerWorld: Roll-a-Ball",
+          "type": "Text",
+          "visible": true
+        },
+        {
+          "children": [],
+          "color": "#A9BCD0",
+          "enabled": true,
+          "fontSize": 26.0,
+          "id": "instruction-text",
+          "name": "Instruction Text",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 36.0,
+              "y": 92.0
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 640.0,
+              "y": 52.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "Use WASD or the arrow keys to roll. Collect every yellow cube.",
+          "type": "Text",
+          "visible": true
+        },
+        {
+          "children": [],
+          "color": "#23DDF6",
+          "enabled": true,
+          "fontSize": 36.0,
+          "id": "score-text",
+          "name": "Score Text",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 36.0,
+              "y": 142.0
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 340.0,
+              "y": 48.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "Score: 0 / 8",
+          "type": "Text",
+          "visible": true
+        },
+        {
+          "children": [],
+          "color": "#F8D66D",
+          "enabled": true,
+          "fontSize": 32.0,
+          "id": "status-text",
+          "name": "Status Text",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 36.0,
+              "y": 188.0
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 560.0,
+              "y": 48.0
+            }
+          },
+          "sortOrder": 1,
+          "text": "Collect every yellow cube.",
+          "type": "Text",
+          "visible": true
+        }
+      ],
+      "enabled": true,
+      "id": "hud-canvas",
+      "matchWidthOrHeight": 0.0,
+      "name": "HUD",
+      "referenceResolution": {
+        "x": 1280.0,
+        "y": 720.0
+      },
+      "renderMode": "ScreenSpaceOverlay",
+      "sortOrder": 0,
+      "visible": true
+    },
+    {
+      "elements": [
+        {
+          "alignment": "center",
+          "allCaps": true,
+          "allLower": false,
+          "bold": true,
+          "children": [],
+          "color": "#FFFFFF",
+          "enabled": true,
+          "fontPath": "",
+          "fontSize": 72.0,
+          "id": "text",
+          "italic": false,
+          "name": "Text",
+          "outlineColor": "#000000",
+          "outlineDistance": {
+            "x": 2.0,
+            "y": 2.0
+          },
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchoredPosition": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 256.0,
+              "y": 72.0
+            }
+          },
+          "sdfOutlineWidth": 0.0,
+          "sdfSoftness": 0.5,
+          "sortOrder": 0,
+          "text": "Paused",
+          "type": "Text",
+          "underline": false,
+          "useSdf": false,
+          "visible": true
+        }
+      ],
+      "enabled": false,
+      "firstSelectedElementId": "",
+      "id": "canvas",
+      "matchWidthOrHeight": 0.0,
+      "name": "Pause Menu",
+      "referenceResolution": {
+        "x": 1280.0,
+        "y": 720.0
+      },
+      "renderMode": "ScreenSpaceOverlay",
+      "sortOrder": 0,
+      "visible": true
+    }
+  ],
+  "gameObjects": [
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": -405.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 15.0,
+            "z": 15.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "fieldOfView": 50.0,
+          "id": "camera",
+          "orthographicSize": 5.0,
+          "primary": true,
+          "projection": "Perspective",
+          "type": "Camera"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\Camera\\FollowCamera",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "lookAtHeight": 0.9,
+            "lookAtOffset": null,
+            "lookAtTarget": false,
+            "offset": {
+              "x": 0.0,
+              "y": 15.0,
+              "z": 15.0
+            },
+            "smoothTime": 0.12,
+            "target": {
+              "__lengaRefKind": "Transform",
+              "sceneObjectId": "roller"
+            }
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "main-camera",
+      "layer": 0,
+      "name": "Main Camera",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 50.0,
+            "y": 60.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 3.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFF1D6",
+          "enabled": true,
+          "id": "directionallight",
+          "intensity": 1.0,
+          "shadowBias": 0.05,
+          "shadowStrength": 1.0,
+          "type": "DirectionalLight"
+        }
+      ],
+      "id": "sun-light",
+      "layer": 0,
+      "name": "Sun Light",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 2.8,
+            "z": 1.2
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFD57A",
+          "enabled": true,
+          "id": "pointlight",
+          "intensity": 1.55,
+          "range": 9.0,
+          "type": "PointLight"
+        }
+      ],
+      "id": "pickup-accent-light",
+      "layer": 0,
+      "name": "Pickup Accent Light",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 1.8,
+            "z": 8.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#4FE7FF",
+          "enabled": true,
+          "id": "pointlight",
+          "intensity": 1.25,
+          "range": 5.5,
+          "type": "PointLight"
+        }
+      ],
+      "id": "start-fill-light",
+      "layer": 0,
+      "name": "Start Fill Light",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\World\\GameManager",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "hud": {
+              "__lengaRefKind": "Canvas",
+              "canvasId": "hud-canvas"
+            },
+            "pauseMenu": {
+              "__lengaRefKind": "Canvas",
+              "canvasId": "canvas"
+            }
+          },
+          "type": "Behaviour"
+        },
+        {
+          "clipPath": "Assets/Audio/SFX/ribhavagrawal-coin-recieved-230517.mp3",
+          "enabled": true,
+          "id": "audiosource",
+          "loop": false,
+          "outputAudioMixer": {
+            "__lengaAssetKind": "AudioMixer",
+            "assetPath": "Assets/Audio/MainAudioMixer.lenga-audiomixer.json"
+          },
+          "outputChannelId": "channel-2",
+          "pitch": 1.0,
+          "playOnAwake": false,
+          "type": "AudioSource",
+          "volume": 0.1
+        }
+      ],
+      "id": "game-manager",
+      "layer": 0,
+      "name": "GameManager",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.2,
+            "z": 8.5
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#116D7A",
+          "enabled": false,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/StartPad.material.json",
+          "size": {
+            "height": 0.4,
+            "length": 3.2,
+            "width": 3.2
+          },
+          "type": "CubeRenderer"
+        }
+      ],
+      "id": "start-marker",
+      "layer": 0,
+      "name": "Start Marker",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#23DDF6",
+          "enabled": true,
+          "id": "sphererenderer",
+          "materialPath": "Assets/Materials/RollerBall.material.json",
+          "radius": 0.85,
+          "type": "SphereRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "spherecollider3d",
+          "isTrigger": false,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "radius": 0.85,
+          "type": "SphereCollider3D"
+        },
+        {
+          "angularDrag": 0.05,
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "bodyType": "Dynamic",
+          "collisionDetection": "Discrete",
+          "enabled": true,
+          "freezeRotation": false,
+          "gravityScale": 1.0,
+          "id": "rigidbody3d",
+          "linearDrag": 0.0,
+          "type": "Rigidbody3D",
+          "useGravity": true,
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\Player\\PlayerController",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "audioSource": null,
+            "body": null,
+            "collisionColor": {
+              "a": 255,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "collisionFeedbackDuration": 0.35,
+            "deadZone": 0.2,
+            "defaultColor": {
+              "a": 255,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "fallThreshold": -6.0,
+            "logCollisionEvents": false,
+            "pickupShimmerColor": {
+              "a": 255,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "pickupShimmerDuration": 0.24,
+            "respawnPoint": null,
+            "rollForce": 20000,
+            "spawnEulerAngles": null,
+            "spawnPosition": null,
+            "sphereRenderer": null
+          },
+          "type": "Behaviour"
+        },
+        {
+          "clipPath": "Assets/Audio/SFX/skateboard.mp3",
+          "enabled": true,
+          "id": "audiosource",
+          "loop": true,
+          "outputAudioMixer": {
+            "__lengaAssetKind": "AudioMixer",
+            "assetPath": "Assets/Audio/MainAudioMixer.lenga-audiomixer.json"
+          },
+          "outputChannelId": "channel-2",
+          "pitch": 1.0,
+          "playOnAwake": false,
+          "type": "AudioSource",
+          "volume": 1.0
+        },
+        {
+          "alignment": "View",
+          "autodestruct": false,
+          "emitting": true,
+          "enabled": true,
+          "endColor": "#FFFFFF00",
+          "endWidth": 0.0,
+          "id": "trailrenderer",
+          "maxPoints": 512,
+          "minVertexDistance": 0.1,
+          "orderInLayer": 0,
+          "sortingLayer": "Default",
+          "startColor": "#FFFFFF",
+          "startWidth": 0.5,
+          "time": 0.5,
+          "type": "TrailRenderer",
+          "widthMultiplier": 1.0
+        }
+      ],
+      "id": "roller",
+      "layer": 0,
+      "name": "Roller",
+      "parentId": null,
+      "tag": "Player"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.6,
+            "z": 0.35
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F1F5F9",
+          "enabled": false,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/RollerMarker.material.json",
+          "size": {
+            "height": 0.22,
+            "length": 0.22,
+            "width": 0.22
+          },
+          "type": "CubeRenderer"
+        }
+      ],
+      "id": "roller-marker",
+      "layer": 0,
+      "name": "Roller Marker",
+      "parentId": "roller",
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 2.0,
+            "y": 1.0,
+            "z": 2.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#002040",
+          "enabled": true,
+          "id": "planerenderer",
+          "materialPath": "Assets/Materials/Ground.material.json",
+          "size": {
+            "length": 24.0,
+            "width": 24.0
+          },
+          "type": "PlaneRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": false,
+          "offset": {
+            "x": 0.0,
+            "y": -0.5,
+            "z": 0.0
+          },
+          "size": {
+            "x": 24.0,
+            "y": 1.0,
+            "z": 24.0
+          },
+          "type": "BoxCollider3D"
+        }
+      ],
+      "id": "ground",
+      "layer": 0,
+      "name": "Ground",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        }
+      ],
+      "id": "gameobject",
+      "layer": 0,
+      "name": "Pick Ups",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 45.0,
+            "y": 45.0,
+            "z": 45.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": -15.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F8D66D",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/Pickup.material.json",
+          "size": {
+            "height": 1.0,
+            "length": 1.0,
+            "width": 1.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": true,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "BoxCollider3D"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\World\\Collectible",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "degreesPerSecond": 90.0,
+            "managerObject": {
+              "__lengaRefKind": "GameObject",
+              "sceneObjectId": "game-manager"
+            },
+            "points": 1
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "pickup-1",
+      "layer": 0,
+      "name": "Pickup 1",
+      "parentId": "gameobject",
+      "prefabSource": "Assets/Prefabs/Pick Up.prefab.json",
+      "tag": "Collectible"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 45.0,
+            "y": 45.0,
+            "z": 45.0
+          },
+          "localPosition": {
+            "x": 7.0,
+            "y": 1.0,
+            "z": -12.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F8D66D",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/Pickup.material.json",
+          "size": {
+            "height": 1.0,
+            "length": 1.0,
+            "width": 1.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": true,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "BoxCollider3D"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\World\\Collectible",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "degreesPerSecond": 90.0,
+            "managerObject": {
+              "__lengaRefKind": "GameObject",
+              "sceneObjectId": "game-manager"
+            },
+            "points": 1
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "pickup-1-1",
+      "layer": 0,
+      "name": "Pickup 2",
+      "parentId": "gameobject",
+      "tag": "Collectible"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 45.0,
+            "y": 45.0,
+            "z": 45.0
+          },
+          "localPosition": {
+            "x": 12.0,
+            "y": 1.0,
+            "z": -7.0
+          },
+          "localScale": {
+            "x": 0.9999999,
+            "y": 0.9999995,
+            "z": 0.9999998
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F8D66D",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/Pickup.material.json",
+          "size": {
+            "height": 1.0,
+            "length": 1.0,
+            "width": 1.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": true,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "BoxCollider3D"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\World\\Collectible",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "degreesPerSecond": 90.0,
+            "managerObject": {
+              "__lengaRefKind": "GameObject",
+              "sceneObjectId": "game-manager"
+            },
+            "points": 1
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "pickup-2-1",
+      "layer": 0,
+      "name": "Pickup 3",
+      "parentId": "gameobject",
+      "tag": "Collectible"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 45.0,
+            "y": 45.0,
+            "z": 45.0
+          },
+          "localPosition": {
+            "x": 15.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F8D66D",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/Pickup.material.json",
+          "size": {
+            "height": 1.0,
+            "length": 1.0,
+            "width": 1.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": true,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "BoxCollider3D"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\World\\Collectible",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "degreesPerSecond": 90.0,
+            "managerObject": {
+              "__lengaRefKind": "GameObject",
+              "sceneObjectId": "game-manager"
+            },
+            "points": 1
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "pickup-2-2",
+      "layer": 0,
+      "name": "Pickup 4",
+      "parentId": "gameobject",
+      "tag": "Collectible"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 45.0,
+            "y": 45.0,
+            "z": 45.0
+          },
+          "localPosition": {
+            "x": 12.0,
+            "y": 1.0,
+            "z": 7.0
+          },
+          "localScale": {
+            "x": 0.9999999,
+            "y": 0.9999995,
+            "z": 0.9999998
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F8D66D",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/Pickup.material.json",
+          "size": {
+            "height": 1.0,
+            "length": 1.0,
+            "width": 1.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": true,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "BoxCollider3D"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\World\\Collectible",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "degreesPerSecond": 90.0,
+            "managerObject": {
+              "__lengaRefKind": "GameObject",
+              "sceneObjectId": "game-manager"
+            },
+            "points": 1
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "pickup-2-3",
+      "layer": 0,
+      "name": "Pickup 5",
+      "parentId": "gameobject",
+      "tag": "Collectible"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 45.0,
+            "y": 45.0,
+            "z": 45.0
+          },
+          "localPosition": {
+            "x": 7.0,
+            "y": 1.0,
+            "z": 12.0
+          },
+          "localScale": {
+            "x": 0.9999999,
+            "y": 0.9999995,
+            "z": 0.9999998
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F8D66D",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/Pickup.material.json",
+          "size": {
+            "height": 1.0,
+            "length": 1.0,
+            "width": 1.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": true,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "BoxCollider3D"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\World\\Collectible",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "degreesPerSecond": 90.0,
+            "managerObject": {
+              "__lengaRefKind": "GameObject",
+              "sceneObjectId": "game-manager"
+            },
+            "points": 1
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "pickup-2-4",
+      "layer": 0,
+      "name": "Pickup 6",
+      "parentId": "gameobject",
+      "tag": "Collectible"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 45.0,
+            "y": 45.0,
+            "z": 45.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 15.0
+          },
+          "localScale": {
+            "x": 0.9999999,
+            "y": 0.9999995,
+            "z": 0.9999998
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F8D66D",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/Pickup.material.json",
+          "size": {
+            "height": 1.0,
+            "length": 1.0,
+            "width": 1.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": true,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "BoxCollider3D"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\World\\Collectible",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "degreesPerSecond": 90.0,
+            "managerObject": {
+              "__lengaRefKind": "GameObject",
+              "sceneObjectId": "game-manager"
+            },
+            "points": 1
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "pickup-2-5",
+      "layer": 0,
+      "name": "Pickup 7",
+      "parentId": "gameobject",
+      "tag": "Collectible"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 45.0,
+            "y": 45.0,
+            "z": 45.0
+          },
+          "localPosition": {
+            "x": -7.0,
+            "y": 1.0,
+            "z": 12.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F8D66D",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/Pickup.material.json",
+          "size": {
+            "height": 1.0,
+            "length": 1.0,
+            "width": 1.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": true,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "BoxCollider3D"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\World\\Collectible",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "degreesPerSecond": 90.0,
+            "managerObject": {
+              "__lengaRefKind": "GameObject",
+              "sceneObjectId": "game-manager"
+            },
+            "points": 1
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "pickup-2-6",
+      "layer": 0,
+      "name": "Pickup 8",
+      "parentId": "gameobject",
+      "tag": "Collectible"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 45.0,
+            "y": 45.0,
+            "z": 45.0
+          },
+          "localPosition": {
+            "x": -12.0,
+            "y": 1.0,
+            "z": 7.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F8D66D",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/Pickup.material.json",
+          "size": {
+            "height": 1.0,
+            "length": 1.0,
+            "width": 1.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": true,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "BoxCollider3D"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\World\\Collectible",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "degreesPerSecond": 90.0,
+            "managerObject": {
+              "__lengaRefKind": "GameObject",
+              "sceneObjectId": "game-manager"
+            },
+            "points": 1
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "pickup-2-7",
+      "layer": 0,
+      "name": "Pickup 9",
+      "parentId": "gameobject",
+      "tag": "Collectible"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 45.0,
+            "y": 45.0,
+            "z": 45.0
+          },
+          "localPosition": {
+            "x": -15.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F8D66D",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/Pickup.material.json",
+          "size": {
+            "height": 1.0,
+            "length": 1.0,
+            "width": 1.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": true,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "BoxCollider3D"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\World\\Collectible",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "degreesPerSecond": 90.0,
+            "managerObject": {
+              "__lengaRefKind": "GameObject",
+              "sceneObjectId": "game-manager"
+            },
+            "points": 1
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "pickup-2-8",
+      "layer": 0,
+      "name": "Pickup 10",
+      "parentId": "gameobject",
+      "tag": "Collectible"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 45.0,
+            "y": 45.0,
+            "z": 45.0
+          },
+          "localPosition": {
+            "x": -12.0,
+            "y": 1.0,
+            "z": -7.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F8D66D",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/Pickup.material.json",
+          "size": {
+            "height": 1.0,
+            "length": 1.0,
+            "width": 1.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": true,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "BoxCollider3D"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\World\\Collectible",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "degreesPerSecond": 90.0,
+            "managerObject": {
+              "__lengaRefKind": "GameObject",
+              "sceneObjectId": "game-manager"
+            },
+            "points": 1
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "pickup-2-9",
+      "layer": 0,
+      "name": "Pickup 11",
+      "parentId": "gameobject",
+      "tag": "Collectible"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 45.0,
+            "y": 45.0,
+            "z": 45.0
+          },
+          "localPosition": {
+            "x": -7.0,
+            "y": 1.0,
+            "z": -12.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F8D66D",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/Pickup.material.json",
+          "size": {
+            "height": 1.0,
+            "length": 1.0,
+            "width": 1.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": true,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "BoxCollider3D"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\World\\Collectible",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "degreesPerSecond": 90.0,
+            "managerObject": {
+              "__lengaRefKind": "GameObject",
+              "sceneObjectId": "game-manager"
+            },
+            "points": 1
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "pickup-2-10",
+      "layer": 0,
+      "name": "Pickup 12",
+      "parentId": "gameobject",
+      "tag": "Collectible"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        }
+      ],
+      "id": "gameobject-1",
+      "layer": 0,
+      "name": "Boundaries",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.75,
+            "z": 24.0
+          },
+          "localScale": {
+            "x": 2.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFFFFF",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/Boundary.material.json",
+          "size": {
+            "height": 1.5,
+            "length": 0.5,
+            "width": 24.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": false,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 24.0,
+            "y": 1.5,
+            "z": 0.5
+          },
+          "type": "BoxCollider3D"
+        }
+      ],
+      "id": "north-boundary",
+      "layer": 0,
+      "name": "North Boundary",
+      "parentId": "gameobject-1",
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.75,
+            "z": -24.0
+          },
+          "localScale": {
+            "x": 2.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFFFFF",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/Boundary.material.json",
+          "size": {
+            "height": 1.5,
+            "length": 0.5,
+            "width": 24.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": false,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 24.0,
+            "y": 1.5,
+            "z": 0.5
+          },
+          "type": "BoxCollider3D"
+        }
+      ],
+      "id": "south-boundary",
+      "layer": 0,
+      "name": "South Boundary",
+      "parentId": "gameobject-1",
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 24.0,
+            "y": 0.75,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 2.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFFFFF",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/Boundary.material.json",
+          "size": {
+            "height": 1.5,
+            "length": 24.0,
+            "width": 0.5
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": false,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 0.5,
+            "y": 1.5,
+            "z": 24.0
+          },
+          "type": "BoxCollider3D"
+        }
+      ],
+      "id": "east-boundary",
+      "layer": 0,
+      "name": "East Boundary",
+      "parentId": "gameobject-1",
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -24.0,
+            "y": 0.75,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 2.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFFFFF",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/Boundary.material.json",
+          "size": {
+            "height": 1.5,
+            "length": 24.0,
+            "width": 0.5
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": false,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 0.5,
+            "y": 1.5,
+            "z": 24.0
+          },
+          "type": "BoxCollider3D"
+        }
+      ],
+      "id": "west-boundary",
+      "layer": 0,
+      "name": "West Boundary",
+      "parentId": "gameobject-1",
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 1.268348,
+            "y": 0.7969475,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "dimension": "3D",
+          "enabled": true,
+          "id": "particlesystem",
+          "looping": false,
+          "modules": {
+            "collision": {
+              "bounce": 0.0,
+              "damping": 0.0,
+              "enabled": false,
+              "lifetimeLoss": 0.0,
+              "mode": "Planes",
+              "radiusScale": 1.0
+            },
+            "colorBySpeed": {},
+            "colorOverLifetime": {
+              "enabled": true,
+              "gradient": [
+                {
+                  "color": "#FFD860FF",
+                  "time": 0.0
+                },
+                {
+                  "color": "#FFD86000",
+                  "time": 1.0
+                }
+              ]
+            },
+            "emission": {
+              "bursts": [],
+              "enabled": true,
+              "rateOverDistance": {
+                "constant": 0.0,
+                "max": 0.0,
+                "min": 0.0,
+                "mode": "Constant"
+              },
+              "rateOverTime": {
+                "constant": 20.0,
+                "max": 20.0,
+                "min": 20.0,
+                "mode": "Constant"
+              }
+            },
+            "forceOverLifetime": {
+              "enabled": false,
+              "force": {
+                "x": {
+                  "constant": 0.0,
+                  "max": 0.0,
+                  "min": 0.0,
+                  "mode": "Constant"
+                },
+                "y": {
+                  "constant": 0.0,
+                  "max": 0.0,
+                  "min": 0.0,
+                  "mode": "Constant"
+                },
+                "z": {
+                  "constant": 0.0,
+                  "max": 0.0,
+                  "min": 0.0,
+                  "mode": "Constant"
+                }
+              },
+              "gravityModifier": 0.0
+            },
+            "inheritVelocity": {},
+            "lifetimeByEmitterSpeed": {},
+            "limitVelocity": {
+              "dampen": 0.0,
+              "enabled": false,
+              "speed": 0.0
+            },
+            "main": {
+              "autoRandomSeed": true,
+              "duration": 5.0,
+              "looping": false,
+              "maxParticles": 128,
+              "playOnAwake": false,
+              "prewarm": false,
+              "randomSeed": 0,
+              "simulationSpace": "World",
+              "simulationSpeed": 1.0,
+              "startLifetime": {
+                "constant": 0.75,
+                "max": 0.75,
+                "min": 0.75,
+                "mode": "Constant"
+              },
+              "startRotation": {
+                "constant": 0.0,
+                "max": 0.0,
+                "min": 0.0,
+                "mode": "Constant"
+              },
+              "startSize": {
+                "constant": 8.0,
+                "curve": [
+                  {
+                    "time": 0.0,
+                    "value": 8.0
+                  },
+                  {
+                    "time": 1.0,
+                    "value": 8.0
+                  }
+                ],
+                "max": 0.5,
+                "maxCurve": [
+                  {
+                    "time": 0.0,
+                    "value": 8.0
+                  },
+                  {
+                    "time": 1.0,
+                    "value": 8.0
+                  }
+                ],
+                "min": 0.1,
+                "minCurve": [
+                  {
+                    "time": 0.0,
+                    "value": 8.0
+                  },
+                  {
+                    "time": 1.0,
+                    "value": 8.0
+                  }
+                ],
+                "mode": "RandomBetweenConstants"
+              },
+              "startSpeed": {
+                "constant": 80.0,
+                "curve": [
+                  {
+                    "time": 0.0,
+                    "value": 80.0
+                  },
+                  {
+                    "time": 1.0,
+                    "value": 80.0
+                  }
+                ],
+                "max": 50.0,
+                "maxCurve": [
+                  {
+                    "time": 0.0,
+                    "value": 80.0
+                  },
+                  {
+                    "time": 1.0,
+                    "value": 80.0
+                  }
+                ],
+                "min": 5.0,
+                "minCurve": [
+                  {
+                    "time": 0.0,
+                    "value": 80.0
+                  },
+                  {
+                    "time": 1.0,
+                    "value": 80.0
+                  }
+                ],
+                "mode": "RandomBetweenConstants"
+              }
+            },
+            "noise": {
+              "enabled": false,
+              "frequency": 1.0,
+              "octaves": 1,
+              "strength": 0.0
+            },
+            "renderer": {
+              "blendMode": "Alpha",
+              "enabled": true,
+              "flipX": false,
+              "flipY": false,
+              "lightingEnabled": true,
+              "materialPath": "",
+              "meshPath": "",
+              "orderInLayer": 0,
+              "pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "receiveShadows": false,
+              "renderMode": "Billboard",
+              "sortMode": "None",
+              "sortingLayer": "Default",
+              "stretchLengthScale": 1.0,
+              "stretchSpeedScale": 0.0,
+              "texturePath": "",
+              "visualShape": "Auto"
+            },
+            "rotationBySpeed": {},
+            "rotationOverLifetime": {
+              "angularVelocity": {
+                "constant": 0.0,
+                "max": 0.0,
+                "min": 0.0,
+                "mode": "Constant"
+              },
+              "enabled": false
+            },
+            "shape": {
+              "angle": -90.0,
+              "arc": 360.0,
+              "boxSize": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "emitFromShell": false,
+              "enabled": true,
+              "length": 1.0,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "radius": 0.0,
+              "randomizeDirection": 0.0,
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "spread": 360.0,
+              "type": "Cone3D"
+            },
+            "sizeBySpeed": {
+              "enabled": true
+            },
+            "sizeOverLifetime": {
+              "enabled": true,
+              "sizeMultiplier": {
+                "constant": 1.0,
+                "curve": [
+                  {
+                    "time": 0.0,
+                    "value": 1.0
+                  },
+                  {
+                    "time": 1.0,
+                    "value": 1.0
+                  }
+                ],
+                "max": 1.0,
+                "min": 1.0,
+                "mode": "Curve"
+              }
+            },
+            "subEmitters": {
+              "enabled": false
+            },
+            "textureSheetAnimation": {
+              "enabled": false,
+              "frameOverTime": {
+                "constant": 0.0,
+                "curve": [
+                  {
+                    "time": 0.0,
+                    "value": 0.0
+                  },
+                  {
+                    "time": 1.0,
+                    "value": 0.0
+                  }
+                ],
+                "max": 0.0,
+                "min": 0.0,
+                "mode": "Curve"
+              },
+              "randomStartFrame": false,
+              "tilesX": 1,
+              "tilesY": 1
+            },
+            "trails": {
+              "color": "#FFFFFFFF",
+              "enabled": false,
+              "lifetime": 2.0,
+              "width": 0.1
+            },
+            "triggers": {
+              "enabled": false
+            },
+            "velocityOverLifetime": {
+              "enabled": false,
+              "linear": {
+                "x": {
+                  "constant": 0.0,
+                  "curve": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0
+                    }
+                  ],
+                  "max": 0.0,
+                  "maxCurve": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0
+                    }
+                  ],
+                  "min": 0.0,
+                  "minCurve": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0
+                    }
+                  ],
+                  "mode": "Constant"
+                },
+                "y": {
+                  "constant": 0.0,
+                  "max": 0.0,
+                  "min": 0.0,
+                  "mode": "Constant"
+                },
+                "z": {
+                  "constant": 0.0,
+                  "max": 0.0,
+                  "min": 0.0,
+                  "mode": "Constant"
+                }
+              },
+              "orbital": {},
+              "orbitalOffset": {}
+            }
+          },
+          "playOnAwake": false,
+          "profilePath": "",
+          "schemaVersion": 2,
+          "startSize": 0.3,
+          "startSpeed": 27.5,
+          "type": "ParticleSystem"
+        }
+      ],
+      "id": "particle-system",
+      "layer": 0,
+      "name": "Particle System",
+      "parentId": null,
+      "tag": "Untagged"
+    }
+  ],
+  "scene": {
+    "ambientLightColor": "#DBE8FF",
+    "ambientLightIntensity": 0.85,
+    "backgroundColor": "#000000",
+    "dimension": "3D",
+    "lighting2DEnabled": false,
+    "name": "Level1",
+    "skyboxPath": "",
+    "skyboxSettings": {
+      "coverage": "UpperHemisphere",
+      "horizonColor": "#6D7C87"
+    },
+    "version": 1
+  }
+}

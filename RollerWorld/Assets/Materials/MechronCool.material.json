@@ -1,0 +1,11 @@
+{
+  "material": {
+    "name": "MechronCool",
+    "version": 1,
+    "shader": "Lit"
+  },
+  "baseColor": "#E5F5FFFF",
+  "specularStrength": 0.55,
+  "smoothness": 0.48,
+  "baseTexturePath": ""
+}

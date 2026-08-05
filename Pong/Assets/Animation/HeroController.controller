@@ -1,0 +1,31 @@
+{
+  "animationController": {
+    "defaultState": "Idle",
+    "name": "HeroController",
+    "parameters": [
+      {
+        "defaultValue": false,
+        "name": "isWalking",
+        "type": "Bool"
+      }
+    ],
+    "states": [
+      {
+        "clipPath": "Assets/Animation/Knight_Idle.anim",
+        "name": "Idle",
+        "transitions": []
+      },
+      {
+        "clipPath": "Assets/Animation/Knight_Walk.anim",
+        "name": "Walking",
+        "transitions": [
+          {
+            "parameter": "isWalking",
+            "toState": "Walking",
+            "value": true
+          }
+        ]
+      }
+    ]
+  }
+}

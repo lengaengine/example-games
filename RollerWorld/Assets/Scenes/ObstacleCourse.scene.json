@@ -1,0 +1,1193 @@
+{
+  "canvases": [
+    {
+      "elements": [
+        {
+          "children": [],
+          "color": "#F1F5F9",
+          "enabled": true,
+          "fontSize": 56.0,
+          "id": "course-title",
+          "name": "Course Title",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 32.0,
+              "y": 24.0
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 520.0,
+              "y": 64.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "RollerWorld: Obstacle Course",
+          "type": "Text",
+          "visible": true
+        },
+        {
+          "children": [],
+          "color": "#A9BCD0",
+          "enabled": true,
+          "fontSize": 26.0,
+          "id": "course-goal",
+          "name": "Course Goal",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 36.0,
+              "y": 92.0
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 760.0,
+              "y": 52.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "Navigate the floating course and reach the cyan finish block.",
+          "type": "Text",
+          "visible": true
+        },
+        {
+          "children": [],
+          "color": "#23DDF6",
+          "enabled": true,
+          "fontSize": 34.0,
+          "id": "course-status",
+          "name": "Course Status",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 36.0,
+              "y": 142.0
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 620.0,
+              "y": 48.0
+            }
+          },
+          "sortOrder": 1,
+          "text": "Reach the cyan finish block.",
+          "type": "Text",
+          "visible": true
+        }
+      ],
+      "enabled": true,
+      "id": "hud-canvas",
+      "matchWidthOrHeight": 0.0,
+      "name": "HUD",
+      "referenceResolution": {
+        "x": 1280.0,
+        "y": 720.0
+      },
+      "renderMode": "ScreenSpaceOverlay",
+      "sortOrder": 0,
+      "visible": true
+    }
+  ],
+  "gameObjects": [
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": -24.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 6.0,
+            "z": 12.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "fieldOfView": 48.0,
+          "id": "camera",
+          "orthographicSize": 5.0,
+          "primary": true,
+          "projection": "Perspective",
+          "type": "Camera"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\Camera\\FollowCamera",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "lookAtHeight": 0.9,
+            "lookAtOffset": null,
+            "lookAtTarget": false,
+            "offset": {
+              "x": 0.0,
+              "y": 6.0,
+              "z": 12.0
+            },
+            "smoothTime": 0.12,
+            "target": {
+              "__lengaRefKind": "Transform",
+              "sceneObjectId": "roller"
+            }
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "main-camera",
+      "layer": 0,
+      "name": "Main Camera",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": -28.0,
+            "y": -28.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 10.0,
+            "z": -2.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFE7BD",
+          "enabled": true,
+          "id": "directionallight",
+          "intensity": 1.2,
+          "type": "DirectionalLight"
+        }
+      ],
+      "id": "sun-light",
+      "layer": 0,
+      "name": "Sun Light",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 2.2,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#4EDFFF",
+          "enabled": true,
+          "id": "pointlight",
+          "intensity": 1.1,
+          "range": 5.8,
+          "type": "PointLight"
+        }
+      ],
+      "id": "course-start-fill-light",
+      "layer": 0,
+      "name": "Course Start Fill Light",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 12.0,
+            "y": 2.6,
+            "z": -17.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFC86B",
+          "enabled": true,
+          "id": "pointlight",
+          "intensity": 1.45,
+          "range": 7.2,
+          "type": "PointLight"
+        }
+      ],
+      "id": "course-goal-light",
+      "layer": 0,
+      "name": "Course Goal Light",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\World\\ObstacleCourseManager",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {},
+          "type": "Behaviour"
+        }
+      ],
+      "id": "course-manager",
+      "layer": 0,
+      "name": "Course Manager",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.3,
+            "z": 8.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#116D7A",
+          "enabled": false,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/StartPad.material.json",
+          "size": {
+            "height": 0.4,
+            "length": 2.8,
+            "width": 2.8
+          },
+          "type": "CubeRenderer"
+        }
+      ],
+      "id": "start-marker",
+      "layer": 0,
+      "name": "Start Marker",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 1.3,
+            "z": 8.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#23DDF6",
+          "enabled": true,
+          "id": "sphererenderer",
+          "materialPath": "Assets/Materials/RollerBall.material.json",
+          "radius": 0.85,
+          "type": "SphereRenderer"
+        },
+        {
+          "clip": {
+            "__lengaAssetKind": "AudioClip",
+            "assetPath": "Assets/Audio/SFX/sfx-marble-rolling.wav"
+          },
+          "enabled": true,
+          "id": "audiosource",
+          "loop": false,
+          "outputAudioMixer": {
+            "__lengaAssetKind": "AudioMixer",
+            "assetPath": "Assets/Audio/MainAudioMixer.lenga-audiomixer.json"
+          },
+          "outputChannelId": "channel-2",
+          "pitch": 1.0,
+          "playOnAwake": false,
+          "type": "AudioSource",
+          "volume": 1.0
+        },
+        {
+          "enabled": true,
+          "id": "spherecollider3d",
+          "isTrigger": false,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "radius": 0.85,
+          "type": "SphereCollider3D"
+        },
+        {
+          "angularDrag": 0.05,
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "bodyType": "Dynamic",
+          "collisionDetection": "Continuous",
+          "enabled": true,
+          "freezeRotationX": false,
+          "freezeRotationY": false,
+          "freezeRotationZ": false,
+          "gravityScale": 1.0,
+          "id": "rigidbody3d",
+          "linearDrag": 0.0,
+          "type": "Rigidbody3D",
+          "useGravity": true,
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\Player\\PlayerController",
+          "enabled": true,
+          "id": "behaviour-1",
+          "properties": {
+            "audioSource": {
+              "__lengaRefKind": "Component",
+              "componentSceneId": "audiosource",
+              "componentType": "AudioSource",
+              "sceneObjectId": "roller"
+            },
+            "body": {
+              "__lengaRefKind": "Component",
+              "componentSceneId": "rigidbody3d",
+              "componentType": "Rigidbody3D",
+              "sceneObjectId": "roller"
+            },
+            "collisionColor": {
+              "a": 255,
+              "b": 92,
+              "g": 176,
+              "r": 255
+            },
+            "collisionFeedbackDuration": 0.35,
+            "deadZone": 0.2,
+            "defaultColor": {
+              "a": 255,
+              "b": 246,
+              "g": 221,
+              "r": 35
+            },
+            "fallThreshold": -6.0,
+            "logCollisionEvents": true,
+            "pickupShimmerColor": {
+              "a": 255,
+              "b": 255,
+              "g": 249,
+              "r": 212
+            },
+            "pickupShimmerDuration": 0.24,
+            "respawnPoint": {
+              "__lengaRefKind": "Transform",
+              "sceneObjectId": "start-marker"
+            },
+            "rollForce": 40000,
+            "spawnEulerAngles": null,
+            "spawnPosition": null,
+            "sphereRenderer": null
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "roller",
+      "layer": 0,
+      "name": "Roller",
+      "parentId": null,
+      "tag": "Player"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F1F5F9",
+          "enabled": false,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/RollerMarker.material.json",
+          "size": {
+            "height": 0.22,
+            "length": 0.22,
+            "width": 0.22
+          },
+          "type": "CubeRenderer"
+        }
+      ],
+      "id": "roller-marker",
+      "layer": 0,
+      "name": "Roller Marker",
+      "parentId": "roller",
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#E6C79C",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/CoursePlatformWide.material.json",
+          "size": {
+            "height": 1.0,
+            "length": 6.0,
+            "width": 6.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": false,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 6.0,
+            "y": 1.0,
+            "z": 6.0
+          },
+          "type": "BoxCollider3D"
+        }
+      ],
+      "id": "start-platform",
+      "layer": 0,
+      "name": "Start Platform",
+      "parentId": null,
+      "tag": "Ground"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#D7B98A",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/CoursePlatform.material.json",
+          "size": {
+            "height": 0.8,
+            "length": 8.0,
+            "width": 2.2
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": false,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 2.2,
+            "y": 0.8,
+            "z": 8.0
+          },
+          "type": "BoxCollider3D"
+        }
+      ],
+      "id": "bridge-a",
+      "layer": 0,
+      "name": "Bridge A",
+      "parentId": null,
+      "tag": "Ground"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -5.5
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F0D5A7",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/CoursePlatformSquare.material.json",
+          "size": {
+            "height": 1.0,
+            "length": 5.0,
+            "width": 5.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": false,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 5.0,
+            "y": 1.0,
+            "z": 5.0
+          },
+          "type": "BoxCollider3D"
+        }
+      ],
+      "id": "corner-platform",
+      "layer": 0,
+      "name": "Corner Platform",
+      "parentId": null,
+      "tag": "Ground"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 5.5,
+            "y": 0.0,
+            "z": -5.5
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#D7B98A",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/CoursePlatform.material.json",
+          "size": {
+            "height": 0.8,
+            "length": 2.2,
+            "width": 8.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": false,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 8.0,
+            "y": 0.8,
+            "z": 2.2
+          },
+          "type": "BoxCollider3D"
+        }
+      ],
+      "id": "bridge-b",
+      "layer": 0,
+      "name": "Bridge B",
+      "parentId": null,
+      "tag": "Ground"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 12.0,
+            "y": 0.0,
+            "z": -5.5
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F0D5A7",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/CoursePlatformSquare.material.json",
+          "size": {
+            "height": 1.0,
+            "length": 5.0,
+            "width": 5.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": false,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 5.0,
+            "y": 1.0,
+            "z": 5.0
+          },
+          "type": "BoxCollider3D"
+        }
+      ],
+      "id": "mid-platform",
+      "layer": 0,
+      "name": "Mid Platform",
+      "parentId": null,
+      "tag": "Ground"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 12.0,
+            "y": 0.6,
+            "z": -5.5
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#3A4E63",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/Obstacle.material.json",
+          "size": {
+            "height": 1.2,
+            "length": 1.4,
+            "width": 1.4
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": false,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.4,
+            "y": 1.2,
+            "z": 1.4
+          },
+          "type": "BoxCollider3D"
+        }
+      ],
+      "id": "mid-blocker",
+      "layer": 0,
+      "name": "Mid Blocker",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 12.0,
+            "y": 0.0,
+            "z": -11.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#D7B98A",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/CoursePlatform.material.json",
+          "size": {
+            "height": 0.8,
+            "length": 9.0,
+            "width": 2.2
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": false,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 2.2,
+            "y": 0.8,
+            "z": 9.0
+          },
+          "type": "BoxCollider3D"
+        }
+      ],
+      "id": "bridge-c",
+      "layer": 0,
+      "name": "Bridge C",
+      "parentId": null,
+      "tag": "Ground"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 12.0,
+            "y": 0.0,
+            "z": -17.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F0D5A7",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/CoursePlatformWide.material.json",
+          "size": {
+            "height": 1.0,
+            "length": 6.0,
+            "width": 6.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": false,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 6.0,
+            "y": 1.0,
+            "z": 6.0
+          },
+          "type": "BoxCollider3D"
+        }
+      ],
+      "id": "goal-platform",
+      "layer": 0,
+      "name": "Goal Platform",
+      "parentId": null,
+      "tag": "Ground"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 12.0,
+            "y": 0.85,
+            "z": -17.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#C03FE0",
+          "enabled": true,
+          "id": "cuberenderer",
+          "materialPath": "Assets/Materials/Goal.material.json",
+          "size": {
+            "height": 1.4,
+            "length": 1.8,
+            "width": 1.8
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider3d",
+          "isTrigger": true,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.8,
+            "y": 1.6,
+            "z": 1.8
+          },
+          "type": "BoxCollider3D"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\World\\CourseGoal",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "managerObject": {
+              "__lengaRefKind": "GameObject",
+              "sceneObjectId": "course-manager"
+            }
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "course-goal-trigger",
+      "layer": 0,
+      "name": "Course Goal Trigger",
+      "parentId": null,
+      "tag": "Goal"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 18.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -8.0,
+            "y": 1.35,
+            "z": -2.5
+          },
+          "localScale": {
+            "x": 0.02,
+            "y": 0.02,
+            "z": 0.02
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#E5F5FF",
+          "enabled": true,
+          "id": "meshrenderer",
+          "materialPath": "Assets/Materials/MechronCool.material.json",
+          "meshPath": "Assets/Models/Mechron/Meshy_AI_Animation_Walking_frame_rate_60.fbx.obj",
+          "type": "MeshRenderer"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\World\\Turntable",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "degreesPerSecond": 18.0
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "mechron-left",
+      "layer": 0,
+      "name": "Mechron Left",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": -18.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 19.5,
+            "y": 1.35,
+            "z": -14.0
+          },
+          "localScale": {
+            "x": 0.02,
+            "y": 0.02,
+            "z": 0.02
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFD59B",
+          "enabled": true,
+          "id": "meshrenderer",
+          "materialPath": "Assets/Materials/MechronWarm.material.json",
+          "meshPath": "Assets/Models/Mechron/Meshy_AI_Animation_Walking_frame_rate_60.fbx.obj",
+          "type": "MeshRenderer"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\World\\Turntable",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "degreesPerSecond": -18.0
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "mechron-right",
+      "layer": 0,
+      "name": "Mechron Right",
+      "parentId": null,
+      "tag": "Untagged"
+    }
+  ],
+  "scene": {
+    "ambientLightColor": "#D9E6FF",
+    "ambientLightIntensity": 0.23,
+    "backgroundColor": "#120F24",
+    "dimension": "3D",
+    "lighting2DEnabled": true,
+    "name": "ObstacleCourse",
+    "skyboxPath": "",
+    "version": 1
+  }
+}

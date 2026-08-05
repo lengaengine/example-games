@@ -1,0 +1,2669 @@
+{
+  "assetImports": {
+    "assets": [
+      {
+        "assetImport": {
+          "assetId": "c0c58920fb97cd9ce5323a07a290260f",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Audio/GALACTIVE FLOW A.mp3"
+      },
+      {
+        "assetImport": {
+          "assetId": "127b74d5a82aab7ead2a15cb6b9ea657",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Audio/retro-pong-hit-sfx.wav"
+      },
+      {
+        "assetImport": {
+          "assetId": "e28625032f287908c079bfe52c2e8b6c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/Backdrop.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "e823a06ad0c8478bb034a5e2f59b888c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__ATTACK_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "5426310493d1548401b05dc16ffd0eba",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__ATTACK_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d53a1e4a5bba0b224fd30c86245a915b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__ATTACK_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "688ffc60f5b2d22e5c5d3de14afcb8c6",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__ATTACK_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "932294ab5a88299ab3e8116e97aa6594",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__ATTACK_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "caa80875596eb5f5145ce1745c62d349",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__ATTACK_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "11376661dc445472e4b795d42c9c715e",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__ATTACK_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "f097c8b773e14ef53e69780e92ef9559",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__ATTACK_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "0938c3d969338d57f32e266f046a3668",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__ATTACK_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "2ebeb0d92d4ec2d77c8cd0f8e18f2b84",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__ATTACK_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4c1d156eaa2b9d36bd95b0bb7a177bdc",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__DIE_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "77a8efc0ddc89c6a87edc1979b39133b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__DIE_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4c64da6fdf7db28e0abb92f971a4759b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__DIE_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c1e61055364a9bd78af10e9b9ac9b017",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__DIE_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "e00507106b00c2498ca45a958e146185",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__DIE_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "32725961da5aaf986d69503738ed60d8",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__DIE_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d05396ce492052695ef6a04538065d18",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__DIE_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "3871c6b43758dca1541fac04626fb968",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__DIE_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "5dc3b99fab04ccce279aceaf69227f4d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__DIE_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8a68cbcd76d887f72fdcb9ce7139d4b0",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__DIE_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d7b88214779ab5f8285c5d15b398cb88",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__HURT_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "00670b8a7948bb8f92482092e94e6518",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__HURT_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "2f7b5582c7d435abcf7c563a81c2a87d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__HURT_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "62f499f342909050cdacf9101c1ae1a7",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__HURT_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "342383044c7c371e20bea43129fb69aa",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__HURT_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8a88fbfeb040b642551aebcbea9a797c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__HURT_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "29784931f43d035b1735d39b576811db",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__HURT_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "31c77fdc7c576cbb3c14da28db0b3ba2",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__HURT_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "0cc9c42ee08a75d618c92e58e2ab69d5",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__HURT_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "95aa1f9cacf978cfa68f92353c443919",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__HURT_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "1271e1f0a0279881ee6fa5012cc9ffef",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__IDLE_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "53e0488caaa36de054d79749c5de9959",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__IDLE_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9975054760918ac6b3ec81a86b445f5a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__IDLE_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "441a5ef4fb72e9c9c76222d3f44e87dc",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__IDLE_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "3005fcfc04a66fa41374d896ed0eb691",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__IDLE_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "450096ca2aa6d7a771c7b2e53bbb7c98",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__IDLE_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "fadeeb620beb17f6dd98789542d170e6",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__IDLE_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "40edcc4252e1afadedfdad9f18d2b4da",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__IDLE_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8402a7f1133d3f9f74eb4ddc1ab08c9a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__IDLE_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7773b61f01dd2884ac23e74ccc2bc064",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__IDLE_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "26c2fdca0d5fa60f76d1699ae4ad91db",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__JUMP_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "a04b1aac5b8afc26eb375c5cd110aa90",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__JUMP_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "bc098521c3d124b2b9954bed6432de02",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__JUMP_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "02ba8db3ef825f0a811dfde70ab71b20",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__JUMP_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "f9fbfcd808a86b2179560a95f0c0d485",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__JUMP_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "acd395d8badeffee5f483b2f85d51021",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__JUMP_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7e01afe4b24d3170159d8bc81b485490",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__JUMP_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "896aac853fdc620cf35f8f2107e8f197",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__JUMP_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "e2007deada2e6937883e8b52359a6d86",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__JUMP_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "19bb20d805061bb5f03ac8f78262c38d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__JUMP_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "3f695f187761e725a089dc4328bb5717",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__RUN_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "b003fb1237fd4b9b5c9ea9f8f857c7b3",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__RUN_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "1e0a3eb7b02fce810e38aee64152648c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__RUN_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c6021bae0739f354d76be3d75cff40c3",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__RUN_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "b775d53a3ca207166a051ae92a3a05c2",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__RUN_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "3f42bedcd2a25be46400893676d2fbea",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__RUN_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9ebf26f10f96d57ccfd371453e81cb3a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__RUN_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "86b51b69b9d20acce0a344e0cfc60bf8",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__RUN_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "69b2e698ea2767b6909ecb8aa8b31916",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__RUN_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "ef9e39bb184eda61e82f258c81137254",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__RUN_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "ef00e48aa72a8bbc16b538c775a37913",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6e85ea2b27a1876058fa17ee5f46da19",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "37d468fabab90cf05c28eae9242e5c00",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "5313205df35b569a8bf20d6530388f98",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "5e51a08ddd3a551f1cb645e8930fd1ac",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "fa35205cd93066ac1f7495b1299092c1",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "bd55dd632c9d326df33d5f5e6fc0bd5b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "ffaddfe1cf4d634d36f22cde64dc50fe",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "cd6c514cefd536ba4878ae45b13ad158",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4b398eb39c6c94c5d7515c8a9cd3d2e8",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/1_KNIGHT/Knight_01__WALK_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "48fee462ac19b4971273f5a38f31f887",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__ATTACK_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "76d9dad2734293b80765f46697996c36",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__ATTACK_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "5565a660bc9eb1e6a065980232313ee8",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__ATTACK_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "489d917fe378c204891ec72ee5822254",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__ATTACK_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "936b8647126d04f47be8ea739ba3e2f2",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__ATTACK_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "492a6b778d4c2c744adfc859bb11e364",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__ATTACK_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4b190b3e4577e9e7466936e6fac2d363",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__ATTACK_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8bc8df3b4e7e53ad5d0fe4e63671e5a1",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__ATTACK_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "b6bff07529588b43a5402164681fe9d4",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__ATTACK_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "ae5ad73878de67b425cd43419d0f138e",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__ATTACK_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "e080c63972fcdd6956b5bfaec5de741e",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__DIE_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "571c04d3ef59f7a93db4a7273a6a64b9",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__DIE_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6cf47b54ea66560babe067246db9aee3",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__DIE_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8228d974cafa33349528181d2b5179ab",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__DIE_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6ec5e862699c00c2c878ba6dc3de1e85",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__DIE_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "ded03c7332c84de9ceeb4b829cca1138",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__DIE_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "2d12ab06081297aa93aaafc664c9b610",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__DIE_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "0d02f7e846702d5eb9d5b8796fa7388a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__DIE_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "edaf7cfa0434a57f9f35a1325e0ca954",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__DIE_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "a867757963b8c6839284d56394bcbde9",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__DIE_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "95f1a904e10b9c3a134e65925fbfcb1f",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__HURT_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "131cb9b808a496a121505e23f7c6b732",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__HURT_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "3276211d6998e0d800252b4da40c22b9",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__HURT_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7dc7c91d5ac34b20bb3e03f8a398bb1e",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__HURT_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "76b95e005530bc8dfa3433b49e1d5504",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__HURT_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9bca403a1b87b928a79ac1511a66d435",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__HURT_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "20ebb011c05f0c2915bb81bdf8e99031",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__HURT_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "ca6a5996471a2da147cac7d9824cbc34",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__HURT_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "787ebb4ebbe2c7031c083a565053fd36",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__HURT_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "f46cf4647cf28813d7d9bb393e4942f7",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__HURT_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "91b8d5744c8e1361bc8f4c6fa8e08da4",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__IDLE_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7cb623579bdb0a8ed575bc5ae401d132",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__IDLE_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "237c11d6a6dfc453cd074306b73b6806",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__IDLE_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "a7b9c2d11b7c2b2216084ceb88836c82",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__IDLE_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "3707e75cf14681e7aa1d001c4281b48d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__IDLE_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6ca5fadc1e867b19c61685b526d6408e",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__IDLE_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "691ad66780933af0b67033c035ff411e",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__IDLE_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c482158d9d01bd9e7c91680b97ef4c19",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__IDLE_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c3ce4e6d9a563088d41727aef843cd45",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__IDLE_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4596d07bed9d6d9c46af1940baba1607",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__IDLE_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d8cc5ff4a547acd0b7e3e5128724cb0c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__JUMP_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "bec3669b4f96a3f075627173b5cd361c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__JUMP_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "1e88769da6dd30ebf90c070c98898cf5",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__JUMP_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "93f6d95067cb8608826a7c97c0686f75",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__JUMP_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "b8b260bdf557e1a9ace0861592486a80",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__JUMP_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "b665d33cff07dbd4b45ccb3eb7c46d40",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__JUMP_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "320da5960b3a07f06759fba0b0a3227c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__JUMP_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c96e41e8441f61e8e66fc64b802db766",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__JUMP_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4f4ad9340ff574add530924a1cd1164f",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__JUMP_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4f90d7e1ad238f08e8e949e725c2a361",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__JUMP_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "bb45a52bb824c16ad34a2eb1d5510b9d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__RUN_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "98a4264e49998884108d0cf4d9e00c16",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__RUN_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "f2384d5fb6d4c5f81ec77d0872db5fb1",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__RUN_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "dd88b34b0d8e75aec8cb0c380a707c24",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__RUN_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8a4d1541685fd0afd39b89cd57e7d4ba",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__RUN_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "cd3320dbafb40fd3e4f2bf6a3fa8c772",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__RUN_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4139c6d3ff4081be9d5d662fcfe03e63",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__RUN_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "fa6c01923d6e36994a314e36ed12b010",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__RUN_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "2ebdd320ff008e824b46f7bf4190cbdb",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__RUN_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "654db4171f45c6dbe71d53c0a33a6446",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__RUN_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "e04ffe1f3b0082aa403b32afab4748bc",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__WALK_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "ee5f11e611ee4d7937e69ab3ce55472e",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__WALK_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "2588703658c4e0fd2da4d0e66d7fa58b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__WALK_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "2795d2af9270591b1fa2b8812f4a9a1d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__WALK_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4b7ac6be05c40846d4952da9338de671",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__WALK_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "cb6761025d92f84698748f936d11f7b3",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__WALK_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "57c3e56a4c36a6e3b25673c0987cd68a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__WALK_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d28aaee221e4db047cfceb56adb91438",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__WALK_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7a0c0f804abc6ce01bf74bc47009ab36",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__WALK_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "5b70727a16ac3a069495effea9fd87ec",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/2_KNIGHT/Knight_02__WALK_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "93a0599d717db2004d6b113b50a3710d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__ATTACK_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "1c84a7dec1253a191d5d21bf7b98e068",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__ATTACK_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "f23aa71e686ed5190900b9891e96084d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__ATTACK_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6234e678df6eccc56e675505827f812a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__ATTACK_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "04045633f3209b4a8083b6ae877c4175",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__ATTACK_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "079661b32eaf60fa5561a411f1d177dc",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__ATTACK_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "e554c0dd1a081f8c94b43cfc0f12fe23",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__ATTACK_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "21f438ddc59d61730a4d2faea746eab6",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__ATTACK_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d18d5dd0c95c49ce10407f6f9a33fe0d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__ATTACK_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "666b08c071900671a04cffe4d22d8704",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__ATTACK_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "3210a63a50ee074281cfe9351d6c1e77",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__DIE_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "17b0aa1e5067727b0c6b55eae009ddd0",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__DIE_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "2df98a9782025b854465d1af029b02b0",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__DIE_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6b0b512bdd936155ef1e2de3eb000edb",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__DIE_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "0753e5549aa93cdc8e4cfecb639d5129",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__DIE_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "cd40e0558a5f16fac33dae194d4a2de5",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__DIE_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "93b352d89345c08cf3245aec4c89f52f",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__DIE_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "24577b5055959b7fea5044eab2b4b75c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__DIE_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7b36c9110ed76321cb5cc0a851692790",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__DIE_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "90c036b6cd83e6a643f7bdf5673e3a06",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__DIE_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "efe3f06ac58ed7d772eb174ea5688955",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__HURT_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9d8ddbf51770be342881e156991d697f",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__HURT_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d103489854b4985183655480ff00dd81",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__HURT_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "94ead3512c4382c478c8221ec4a7dc89",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__HURT_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "08294996fd365ff9f59f167d17a9e6e4",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__HURT_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "0f0339265ea28dc76bb4209876a7aa10",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__HURT_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8d4fe7b2a2d79b19569539397149c57f",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__HURT_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9468400d6207c0758128e4e6d018cad8",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__HURT_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6362e7f59d459e05921f9fe4f20a24c0",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__HURT_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "b3b07edfa1bd46d92d320762f18d61c0",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__HURT_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "72a670d442d3234685db78ecd7e1e658",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__IDLE_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d7773c3c80adbd1212e6b181147ae3fa",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__IDLE_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "a87d4f83ff1e55d14e4b5c448225cfe7",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__IDLE_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "fd47c9026d475806572f1f2d42d51e3f",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__IDLE_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "12f283f886ff9b626cc19190ec5282a7",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__IDLE_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9fa2ada231ae1de1b4838afa7a60ff39",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__IDLE_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "480e1d34f8a7fa25b4bcc47c1b25f983",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__IDLE_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4e5bff4142a63ee69e01c1d197ae1510",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__IDLE_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "baeed93ff08dcfdfbc02c07e25459d47",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__IDLE_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "374e054ff35792593d74033399341a6c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__IDLE_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "377cbe7c59e6ba0409d8328a28fcf6ec",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__JUMP_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8da1cd1b08d43f9c12dc2cdbf01be90e",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__JUMP_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c61d9cb4c7602d5278af4eda3c4b3d03",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__JUMP_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "ae3d02063c1263f3cf9b87628a0453cb",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__JUMP_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7f77c9863d3848ef6ca8c20cadfc0451",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__JUMP_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9c95d6aec6de4f6e000c899f6761cfe5",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__JUMP_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "2fae90c15b71122268c3332e9ff36a60",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__JUMP_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7a3c1c37a5806f140e7a31b2e3432352",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__JUMP_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "a6957d56ce6f6c2992a3caa9d044d192",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__JUMP_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7f2315bd5efee890756c6462b6905bd5",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__JUMP_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9694c0dcdf56655d9fa6eb7eb433331c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__RUN_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "f39dc7326c02c14f67bda4e3966bba10",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__RUN_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "405bb04c35c512821c5f4399b4529daf",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__RUN_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "b6a7dc646bdff260e0b44ea34ea895ad",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__RUN_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c6c8bf1abb849f82ed017abfaf82620b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__RUN_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "dcbe7c97adc189da95498e4b973eb3ba",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__RUN_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "1b6745a156ee6455fa822b55d0eb6107",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__RUN_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c9a443ab9acabec22437f012019f91e7",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__RUN_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "aadd1e62694b33deec1a1001531636bd",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__RUN_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4d931a722e01b4be77901eda652a17bb",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__RUN_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4c5d177114ad78d3ffff14f18484a216",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__WALK_000.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "0454373ffb25974be460073b7afa6db1",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__WALK_001.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "3c04434d4869b22692a6d8c34f8429c2",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__WALK_002.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "5f6d49875f4cac8621a66f108aa5ec43",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__WALK_003.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "1bdeb9abf5d9efb542fc64dc5075b504",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__WALK_004.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c79ab3a735de376be2991aad29e0aca7",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__WALK_005.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "a74056c3c3cfff2d3d93a32b83a65994",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__WALK_006.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8b8922fcc1a2356f991f826d3763be80",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__WALK_007.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "b7fd4f867b24f0f052831de4b0d11825",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__WALK_008.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9a96f690099b192c531857a472da4550",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_PNG/3_KNIGHT/Knight_03__WALK_009.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "54e6046473eb38ef967010d83c38e0ae",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/1_KNIGHT/1_body_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "a181d3fecf7106668187260ae195c167",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/1_KNIGHT/1_head_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "1495c53a16fd3d4a5c5315eb3a6c053f",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/1_KNIGHT/1_knight_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "65972b37e95dc74dc0f0476958071a6a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/1_KNIGHT/1_left arm_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "454b92aa803140f93c28aa2f2758d742",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/1_KNIGHT/1_left lag_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6056a7028a7f2623003660773c317e3a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/1_KNIGHT/1_right arm_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "49de993c4c4eb6a26a0fe63f4f9d1ff6",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/1_KNIGHT/1_right lag_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "5f0f3cd6e5bad0d44c22ae4b39218b1d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/1_KNIGHT/1_shield_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "f65571abb954ebf2b5602f35868f7f75",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/1_KNIGHT/1_spear_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "70cd75a2a8abf490c234873771fb6bae",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/2_KNIGHT/2_ax_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "cbadeaf90b5d0c4e5eeee938875a6e29",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/2_KNIGHT/2_body_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6cd33550449ccfc93b474731a2888ad0",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/2_KNIGHT/2_head_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c78eb3a47c4b2b0256b6a0482e35ad7a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/2_KNIGHT/2_knight_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "bb9f537dcd5c4af88be4f6ad3f767ca9",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/2_KNIGHT/2_left arm_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9af4aab1cb395ad23c64212272c74786",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/2_KNIGHT/2_left lag_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9f3d04169bb4df9d59ef11d5df8ef44c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/2_KNIGHT/2_right arm_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "299c3c3ab37713ddac9403c9c9550c56",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/2_KNIGHT/2_right lag_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "caf1eca8104ff9ce9e4d11c8f8723aeb",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/2_KNIGHT/2_shield_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9dcebda8d17dec65229c8bd2ac220c59",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/3_KNIGHT/3_body_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "af6b99f2a614c6426630b09028a0d31d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/3_KNIGHT/3_head_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "998586fd73cd589df08d7d38a128bfab",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/3_KNIGHT/3_knight_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c079e95aa752c56cf4eb757590437329",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/3_KNIGHT/3_left arm_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8a595fe37d59ce649b733d1af41ab394",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/3_KNIGHT/3_left lag_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "410d53218dade170326689a9e1d62b18",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/3_KNIGHT/3_right arm_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "3c4a8b2cc939e0e7fee173dfdb9282c6",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/3_KNIGHT/3_right lag_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "40f691d5ac1e3721679713bebe8eaf51",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/3_KNIGHT/3_shield_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "50719bf52542c3402add65ca470d4500",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/craftpix-062999-2d-fantasy-knight-free-sprite-sheets/_SCML/3_KNIGHT/3_sword_.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "a908b19bdd442bbbe2ecb8ebc9b46abc",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/kindpng_129142.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7e07138b67e1e7bbd473fa991aabeb41",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/teamiamgames.png"
+      }
+    ],
+    "version": 1
+  }
+}

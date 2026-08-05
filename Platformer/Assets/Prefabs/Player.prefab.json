@@ -1,0 +1,96 @@
+{
+  "prefab": {
+    "name": "Player",
+    "rootGameObject": {
+      "active": true,
+      "children": [],
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -25.5,
+            "y": 20.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFFFFF",
+          "enabled": true,
+          "flipX": false,
+          "flipY": false,
+          "orderInLayer": 1,
+          "pivot": {
+            "x": 0.6,
+            "y": 0.5
+          },
+          "size": {
+            "x": 18.0,
+            "y": 12.0
+          },
+          "sortingLayer": "Default",
+          "texturePath": "Assets/Sprites/Knight/Knight_01__IDLE_000.png",
+          "type": "SpriteRenderer"
+        },
+        {
+          "bodyType": "Dynamic",
+          "freezeRotation": true,
+          "gravityScale": 1.0,
+          "linearDrag": 0.0,
+          "type": "Rigidbody2D",
+          "useGravity": true,
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": -1.0,
+            "y": -1.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 4.0,
+            "y": 6.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        },
+        {
+          "class": "Lenga\\Platformer\\Scripts\\Player\\PlayerController",
+          "enabled": true,
+          "properties": {
+            "deadZone": 0.10000000149011612,
+            "jumpSpeed": 130.8820037841797,
+            "speed": 30.0
+          },
+          "type": "Behaviour"
+        },
+        {
+          "clipPath": "",
+          "controllerPath": "Assets/Animation/Knight/KnightAnimationController.controller",
+          "playOnAwake": true,
+          "speed": 1.0,
+          "state": "Idle",
+          "type": "SpriteAnimation"
+        }
+      ],
+      "layer": 1,
+      "name": "Player",
+      "tag": "Player"
+    }
+  }
+}

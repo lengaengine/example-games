@@ -1,0 +1,186 @@
+{
+  "canvases": [],
+  "gameObjects": [
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "localPosition": {
+            "x": 0,
+            "y": 0,
+            "z": 4
+          },
+          "localScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#00BFFF",
+          "size": {
+            "height": 1,
+            "length": 1,
+            "width": 1
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "class": "Sample\\HelloWorld\\Scripts\\CubeController",
+          "properties": {},
+          "type": "Behaviour"
+        }
+      ],
+      "id": "player",
+      "name": "Player",
+      "parentId": null
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "localPosition": {
+            "x": 0,
+            "y": -1,
+            "z": 0
+          },
+          "localScale": {
+            "x": 10,
+            "y": 1,
+            "z": 10
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#EFF1EF",
+          "size": {
+            "length": 50,
+            "width": 50
+          },
+          "type": "PlaneRenderer"
+        }
+      ],
+      "id": "ground",
+      "name": "Ground",
+      "parentId": null
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "localPosition": {
+            "x": 2,
+            "y": 1,
+            "z": 0
+          },
+          "localScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFAA3F",
+          "radius": 1,
+          "type": "SphereRenderer"
+        }
+      ],
+      "id": "ball",
+      "name": "Ball",
+      "parentId": null
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "localPosition": {
+            "x": 0,
+            "y": 0,
+            "z": 2
+          },
+          "localScale": {
+            "x": 2,
+            "y": 2,
+            "z": 2
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FF4500",
+          "meshPath": "samples/HelloWorld/Assets/Models/Mechron/Meshy_AI_Animation_Walking_frame_rate_60.fbx.obj",
+          "type": "MeshRenderer"
+        }
+      ],
+      "id": "enemy",
+      "name": "Enemy",
+      "parentId": null
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": -29.999996185302734,
+            "y": 45.000003814697266,
+            "z": -2.8102596161261317e-07
+          },
+          "localPosition": {
+            "x": 7.348468780517578,
+            "y": 6.5,
+            "z": 7.348468780517578
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "enabled": true,
+          "fieldOfView": 45.0,
+          "id": "camera",
+          "orthographicSize": 10.0,
+          "primary": true,
+          "projection": "Perspective",
+          "type": "Camera"
+        }
+      ],
+      "id": "main-camera",
+      "layer": 0,
+      "name": "Main Camera",
+      "parentId": null,
+      "tag": "Untagged"
+    }
+  ],
+  "scene": {
+    "ambientLightColor": "#FFFFFF",
+    "ambientLightIntensity": 0.2199999988079071,
+    "lighting2DEnabled": false,
+    "name": "Level 1",
+    "skyboxPath": "",
+    "version": 1
+  }
+}

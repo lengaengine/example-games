@@ -1,0 +1,11 @@
+{
+  "material": {
+    "name": "Ground",
+    "version": 1,
+    "shader": "Lit"
+  },
+  "baseColor": "#445A70FF",
+  "specularStrength": 0.18,
+  "smoothness": 0.24,
+  "baseTexturePath": ""
+}

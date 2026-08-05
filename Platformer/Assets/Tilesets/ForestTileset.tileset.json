@@ -1,0 +1,326 @@
+{
+  "slice": {
+    "frameHeight": 63,
+    "frameWidth": 72,
+    "marginX": 0,
+    "marginY": 0,
+    "spacingX": 0,
+    "spacingY": 0
+  },
+  "textureAssetId": "597935dae8dc7a33eee8545fc0873c04",
+  "texturePath": "",
+  "tiles": [
+    {
+      "collision": "Solid",
+      "id": "r00c00",
+      "name": "r00c00",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "collision": "Solid",
+      "id": "r00c01",
+      "name": "r00c01",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 72.0,
+        "y": 0.0
+      }
+    },
+    {
+      "collision": "Solid",
+      "id": "r00c02",
+      "name": "r00c02",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 144.0,
+        "y": 0.0
+      }
+    },
+    {
+      "collision": "Solid",
+      "id": "r00c03",
+      "name": "r00c03",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 216.0,
+        "y": 0.0
+      }
+    },
+    {
+      "collision": "Solid",
+      "id": "r00c04",
+      "name": "r00c04",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 288.0,
+        "y": 0.0
+      }
+    },
+    {
+      "collision": "Solid",
+      "id": "r00c05",
+      "name": "r00c05",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 360.0,
+        "y": 0.0
+      }
+    },
+    {
+      "collision": "Solid",
+      "id": "r00c06",
+      "name": "r00c06",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 432.0,
+        "y": 0.0
+      }
+    },
+    {
+      "collision": "Solid",
+      "id": "r01c00",
+      "name": "r01c00",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 0.0,
+        "y": 63.0
+      }
+    },
+    {
+      "collision": "Solid",
+      "id": "r01c01",
+      "name": "r01c01",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 72.0,
+        "y": 63.0
+      }
+    },
+    {
+      "collision": "None",
+      "id": "r01c02",
+      "name": "r01c02",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 144.0,
+        "y": 63.0
+      }
+    },
+    {
+      "collision": "None",
+      "id": "r01c03",
+      "name": "r01c03",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 216.0,
+        "y": 63.0
+      }
+    },
+    {
+      "collision": "None",
+      "id": "r01c04",
+      "name": "r01c04",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 288.0,
+        "y": 63.0
+      }
+    },
+    {
+      "collision": "None",
+      "id": "r01c05",
+      "name": "r01c05",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 360.0,
+        "y": 63.0
+      }
+    },
+    {
+      "collision": "Solid",
+      "id": "r01c06",
+      "name": "r01c06",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 432.0,
+        "y": 63.0
+      }
+    },
+    {
+      "collision": "None",
+      "id": "r02c00",
+      "name": "r02c00",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 0.0,
+        "y": 126.0
+      }
+    },
+    {
+      "collision": "None",
+      "id": "r02c01",
+      "name": "r02c01",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 72.0,
+        "y": 126.0
+      }
+    },
+    {
+      "collision": "None",
+      "id": "r02c02",
+      "name": "r02c02",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 144.0,
+        "y": 126.0
+      }
+    },
+    {
+      "collision": "None",
+      "id": "r02c03",
+      "name": "r02c03",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 216.0,
+        "y": 126.0
+      }
+    },
+    {
+      "collision": "None",
+      "id": "r02c04",
+      "name": "r02c04",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 288.0,
+        "y": 126.0
+      }
+    },
+    {
+      "collision": "None",
+      "id": "r02c05",
+      "name": "r02c05",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 360.0,
+        "y": 126.0
+      }
+    },
+    {
+      "collision": "None",
+      "id": "r02c06",
+      "name": "r02c06",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 432.0,
+        "y": 126.0
+      }
+    },
+    {
+      "collision": "None",
+      "id": "r03c00",
+      "name": "r03c00",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 0.0,
+        "y": 189.0
+      }
+    },
+    {
+      "collision": "None",
+      "id": "r03c01",
+      "name": "r03c01",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 72.0,
+        "y": 189.0
+      }
+    },
+    {
+      "collision": "None",
+      "id": "r03c02",
+      "name": "r03c02",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 144.0,
+        "y": 189.0
+      }
+    },
+    {
+      "collision": "None",
+      "id": "r03c03",
+      "name": "r03c03",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 216.0,
+        "y": 189.0
+      }
+    },
+    {
+      "collision": "None",
+      "id": "r03c04",
+      "name": "r03c04",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 288.0,
+        "y": 189.0
+      }
+    },
+    {
+      "collision": "None",
+      "id": "r03c05",
+      "name": "r03c05",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 360.0,
+        "y": 189.0
+      }
+    },
+    {
+      "collision": "None",
+      "id": "r03c06",
+      "name": "r03c06",
+      "sourceRect": {
+        "height": 63.0,
+        "width": 72.0,
+        "x": 432.0,
+        "y": 189.0
+      }
+    }
+  ],
+  "tileset": {
+    "name": "ForestTileset",
+    "version": 1
+  }
+}

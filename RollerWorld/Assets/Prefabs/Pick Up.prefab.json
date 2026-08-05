@@ -1,0 +1,71 @@
+{
+  "prefab": {
+    "name": "Pickup",
+    "rootGameObject": {
+      "active": true,
+      "children": [],
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 45.0,
+            "y": 45.0,
+            "z": 45.0
+          },
+          "localPosition": {
+            "x": -19.0,
+            "y": 1.0,
+            "z": 14.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F8D66D",
+          "enabled": true,
+          "materialPath": "Assets/Materials/Pickup.material.json",
+          "size": {
+            "height": 1.0,
+            "length": 1.0,
+            "width": 1.0
+          },
+          "type": "CubeRenderer"
+        },
+        {
+          "enabled": true,
+          "isTrigger": true,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "BoxCollider3D"
+        },
+        {
+          "class": "RollerWorld\\Game\\Scripts\\World\\Collectible",
+          "enabled": true,
+          "properties": {
+            "degreesPerSecond": 90.0,
+            "managerObject": {
+              "__lengaRefKind": "GameObject",
+              "sceneObjectId": "game-manager"
+            },
+            "points": 1
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "layer": 0,
+      "name": "Pickup 1",
+      "tag": "Collectible"
+    }
+  }
+}

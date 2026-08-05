@@ -1,0 +1,22 @@
+{
+    "name": "lenga/pong",
+    "type": "project",
+    "require": {
+        "php": "^8.5",
+        "lenga/engine": "dev-develop"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lenga\\Pong\\": "Assets/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../php-engine",
+            "options": {
+                "symlink": false
+            }
+        }
+    ]
+}

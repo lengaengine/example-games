@@ -1,0 +1,245 @@
+{
+  "animationClip": {
+    "events": [],
+    "frames": [
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 256.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 512.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 768.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 1024.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 0.0,
+          "y": 256.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 256.0,
+          "y": 256.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 512.0,
+          "y": 256.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 768.0,
+          "y": 256.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 1024.0,
+          "y": 256.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 0.0,
+          "y": 512.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 256.0,
+          "y": 512.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 512.0,
+          "y": 512.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 768.0,
+          "y": 512.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 1024.0,
+          "y": 512.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 0.0,
+          "y": 768.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 256.0,
+          "y": 768.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 512.0,
+          "y": 768.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 768.0,
+          "y": 768.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 1024.0,
+          "y": 768.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 0.0,
+          "y": 1024.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 256.0,
+          "y": 1024.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 512.0,
+          "y": 1024.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 768.0,
+          "y": 1024.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "sourceRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 1024.0,
+          "y": 1024.0
+        },
+        "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      }
+    ],
+    "framesPerSecond": 12.0,
+    "loop": true,
+    "name": "KavumbiIdle",
+    "spriteSheet": {
+      "frameHeight": 256,
+      "frameWidth": 256,
+      "marginX": 0,
+      "marginY": 0,
+      "maxFrames": 64,
+      "spacingX": 0,
+      "spacingY": 0,
+      "texturePath": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+    }
+  }
+}

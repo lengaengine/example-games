@@ -1,0 +1,109 @@
+{
+  "animationClip": {
+    "frames": [
+      {
+        "sourceRect": {
+          "height": 512.0,
+          "width": 512.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Images/kindpng_129142.png"
+      },
+      {
+        "sourceRect": {
+          "height": 512.0,
+          "width": 512.0,
+          "x": 548.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Images/kindpng_129142.png"
+      },
+      {
+        "sourceRect": {
+          "height": 512.0,
+          "width": 512.0,
+          "x": 1096.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Images/kindpng_129142.png"
+      },
+      {
+        "sourceRect": {
+          "height": 512.0,
+          "width": 512.0,
+          "x": 1644.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Images/kindpng_129142.png"
+      },
+      {
+        "sourceRect": {
+          "height": 512.0,
+          "width": 512.0,
+          "x": 2192.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Images/kindpng_129142.png"
+      },
+      {
+        "sourceRect": {
+          "height": 512.0,
+          "width": 512.0,
+          "x": 0.0,
+          "y": 512.0
+        },
+        "texturePath": "Assets/Images/kindpng_129142.png"
+      },
+      {
+        "sourceRect": {
+          "height": 512.0,
+          "width": 512.0,
+          "x": 548.0,
+          "y": 512.0
+        },
+        "texturePath": "Assets/Images/kindpng_129142.png"
+      },
+      {
+        "sourceRect": {
+          "height": 512.0,
+          "width": 512.0,
+          "x": 1096.0,
+          "y": 512.0
+        },
+        "texturePath": "Assets/Images/kindpng_129142.png"
+      },
+      {
+        "sourceRect": {
+          "height": 512.0,
+          "width": 512.0,
+          "x": 1644.0,
+          "y": 512.0
+        },
+        "texturePath": "Assets/Images/kindpng_129142.png"
+      },
+      {
+        "sourceRect": {
+          "height": 512.0,
+          "width": 512.0,
+          "x": 2192.0,
+          "y": 512.0
+        },
+        "texturePath": "Assets/Images/kindpng_129142.png"
+      }
+    ],
+    "framesPerSecond": 12.0,
+    "loop": true,
+    "name": "Megaman Running",
+    "spriteSheet": {
+      "frameHeight": 512,
+      "frameWidth": 512,
+      "marginX": 0,
+      "marginY": 0,
+      "maxFrames": 64,
+      "spacingX": 36,
+      "spacingY": 0,
+      "texturePath": "Assets/Images/kindpng_129142.png"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "66ebafbb6f84d560d213c64538d498fe",
+    "packages": [
+        {
+            "name": "lenga/engine",
+            "version": "dev-develop",
+            "dist": {
+                "type": "path",
+                "url": "../../php-engine",
+                "reference": "0b7dd7db0e3c05ee90438b173914fc99bf22ffa2"
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": "^8.5"
+            },
+            "require-dev": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "ext-tokenizer": "*",
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
+                "phpunit/phpunit": "^11.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lenga\\Engine\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Lenga\\Engine\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "phpunit"
+                ]
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Lenga Engine PHP runtime bindings",
+            "transport-options": {
+                "symlink": false,
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "lenga/engine": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.5"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}

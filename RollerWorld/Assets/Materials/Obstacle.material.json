@@ -1,0 +1,11 @@
+{
+  "material": {
+    "name": "Obstacle",
+    "version": 1,
+    "shader": "Lit"
+  },
+  "baseColor": "#3A4E63FF",
+  "specularStrength": 0.28,
+  "smoothness": 0.38,
+  "baseTexturePath": ""
+}

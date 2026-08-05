@@ -1,0 +1,10 @@
+{
+  "fragmentPath": "Assets/Shaders/PickupBands.frag",
+  "shader": {
+    "domain": "Surface3D",
+    "name": "PickupBands",
+    "surfaceMode": "Unlit",
+    "version": 1
+  },
+  "vertexPath": "Assets/Shaders/PickupBands.vert"
+}

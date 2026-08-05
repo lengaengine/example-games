@@ -1,0 +1,98 @@
+{
+  "assetImports": {
+    "assets": [
+      {
+        "assetImport": {
+          "assetId": "191f2d8c5a2d25873e10a9f24d98e943",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Audio/SFX/ribhavagrawal-coin-recieved-230517.mp3"
+      },
+      {
+        "assetImport": {
+          "assetId": "051543ef1d408ad42b5624f1b994b4fa",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Audio/SFX/sfx-marble-rolling.wav"
+      },
+      {
+        "assetImport": {
+          "assetId": "62b63ee71034569573e5bcd8de72efb9",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Audio/SFX/skateboard.mp3"
+      },
+      {
+        "assetImport": {
+          "assetId": "b2192bf94e4c913e9ae31cad1b8bf7cd",
+          "model": {
+            "loop": true,
+            "playOnAwake": true,
+            "playbackFps": 30.0,
+            "speed": 1.0
+          },
+          "type": "Model",
+          "version": 2
+        },
+        "path": "Assets/Models/Mechron/Meshy_AI_Animation_Walking_frame_rate_60.fbx.obj"
+      },
+      {
+        "assetImport": {
+          "assetId": "87565677903d9056fd8b436c61be3246",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Models/Mechron/Meshy_AI_texture_0_metallic.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "2dc2bce18eb35eb731f211e60ca9c238",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Models/Mechron/Meshy_AI_texture_0_normal.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "f8bb1a69cfd691863b2ab55614750fa7",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Models/Mechron/Meshy_AI_texture_0_roughness.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "81521b1e46a0d70bcc8fff3911d9fc48",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Models/Roller/Meshy_AI_A_mystical_azure_blue_0513201120_texture_obj/Meshy_AI_A_mystical_azure_blue_0513201120_texture.png"
+      }
+    ],
+    "version": 1
+  }
+}

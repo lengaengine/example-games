@@ -1,0 +1,11 @@
+{
+  "baseColor": "#C1C2C2",
+  "baseTexturePath": "",
+  "material": {
+    "name": "Boundary",
+    "shader": "Lit",
+    "version": 1
+  },
+  "smoothness": 0.18000000715255737,
+  "specularStrength": 0.11999999731779099
+}

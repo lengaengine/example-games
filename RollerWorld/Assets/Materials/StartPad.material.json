@@ -1,0 +1,11 @@
+{
+  "material": {
+    "name": "StartPad",
+    "version": 1,
+    "shader": "Lit"
+  },
+  "baseColor": "#116D7AFF",
+  "specularStrength": 0.35,
+  "smoothness": 0.52,
+  "baseTexturePath": ""
+}

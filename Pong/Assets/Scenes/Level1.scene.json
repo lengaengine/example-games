@@ -1,0 +1,982 @@
+{
+  "canvases": [
+    {
+      "elements": [
+        {
+          "alignment": "left",
+          "children": [],
+          "color": "#FFFFFF",
+          "enabled": true,
+          "fontSize": 64.0,
+          "id": "text",
+          "name": "Player 1 Score",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 320.0,
+              "y": 32.0
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 160.0,
+              "y": 64.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "0",
+          "type": "Text",
+          "visible": true
+        },
+        {
+          "children": [],
+          "color": "#FFFFFF",
+          "enabled": true,
+          "fontSize": 64.0,
+          "id": "text-1",
+          "name": "Player 2 Score",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "anchoredPosition": {
+              "x": 960.0,
+              "y": 32.0
+            },
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 160.0,
+              "y": 64.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "0",
+          "type": "Text",
+          "visible": true
+        },
+        {
+          "alignment": "center",
+          "children": [],
+          "color": "#D17E00",
+          "enabled": true,
+          "fontSize": 128.0,
+          "id": "text-2",
+          "name": "Start Countdown",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchoredPosition": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 128.0,
+              "y": 128.0
+            }
+          },
+          "sortOrder": 10,
+          "text": "3",
+          "type": "Text",
+          "visible": true
+        }
+      ],
+      "enabled": true,
+      "id": "canvas",
+      "matchWidthOrHeight": 0.0,
+      "name": "HUD",
+      "referenceResolution": {
+        "x": 1280.0,
+        "y": 720.0
+      },
+      "renderMode": "ScreenSpaceOverlay",
+      "sortOrder": 0,
+      "visible": true
+    },
+    {
+      "elements": [
+        {
+          "alignment": "center",
+          "children": [],
+          "color": "#FFFFFF",
+          "enabled": true,
+          "fontPath": "",
+          "fontSize": 48.0,
+          "id": "text-3",
+          "name": "Pause Text",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchoredPosition": {
+              "x": -300.0,
+              "y": -160.0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 160.0,
+              "y": 48.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "PAUSED",
+          "type": "Text",
+          "visible": true
+        },
+        {
+          "backgroundColor": "#1D1C1C",
+          "children": [],
+          "disabledColor": "#384252B4",
+          "enabled": true,
+          "fontPath": "",
+          "fontSize": 24.0,
+          "hoverColor": "#FFFFFFCD",
+          "id": "button",
+          "interactable": true,
+          "name": "Resume Button",
+          "pressedColor": "#183A61",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchoredPosition": {
+              "x": -300.0,
+              "y": -93.0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 180.0,
+              "y": 44.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "RESUME",
+          "textColor": "#FFFFFF",
+          "type": "Button",
+          "visible": true
+        },
+        {
+          "backgroundColor": "#1D1C1C",
+          "children": [],
+          "disabledColor": "#384252B4",
+          "enabled": true,
+          "fontPath": "",
+          "fontSize": 24.0,
+          "hoverColor": "#3066A8",
+          "id": "button-1",
+          "interactable": true,
+          "name": "Quit Button",
+          "pressedColor": "#183A61",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchoredPosition": {
+              "x": -300.0,
+              "y": -30.0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 180.0,
+              "y": 44.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "QUIT",
+          "textColor": "#FFFFFF",
+          "type": "Button",
+          "visible": true
+        }
+      ],
+      "enabled": true,
+      "id": "canvas-1",
+      "matchWidthOrHeight": 0.0,
+      "name": "Pause Menu",
+      "referenceResolution": {
+        "x": 1280.0,
+        "y": 720.0
+      },
+      "renderMode": "ScreenSpaceOverlay",
+      "sortOrder": 0,
+      "visible": true
+    },
+    {
+      "elements": [
+        {
+          "children": [],
+          "color": "#FFFFFF",
+          "enabled": true,
+          "fontPath": "",
+          "fontSize": 48.0,
+          "id": "text-4",
+          "name": "Winner Message",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchoredPosition": {
+              "x": 300.0,
+              "y": -160.0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 320.0,
+              "y": 48.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "PLAYER # WINS!",
+          "type": "Text",
+          "visible": true
+        },
+        {
+          "backgroundColor": "#1D1C1C",
+          "children": [],
+          "disabledColor": "#384252B4",
+          "enabled": true,
+          "fontPath": "",
+          "fontSize": 24.0,
+          "hoverColor": "#3066A8",
+          "id": "button-2",
+          "interactable": true,
+          "name": "Play Again Button",
+          "pressedColor": "#183A61",
+          "rectTransform": {
+            "anchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "anchoredPosition": {
+              "x": 300.0,
+              "y": -90.0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "sizeDelta": {
+              "x": 180.0,
+              "y": 44.0
+            }
+          },
+          "sortOrder": 0,
+          "text": "PLAY AGAIN",
+          "textColor": "#FFFFFF",
+          "type": "Button",
+          "visible": true
+        }
+      ],
+      "enabled": true,
+      "id": "canvas-2",
+      "matchWidthOrHeight": 0.0,
+      "name": "Game Over Menu",
+      "referenceResolution": {
+        "x": 1280.0,
+        "y": 720.0
+      },
+      "renderMode": "ScreenSpaceOverlay",
+      "sortOrder": 0,
+      "visible": true
+    }
+  ],
+  "gameObjects": [
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "enabled": true,
+          "fieldOfView": 45.0,
+          "orthographicSize": 25.0,
+          "primary": true,
+          "projection": "Orthographic",
+          "type": "Camera"
+        }
+      ],
+      "id": "main-camera",
+      "layer": 0,
+      "name": "Main Camera",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "class": "Lenga\\Pong\\Scripts\\LevelController",
+          "enabled": true,
+          "properties": {
+            "aiPaddle": null,
+            "ball": {
+              "__lengaRefKind": "GameObject",
+              "sceneObjectId": "circle"
+            },
+            "difficulty": "Medium",
+            "gameOverMenu": null,
+            "pauseMenu": null,
+            "playAgainButton": null,
+            "quitButton": null,
+            "resumeButton": null,
+            "startCountdownSeconds": 3.0,
+            "targetScore": 10
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "gameobject",
+      "layer": 0,
+      "name": "Game Manager",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -40.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 10.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFFFFF",
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "type": "RectangleRenderer"
+        },
+        {
+          "class": "Lenga\\Pong\\Scripts\\Paddle",
+          "enabled": true,
+          "properties": {
+            "aiDeadZone": 0.35,
+            "aiErrorMargin": 0.9,
+            "aiReactionRate": 7.0,
+            "axisName": "P1 Vertical",
+            "isAiDriven": false,
+            "speed": 2.0,
+            "trackedBallName": "Ball"
+          },
+          "type": "Behaviour"
+        },
+        {
+          "bodyType": "Kinematic",
+          "freezeRotation": true,
+          "gravityScale": 1.0,
+          "linearDrag": 0.0,
+          "type": "Rigidbody2D",
+          "useGravity": false,
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "isTrigger": false,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        }
+      ],
+      "id": "player",
+      "name": "P1 Paddle",
+      "parentId": null,
+      "tag": "Player"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 40.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 10.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFFFFF",
+          "enabled": true,
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        },
+        {
+          "class": "Lenga\\Pong\\Scripts\\Paddle",
+          "enabled": true,
+          "properties": {
+            "aiDeadZone": 0.35,
+            "aiErrorMargin": 0.9,
+            "aiReactionRate": 7.0,
+            "axisName": "P2 Vertical",
+            "isAiDriven": true,
+            "speed": 2.0,
+            "trackedBallName": "Ball"
+          },
+          "type": "Behaviour"
+        },
+        {
+          "bodyType": "Kinematic",
+          "collisionDetection": "Discrete",
+          "enabled": true,
+          "freezeRotation": true,
+          "gravityScale": 1.0,
+          "linearDrag": 0.0,
+          "type": "Rigidbody2D",
+          "useGravity": false,
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ],
+      "id": "quad-3",
+      "layer": 0,
+      "name": "P2 Paddle",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFFFFF",
+          "orderInLayer": 0,
+          "radius": 1.0,
+          "sortingLayer": "Default",
+          "type": "CircleRenderer"
+        },
+        {
+          "bodyType": "Dynamic",
+          "gravityScale": 1.0,
+          "linearDrag": 0.0,
+          "type": "Rigidbody2D",
+          "useGravity": false,
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "isTrigger": false,
+          "materialPath": "Assets/Material/BouncyMaterial2D.physics-material2d.json",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "radius": 1.0,
+          "type": "CircleCollider2D"
+        },
+        {
+          "class": "Lenga\\Pong\\Scripts\\Ball",
+          "enabled": true,
+          "properties": {
+            "audioSource": null,
+            "xVelocity": 50.0,
+            "yVelocity": 25.0
+          },
+          "type": "Behaviour"
+        },
+        {
+          "clipPath": "Assets/Audio/retro-pong-hit-sfx.wav",
+          "enabled": true,
+          "loop": false,
+          "pitch": 1.0,
+          "playOnAwake": false,
+          "type": "AudioSource",
+          "volume": 1.0
+        },
+        {
+          "alignment": "View",
+          "autodestruct": false,
+          "emitting": true,
+          "enabled": true,
+          "endColor": "#FFFFFF00",
+          "endWidth": 0.0,
+          "id": "trailrenderer",
+          "maxPoints": 512,
+          "minVertexDistance": 0.0,
+          "orderInLayer": 0,
+          "sortingLayer": "Default",
+          "startColor": "#FFFFFF",
+          "startWidth": 1.0,
+          "time": 0.5,
+          "type": "TrailRenderer",
+          "widthMultiplier": 1.0
+        }
+      ],
+      "id": "circle",
+      "layer": 0,
+      "name": "Ball",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": -25.5,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FF001D",
+          "orderInLayer": 0,
+          "size": {
+            "x": 100.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 100.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        }
+      ],
+      "id": "quad",
+      "layer": 0,
+      "name": "Top Boundary",
+      "parentId": "gameobject-1",
+      "tag": "Boundary"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        }
+      ],
+      "id": "gameobject-1",
+      "layer": 0,
+      "name": "Boundaries",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 25.5,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FF0000",
+          "orderInLayer": 0,
+          "size": {
+            "x": 100.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 100.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        }
+      ],
+      "id": "quad-1",
+      "layer": 0,
+      "name": "Bottom Boundary",
+      "parentId": "gameobject-1",
+      "tag": "Boundary"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -45.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FF0000",
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 49.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "isTrigger": true,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 49.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        }
+      ],
+      "id": "quad-1-1",
+      "layer": 0,
+      "name": "Left Boundary",
+      "parentId": "gameobject-1",
+      "tag": "Boundary"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 45.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FF0000",
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 49.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "isTrigger": true,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 49.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        }
+      ],
+      "id": "quad-2",
+      "layer": 0,
+      "name": "Right Boundary",
+      "parentId": "gameobject-1",
+      "tag": "Boundary"
+    }
+  ],
+  "scene": {
+    "ambientLightColor": "#FFFFFF",
+    "ambientLightIntensity": 0.22,
+    "backgroundColor": "#000000",
+    "backgroundLayers": [
+      {
+        "depthPreset": "Fixed",
+        "imagePath": "Assets/Images/Backdrop.png",
+        "space": "Screen"
+      }
+    ],
+    "dimension": "2D",
+    "lighting2DEnabled": false,
+    "name": "Level",
+    "skyboxPath": "",
+    "version": 1
+  }
+}

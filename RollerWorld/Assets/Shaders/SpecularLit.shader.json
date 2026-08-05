@@ -1,0 +1,10 @@
+{
+  "fragmentPath": "Assets/Shaders/SpecularLit.frag",
+  "shader": {
+    "domain": "Surface3D",
+    "name": "SpecularLit",
+    "surfaceMode": "Lit",
+    "version": 1
+  },
+  "vertexPath": "Assets/Shaders/SpecularLit.vert"
+}

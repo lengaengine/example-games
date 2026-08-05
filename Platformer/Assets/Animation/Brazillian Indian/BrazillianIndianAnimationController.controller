@@ -1,0 +1,57 @@
+{
+  "animationController": {
+    "defaultState": "Idle",
+    "name": "BrazillianIndianAnimationController",
+    "parameters": [
+      {
+        "defaultValue": false,
+        "name": "IsRunning",
+        "type": "Bool"
+      },
+      {
+        "defaultValue": false,
+        "name": "IsDashing",
+        "type": "Bool"
+      },
+      {
+        "name": "Melee Attack 1",
+        "type": "Trigger"
+      }
+    ],
+    "states": [
+      {
+        "clipPath": "Assets/Animation/Brazillian Indian/BrazillianIndianIdle.anim",
+        "name": "Idle",
+        "transitions": [
+          {
+            "comparison": "If",
+            "conditionType": "Parameter",
+            "parameter": "IsRunning",
+            "toState": "Run"
+          },
+          {
+            "comparison": "If",
+            "conditionType": "Parameter",
+            "parameter": "IsRunning",
+            "toState": "Dash"
+          }
+        ]
+      },
+      {
+        "clipPath": "Assets/Animation/Brazillian Indian/BrazillianIndianRun.anim",
+        "name": "Run",
+        "transitions": []
+      },
+      {
+        "clipPath": "Assets/Animation/Brazillian Indian/BrazillianIndianJump.anim",
+        "name": "Jump",
+        "transitions": []
+      },
+      {
+        "clipPath": "",
+        "name": "State4",
+        "transitions": []
+      }
+    ]
+  }
+}

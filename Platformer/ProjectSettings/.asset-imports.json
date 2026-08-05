@@ -1,0 +1,3021 @@
+{
+  "assetImports": {
+    "assets": [
+      {
+        "assetImport": {
+          "assetId": "d25b76f61ecc14f67787fa9116bac99b",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Audio/BGM/Knight of the Green Medow.mp3"
+      },
+      {
+        "assetImport": {
+          "assetId": "271d3d0a4c338a45cad81ef2352dc82c",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Audio/BGM/Zambezi Madness Title Theme - A.wav"
+      },
+      {
+        "assetImport": {
+          "assetId": "112ec27982552ad1f834f16cf191ccdd",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Audio/BGM/Zambezi Madness Title Theme - B.wav"
+      },
+      {
+        "assetImport": {
+          "assetId": "918dbca5991a483bde1e8fe14e6f3b27",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Audio/SFX/zambezi_button_focus_v2_carved_wood.wav"
+      },
+      {
+        "assetImport": {
+          "assetId": "26bba0f3a930808fbc1164c53aedccbf",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Audio/SFX/zambezi_button_focus_v2_soft_leaf_pop.wav"
+      },
+      {
+        "assetImport": {
+          "assetId": "90e10a9e6bc63d59be7e580a6635fb66",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Audio/SFX/zambezi_button_focus_v2_wood_marimba.wav"
+      },
+      {
+        "assetImport": {
+          "assetId": "6a1566aa4f71f993227df2e98f937dd1",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/Heart - Half.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "f3e91dceb637861b37425a009106f06b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/Scene Backdrop (Default).png"
+      },
+      {
+        "assetImport": {
+          "assetId": "efdf6f5c85867e2226c65893cbe07aac",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/Scene Backdrop 1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "db49d7fa67aee639cf15776c36843d81",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/Scene Backdrop 2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "0d45aa00f4c54b3ca7d8d4f7fb2c64f1",
+          "texture": {
+            "filter": "Point"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/Scene Tileset (Default).png"
+      },
+      {
+        "assetImport": {
+          "assetId": "2e64bb989033c3048bc555c778c86ef3",
+          "texture": {
+            "filter": "Point"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Brazilian Indian/Indian - Sprites.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "128f69fffb9eefc8654b4c4cd25c3a4b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Kavumbi/Kavumbi-attack (1).png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6e8219a819e8d1aa17651dd0696476d1",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Kavumbi/Kavumbi-attack.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "f14b0a921d1c0932710e23fd0cf5d629",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Kavumbi/Kavumbi-dash.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "44272b62dccb7309cc9d32317fe148b1",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d188726750025fa89ec0437439f882be",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Kavumbi/Kavumbi-idle.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "004a4ae1a968cad95ce08fb90c6e087a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Kavumbi/Kavumbi-jump.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "173511cd3148b39fbfe754a00118dfdb",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Kavumbi/Kavumbi-walk.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "846e42e15935161759f9714b28b1ce73",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Kavumbi/kavumbi.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "da4b0c08388e130483bb0ab8f4010c77",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Kavumbi/kavumbix256.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "70d6844569045cbc1a15bb594838d852",
+          "texture": {
+            "filter": "Point"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Spiritual Forest/Lush forest with misty background.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7ae044fcfcdca9addf9472a9e2595dfc",
+          "texture": {
+            "filter": "Point"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Spiritual Forest/Vibrant forest with lush trees.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d3db9518dd637900131b72e484c4240b",
+          "texture": {
+            "filter": "Point"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Spiritual Forest/mountain-range.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "f7d5e30fa563bd11fb7947844027e792",
+          "texture": {
+            "filter": "Point"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Spiritual Forest/sky-bg-2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "28f74d6be55860ffe8d463d19dd5d51a",
+          "texture": {
+            "filter": "Point"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Spiritual Forest/sky-bg.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "203e4fb95631331bcb3553b34102ead7",
+          "texture": {
+            "filter": "Point"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Spiritual Forest/tree-1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "bae9e31904555a82ddbd932dd7c063a4",
+          "texture": {
+            "filter": "Point"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/UI/Button BG - Green (Default).png"
+      },
+      {
+        "assetImport": {
+          "assetId": "de2608cb92bb8e069e275425b344af64",
+          "texture": {
+            "filter": "Point"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/UI/Button BG - Green (Hover).png"
+      },
+      {
+        "assetImport": {
+          "assetId": "68c42a33be39729c4eb992e50ff8f406",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/UI/Button BG - Orange (Default).png"
+      },
+      {
+        "assetImport": {
+          "assetId": "16b9f0c81fdacfd7a43a73d25001e079",
+          "texture": {
+            "filter": "Point"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/UI/Button BG - Orange (Hover).png"
+      },
+      {
+        "assetImport": {
+          "assetId": "a9b2a2ac79097f8a7bb9ba31b8da986e",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/UI/Menu Backdrop (Default).png"
+      },
+      {
+        "assetImport": {
+          "assetId": "386a54c7af3ba06619cfa40e1aae4035",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/UI/default-image.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d448503d6d14496a2aff22c4f2990503",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/UI/heart.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "cfb2c71f6c7a76898ea279ceea6c4704",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Zoipa/Zoipa-cast.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "ebed44b26708a576c67d05b2460bb45d",
+          "texture": {
+            "filter": "Point"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Zoipa/Zoipa-hit_react.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "e9b8c76f199ec5634ce04a8bcb1c1ad5",
+          "texture": {
+            "filter": "Point"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Zoipa/Zoipa-idle.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "0b951fb7ec85c1b31e7aa2ee02e96d9d",
+          "texture": {
+            "filter": "Point"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Zoipa/Zoipa-walk.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d1d8474e546b889ee3d4a624c1acb813",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Zoipa/zoipa-full.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c4fc3df74dbcec6504e3f9eceb3b66fa",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Zoipa/zoipax256.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "597935dae8dc7a33eee8545fc0873c04",
+          "texture": {
+            "filter": "Point"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/forest-tilemap-optimized.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9c3fff1319c1ab892b66511f6155bb7c",
+          "texture": {
+            "filter": "Point"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/forest-tilemap.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c075dcf5e3441e2d1f87fba0f339f92e",
+          "texture": {
+            "filter": "Point"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/test-tileset.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "fea2f7d984de767125fb38e6c1117bad",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_01.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "1d289c2350d9e2939978f8273828c921",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_02.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "925f0a129e9b3a5d67cb5ca26fe12025",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_03.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "51f33d9d01972cdf4eefec35f4a61c47",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_04.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "aa2eea7ffb4b1cd69e5e13998f801fd6",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_05.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "04fa7ca99ed63f3936369adaca66be63",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_06.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "1de411e7119ab11b503dfa7343babe71",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_07.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "dfdaf1d1d088e91f02e50229f2deaa95",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_08.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d9f61b8a012e6473913a6f20e8448192",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_09.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "1dfef21fac3b825ad8c459aea79bfbe4",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_10.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "1f5024250c2d18f10b1a77695a9afba5",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_11.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "87b5d333a3d36f4e2b282abdeaa5547a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_12.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "885dc89f4a0e973167065806ccd1e3b7",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_13.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "e7c4fb00cdde183fb03d66ef0a93c51b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_14.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "39ab98a29ef5dced4aee79ee24a7d36d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_15.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "952aa2703583982505ba0ba39bbed865",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_16.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "2e94f3f508e7a33efa2ab8b3943bd29a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_17.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "282b6bcbb3bbdea98525d32e0ecaef26",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_18.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8a03c8cbfe28ac183614eb388cf25c34",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_19.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "14986947b612d136f717a377d12c8fdd",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_20.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "05b1fda598b5c818de285caf29d4598a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_21.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d2353ab2ad7a66b6eb97d75fec73d7d8",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_22.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "694722c6309fe2017dfb4d35535b4c30",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_23.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d5f67095c37c1bda36f3b924da7a5162",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_24.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8c92fbe94eea57b25294daeff436d2d0",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_25.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "fa670004e99da3f3569b37eb348d4835",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_26.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c22df668a4a2eb8d3a495bf3f5633905",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_27.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d43c59a13ce535b30ea6328ad45a0bac",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_28.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "734caa427b3cb2f11d099bcfeb5f3043",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_29.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "5b50a0a4aeac04c2c9a65650e2dc6d47",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_30.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "07f1a3a43e065b9357155f4906a8d0e1",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_31.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "500036678e244306af63abf87b1d9dba",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_32.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6ff3d2c0cb6848825e5c0b22b3ce164b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_33.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "a046f2dcb5b9a1fc5f329afbaaaf437b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_34.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "915f631cdf3630c66725ca9be023b6cb",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_35.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c1bdfffa1bf41ba4f9ae876bff667be6",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_36.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7ec7f5d35a16bea9a7cf93d047eb1a9e",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_37.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "0729ae05afda858b157823818692eaa8",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_38.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "a75a5efcc26cc45e78258c94a594ea24",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_39.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8d14d32991710a07bc53c297dd5be9e7",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_40.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d6c0a8e0b013b74a13bcd5ff9cd8e135",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_41.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "34ec88da304665742c5639c04e545afb",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_42.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8930e05aa40d95122f9d1a2f677e5688",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_43.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "513d9b33b4c0f7cdd9f3e0dde856a14b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_44.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "cb601c2697f4f799108fac6d89a116e3",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_45.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "2552758f9353cc0ac3451afbb82ce485",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_46.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "742022aa537f0e0188816709d1d3f348",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_47.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "ddafcfcd901b76635e62d48d182b1ad8",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_48.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8288a0008c971af73b71e161cda9e025",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_49.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "1817f8267b533a58820fa7b5e08ac16c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_50.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4e6c05985c1bd464600c918988a520b4",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_51.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4a87f94315ed6642b75db92b6021e20d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_52.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "3fb95e2cabf6bbef336d2b7999426720",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_53.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "55934e8eabb85ec3d20c092b4d4e111d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_54.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "faf2bb5cb4882c546bdf4dbf1669b588",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_55.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "e0edc31e9c8f21006c5f53f2fca9dc13",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_56.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c85e7b74bb2c0353f70df4355332b4f3",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_57.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "5f2b2c43dbc759dee78ab70bcde6f123",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_58.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "a6c3e130bd32f20e038757b9f3bc19ed",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_59.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "637a7fbab49b1f53434dbcfed65b18b8",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_60.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d1cf6a9ff467d3ead80826015be5b861",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_61.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "5da8f5b707f2a8ead050440aa140c10c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_62.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d69592bd787cdbc53c6ee0f0743b27ca",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_63.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "06d0aafdce30d1f8cd3aa3b37b8e663f",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tile_64.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "466e550f423095094ac417219bbd53fa",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tileset1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "27680cdd4330d334dd139f5e7b8621e0",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tileset2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "5fd3b5f3fdd9b6e2ecdb7f93698558dc",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tileset3.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c0cd2fd9218b1c89b7671cb52e172bab",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tileset4.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4c41e38b64c9a0a088c18cf1e7c2a974",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tileset5.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "b69d760f6184931ec743fafe0dee3882",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/1 Tiles/Tileset6.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "2d06deded7e34acc16f180b0c4f17022",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/Prefabs1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d079ffc06fc4082c0e228f0d33c1a94a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/Prefabs2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "72b1b343872f19d0fe9e32e858597cf4",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/Prefabs3.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4faa0bd1d8eea1fd3d9df4b58720393d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/Prefabs4.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "ab5587cb1b6f6971d5c223138249d881",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/Prefabs5.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "445937a774d0908fa65a2de2213bba5c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/Prefabs6.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "739b7322999c8a3c46d421757bfa2db7",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/h1x3.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "22a5b7d0ac24a67b184c37bc84a0404f",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/h1x3_2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9f1057bfcd654c129c63ced2dc5e3d47",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/h1x5.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "754d0a5d0cecb81072a2d0e2845318e9",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/h1x5_2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "769d4f167a0eb5d36dca8cc7c9a7e466",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/h1x7.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "f18e848b07edd4c84fb74ff44643a296",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/h1x7_2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "95bc9bdda40538e3d7111ce1c24de103",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/h1x9.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "e8b1675ad10ec30e3a97c7da5ce31564",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/h1x9_2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "51d0e12f5fbe71c84fd9d85401e6dc1c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/r1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "98d4febfeab527582ade8655c1009361",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/r2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "394ea7b1bf630b96f784f9b98ca901c2",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/r3.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "e3e9b6d2f1aab6f3a2c14989036b81a9",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/r4.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "fdeb10e12860f510d90f116813a78eeb",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/s2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "a3079323e19410bfc505ea58b0295330",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/s3.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7ec64b21fa97816c42cc32b23f82294a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/s4.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d51da46c8be9993a6e9cfa332a584bf6",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/v3x1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "40e68a0515bae284fa88723c9917ec81",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/v3x1_2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c5b570f70ed76bfe967d886d6657fa25",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/v5x1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "3bdc2073686b11bc48afc85a2011df62",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/v5x1_2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "527656605ca2ee75abb2dd0273013458",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/v7x1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "722ad6f3db50ce81645646d7848b7c33",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/v7x1_2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7b7def1ffdecd832bfb1a152195a13f0",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/PipeSet1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9c639b693d15c18a9101bb8703faf345",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/PipeSet2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7e1591d560ba8efa2df7db68009277e6",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/PipeSet3.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "5ca27f91761ad7cdce31b5832807d3a7",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/PipeSet4.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8e7631e48c6794cdaf7974a47747d10a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/PipeSet5.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "5ffbd0c6f4e253cd626707325abd51e6",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/PipeSet6.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "f58e43186477797a4a5726309a77fef9",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_01.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7b8660d39c4b74450bb057a6303fdbcf",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_02.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "800c3169c36bed7d03242f966ccbe2cd",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_03.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "b024db51985b1ce8e8928de6e3c76cab",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_04.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "a671eac680a42d1df6bd96de2e44d180",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_05.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "25feb904680c2636931a63ab25680cd4",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_06.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "fcec90af0af0e94aba66ff5e5969738e",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_07.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "04062bfa2afa94a2e2cca0a2a7b97d1b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_08.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "22534bc2667d999a918eba76e2228a11",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_09.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "baa2e51760c9e30625a598c46a2df50a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_10.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6b12133920ad795ea490596218dd31f0",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_11.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "beb60520c0891be0dc304ab600e5260c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_12.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6914c06fc113f56ab698432b0aa0ab35",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_13.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7be5bd40f9c57e29e748198cd84477e8",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_14.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "a81bad614b71938d0ec95600923a0f75",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_15.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "edab6e25e05422e24299cb4445ba2f37",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_16.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7c2e45b91cbd28b5680251781b961041",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_17.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "2ac374b6a32bf5a9fe12d51d184306b3",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_18.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "f81cba241f04c623d19e05d7490570a0",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_19.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "f05ef45703b96cde852d5d6b1b695688",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_20.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7bc91f07fc4c53e8a078813e0b86cc80",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/3 Pipes/Pipe_21.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "373b16643c7d07a6e63881d157490ec3",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_01.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4949ecf59493e595bf9ba69d0eebd5c2",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_02.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "69b4152a3da4db8cf3c480d1802c56ff",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_03.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "121afa93dde58330fe737361d64e3226",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_04.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4490086f3263d9fe982e0272d01a4acd",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_05.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "fa3d6cefbfca93e9c807e762687e4fd0",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_06.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4763cb7fcb90c4ac9e6c9784d6d7b541",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_07.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "3e2166fe0aea53884a885af65d06d80c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_08.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "a9b6ff4507897af1115cb114ecfb4432",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_09.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "71c0f8737546ae4f4a108c0f6eb8fd42",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_10.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "b1ce5d7d87b5001311d264e4704851ca",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_11.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "33301bb419b51e8a87754521f731fbf6",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_12.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "33292661df39a363e01c7f865dc2dac5",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_13.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6ee1bc0d7697f2e70359cb01bac83f6e",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_14.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "2df8d03e12f89cf1b560b89205edc940",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_15.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "af58dfa04f071c7488e4cf1cb2d7dbd3",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_16.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "3c76bc9718425c538308b590023519a8",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_17.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c8f675368c779de1e5c4a21c6defec99",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_18.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "eba984ed6bf6718e63795b1ccb01b9e9",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_19.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "a0a97b1cf0081dd00ffd427d71dab487",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_20.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "06b0ced778a4468ff25789c00b468c1c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_21.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4c4829a17fca641a6ddd20a9b7cce508",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_22.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "5cc5153074d9d6525b654f4ae5f2c891",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_23.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "402cbc53eeebacbfeeeea9546e478bd8",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_24.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "fdd2328bdab293568f52b2aaebc31889",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_25.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "45b737e0b79208bdd80256330e26b088",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_26.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "82535a81d5da39fa420e4cd23ed13979",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_27.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d3f74bf5aadaebc011568406b04ecde5",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_28.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "eefcc17f3650951f5f9fb02ff9e6fb1b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_29.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "624af36e7ba7aa785bda9a0c6cbc9f81",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_30.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "e2ba7f3189ba6aa7e7f9f95037fe2429",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_31.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "5262d57f49e355a4643eb730c6f4f948",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_32.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "3b4ad1f15c66372dd0418354a3ac364c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_33.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6b7f9d943cbef63f5a8def2b7c716c16",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_34.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8f3ed05198ad035cf3a29884533441e8",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_35.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c5401114843eb6a9b2a085e533d2f106",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTile_36.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "3fd0fac6102c7461a152a68ed4180b8f",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTileset1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "daf594ea65210418a1dcbbd98542b130",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTileset2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "28f2b7c388053dea42632d15bb736c81",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTileset3.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d57d1f27a6fa5be426f4813502130691",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTileset4.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d996ee0cb0c243cc72e017a33e4d72c5",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTileset5.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "3bba52542ed8800f2e49b32de800b9c1",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/4 BackTiles/BackTileset6.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "1dfc78aa91f0d5c235f44967bb9d0431",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Button.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "e4719a19071c4f3ac496c54a76340c07",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Button2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d3f1be99415a1b8b61ffa7e25c79ce50",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Chest.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "bfe2150132c189f7bb00736ddbbc2128",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Door.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4faf8617f40234a0ecfcf6cf5a4869e6",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Door2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7fbc40d460ebf412a2c5fb79c705c098",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Ladder1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "89e1436bf2686548d1346d80caf01e14",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Ladder2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "f166e1992f7b6d1372131482f2999537",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Ladder3.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9f4e3a6c9c734e1d4497920842ecf855",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Ladder4.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "138b70542dd4dc785014a5ae22c9c019",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Ladder5.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "0782f1e12258e5625b207fbdddb1d96d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Ladder6.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d1da2bec53644c2f886fa129914fb692",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Lever.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "1bb2fac047a9034b6d027870dbc5109d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Objects1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "0b28ce474bbfbc6bc1926052eee4b1b5",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Objects2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4148ef9aa662c9fabd4b0d2d40d405cf",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Objects3.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "aa31e2806061feb3079e52665a803241",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Objects4.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "ddec4850ffc0ca71e3c99653774a1efb",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Objects5.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "511536a40d1ec2e4c855da8b3c1b506f",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Objects6.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c97fb95b3ab317a5521195b69719fe9a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Rope1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "80ebd0820ad74dbb31bcdff80132b260",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Rope2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "fdfb1f6298bb8658f0f0851dd400ddbc",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Rope3.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8e45f319c6bcaae0fb72fefe49da3ec5",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Spikes1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9df37194abec29c81f8009cf63c7016c",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Spikes1_2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "28c8979cd1e77a8198216dcac5a8b2c3",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Spikes2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7bfae20f317b7ecfe9000734f3e3c76b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Spikes2_2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "aed81f0a2a7a051609b68f2aaa2679c1",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Spikes3.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "f060a2ba2a2ba3342bdbdd7b37f54705",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Spikes3_2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "1042633ee8ca3062a9bb0deb1f6c8977",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Target.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "37966f152ccff914fd118038dcbbcac4",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Target2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d5cacfc92ce8cfbb55c5c57d69e63d9b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/Target3.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "a2f165efb3e26fd557b0503ee3f71dad",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/5 Objects/TrainingDummy.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "7efe8107e46d3d7b42771486c97a934b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/COUPON.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "15a6dcf2835f61d939d470acc964702d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/Palette.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "66b12152f6010565144c1be38ac48c3d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/BG/BG.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "228b2d27226e0d5a5123df38102e0d97",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Object/Bush (1).png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c514d049da24a69b30a2201cc75e9a5a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Object/Bush (2).png"
+      },
+      {
+        "assetImport": {
+          "assetId": "e3a7264011fd8f715619fcd54f2f76f7",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Object/Bush (3).png"
+      },
+      {
+        "assetImport": {
+          "assetId": "2a60eca0ad401140a51e227712a96d46",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Object/Bush (4).png"
+      },
+      {
+        "assetImport": {
+          "assetId": "dd38cfb9f0513f310774f37757adbcef",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Object/Crate.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4490a8d0a04d400b1ce5dfc3ea8cf765",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Object/Mushroom_1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "410d774911aec831b63603a806c4d18a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Object/Mushroom_2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "139f8c7d3cf4245b59b9fec3793e43bc",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Object/Sign_1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "98667a4a6f88aab9d964014e42df6306",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Object/Sign_2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8acbfcb347578ef2892c739b3d71198a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Object/Stone.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "64793587d37b429f34d1759bd7426172",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Object/Tree_1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "99eff44574cfbbb7165359cd1fcfa34a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Object/Tree_2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c7f6a81670f952e1809218d52ef336b4",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Object/Tree_3.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "48641a974bcd06f227082d9b5081321d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Tiles/1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "f274a5f14f62d3e9a03515f46e198793",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Tiles/10.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "071cd65c1f2d3c0c3ec28fbcce3ca368",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Tiles/11.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "8bf34af9801bd803b9b33128dd9e20d9",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Tiles/12.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9e58502d60bebd04622d56b865182cb9",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Tiles/13.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6597c0f66ff127a262bd2c509ddeea29",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Tiles/14.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "644440c2f4c6c80f4a5c7c3eecfcbe6f",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Tiles/15.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4a2dea5587d907a7fdb1071ddb1e3bff",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Tiles/16.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9a29682dc40da5416a006149af8be243",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Tiles/17.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "e1f0908893aa4b2e6ca9e37edc9665cb",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Tiles/18.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "107a9d3bdee7c5de86a80043aee3a9f4",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Tiles/2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "98a44d9c9868fe3bad070d3de2f50e2b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Tiles/3.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6eb04012268ca8fba4b33f864bba4ff6",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Tiles/4.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "bab0366bbcafcd054b4ffb9551907606",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Tiles/5.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "0d85701c53cc0cf74697b167a5c586bb",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Tiles/6.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c79f1199b5b38ac96f38216cbed86dd0",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Tiles/7.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6cb20af5c27660a645ed0439f7c04eb7",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Tiles/8.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d89e9dc0e689a34d7ed4df4636010f90",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Tilesets/freetileset/png/Tiles/9.png"
+      }
+    ],
+    "version": 1
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "canvases": [],
+  "gameObjects": [
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "localPosition": {
+            "x": 400,
+            "y": 100,
+            "z": 0
+          },
+          "localScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#00BFFF",
+          "size": {
+            "x": 64,
+            "y": 64
+          },
+          "type": "RectangleRenderer"
+        },
+        {
+          "class": "Sample\\HelloWorld\\Scripts\\SquareController",
+          "properties": {},
+          "type": "Behaviour"
+        }
+      ],
+      "id": "player",
+      "name": "Player",
+      "parentId": null
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "localPosition": {
+            "x": 100,
+            "y": 50,
+            "z": 0
+          },
+          "localScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFAA3F",
+          "radius": 16,
+          "size": {
+            "x": 32,
+            "y": 16
+          },
+          "type": "CircleRenderer"
+        }
+      ],
+      "id": "player_weapon",
+      "name": "Weapon",
+      "parentId": "player"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 179.99998474121094,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 442.0,
+            "y": 117.0,
+            "z": -176.2375946044922
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "enabled": true,
+          "fieldOfView": 45.0,
+          "id": "camera",
+          "orthographicSize": 73.0,
+          "primary": true,
+          "projection": "Perspective",
+          "type": "Camera"
+        },
+        {
+          "class": "Sample\\HelloWorld\\Scripts\\CameraFollow",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {},
+          "type": "Behaviour"
+        }
+      ],
+      "id": "main-camera",
+      "layer": 0,
+      "name": "Main Camera",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 442.0,
+            "y": 117.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "class": "Sample\\HelloWorld\\Scripts\\PatrolSettings",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {},
+          "type": "Behaviour"
+        }
+      ],
+      "id": "gameobject",
+      "layer": 0,
+      "name": "Enemy",
+      "parentId": null,
+      "tag": "Untagged"
+    }
+  ],
+  "scene": {
+    "ambientLightColor": "#FFFFFF",
+    "ambientLightIntensity": 0.2199999988079071,
+    "lighting2DEnabled": false,
+    "name": "Main",
+    "skyboxPath": "",
+    "version": 1
+  }
+}

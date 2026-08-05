@@ -1,0 +1,757 @@
+{
+  "canvases": [],
+  "gameObjects": [
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "enabled": true,
+          "fieldOfView": 45.0,
+          "orthographicSize": 28.0,
+          "primary": true,
+          "projection": "Orthographic",
+          "type": "Camera"
+        }
+      ],
+      "id": "main-camera",
+      "layer": 0,
+      "name": "Main Camera",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 24.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 120.0,
+            "y": 4.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#5A4634",
+          "enabled": true,
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        }
+      ],
+      "id": "ground",
+      "layer": 0,
+      "name": "Ground",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -42.0,
+            "y": -10.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 4.0,
+            "y": 4.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#4C78D4",
+          "enabled": true,
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        },
+        {
+          "bodyType": "Kinematic",
+          "collisionDetection": "Discrete",
+          "enabled": true,
+          "freezeRotation": true,
+          "gravityScale": 1.0,
+          "linearDrag": 0.0,
+          "type": "Rigidbody2D",
+          "useGravity": false,
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ],
+      "id": "distance-anchor",
+      "layer": 0,
+      "name": "Distance Anchor",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -34.0,
+            "y": 4.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 4.0,
+            "y": 4.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#A8C4FF",
+          "enabled": true,
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        },
+        {
+          "bodyType": "Dynamic",
+          "collisionDetection": "Discrete",
+          "enabled": true,
+          "freezeRotation": false,
+          "gravityScale": 1.0,
+          "linearDrag": 0.05,
+          "type": "Rigidbody2D",
+          "useGravity": true,
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "anchor": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "autoConfigureConnectedAnchor": false,
+          "autoConfigureDistance": false,
+          "connectedAnchor": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "connectedBodyId": "distance-anchor",
+          "distance": 16.0,
+          "enableCollision": false,
+          "enableLimit": true,
+          "enabled": true,
+          "maxDistance": 16.0,
+          "minDistance": 10.0,
+          "type": "DistanceJoint2D"
+        }
+      ],
+      "id": "distance-bob",
+      "layer": 0,
+      "name": "Distance Bob",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -8.0,
+            "y": -10.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 4.0,
+            "y": 4.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#3F9E5A",
+          "enabled": true,
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        },
+        {
+          "bodyType": "Kinematic",
+          "collisionDetection": "Discrete",
+          "enabled": true,
+          "freezeRotation": true,
+          "gravityScale": 1.0,
+          "linearDrag": 0.0,
+          "type": "Rigidbody2D",
+          "useGravity": false,
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ],
+      "id": "hinge-pivot",
+      "layer": 0,
+      "name": "Hinge Pivot",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -8.0,
+            "y": 2.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 3.0,
+            "y": 12.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#8ED39B",
+          "enabled": true,
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        },
+        {
+          "bodyType": "Dynamic",
+          "collisionDetection": "Discrete",
+          "enabled": true,
+          "freezeRotation": false,
+          "gravityScale": 1.0,
+          "linearDrag": 0.02,
+          "type": "Rigidbody2D",
+          "useGravity": true,
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "anchor": {
+            "x": 0.0,
+            "y": -6.0,
+            "z": 0.0
+          },
+          "autoConfigureConnectedAnchor": false,
+          "connectedAnchor": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "connectedBodyId": "hinge-pivot",
+          "enableCollision": false,
+          "enabled": true,
+          "lowerAngle": -55.0,
+          "maxMotorTorque": 1000.0,
+          "motorSpeed": 90.0,
+          "type": "HingeJoint2D",
+          "upperAngle": 55.0,
+          "useLimits": true,
+          "useMotor": false
+        }
+      ],
+      "id": "hinge-arm",
+      "layer": 0,
+      "name": "Hinge Arm",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 20.0,
+            "y": 10.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 8.0,
+            "y": 4.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#D18F47",
+          "enabled": true,
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        },
+        {
+          "bodyType": "Dynamic",
+          "collisionDetection": "Discrete",
+          "enabled": true,
+          "freezeRotation": false,
+          "gravityScale": 1.0,
+          "linearDrag": 0.03,
+          "type": "Rigidbody2D",
+          "useGravity": true,
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ],
+      "id": "fixed-core",
+      "layer": 0,
+      "name": "Fixed Core",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 20.0,
+            "y": 5.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 6.0,
+            "y": 2.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#F2BE72",
+          "enabled": true,
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        },
+        {
+          "bodyType": "Dynamic",
+          "collisionDetection": "Discrete",
+          "enabled": true,
+          "freezeRotation": false,
+          "gravityScale": 1.0,
+          "linearDrag": 0.03,
+          "type": "Rigidbody2D",
+          "useGravity": true,
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "anchor": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "autoConfigureConnectedAnchor": false,
+          "connectedAnchor": {
+            "x": 0.0,
+            "y": -2.0,
+            "z": 0.0
+          },
+          "connectedBodyId": "fixed-core",
+          "enableCollision": false,
+          "enabled": true,
+          "type": "FixedJoint2D"
+        }
+      ],
+      "id": "fixed-top",
+      "layer": 0,
+      "name": "Fixed Top",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 48.0,
+            "y": 8.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 16.0,
+            "y": 3.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#7848A8",
+          "enabled": true,
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        },
+        {
+          "bodyType": "Kinematic",
+          "collisionDetection": "Discrete",
+          "enabled": true,
+          "freezeRotation": true,
+          "gravityScale": 1.0,
+          "linearDrag": 0.0,
+          "type": "Rigidbody2D",
+          "useGravity": false,
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ],
+      "id": "slider-rail",
+      "layer": 0,
+      "name": "Slider Rail",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 48.0,
+            "y": 2.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 4.0,
+            "y": 4.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#D6A9FF",
+          "enabled": true,
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "type": "RectangleRenderer"
+        },
+        {
+          "enabled": true,
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        },
+        {
+          "bodyType": "Dynamic",
+          "collisionDetection": "Discrete",
+          "enabled": true,
+          "freezeRotation": true,
+          "gravityScale": 1.0,
+          "linearDrag": 0.02,
+          "type": "Rigidbody2D",
+          "useGravity": true,
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "anchor": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "autoConfigureConnectedAnchor": false,
+          "axis": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "connectedAnchor": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "connectedBodyId": "slider-rail",
+          "enableCollision": false,
+          "enabled": true,
+          "lowerTranslation": -8.0,
+          "maxMotorForce": 1000.0,
+          "motorSpeed": 1.0,
+          "type": "SliderJoint2D",
+          "upperTranslation": 8.0,
+          "useLimits": true,
+          "useMotor": false
+        }
+      ],
+      "id": "slider-carriage",
+      "layer": 0,
+      "name": "Slider Carriage",
+      "parentId": null,
+      "tag": "Untagged"
+    }
+  ],
+  "scene": {
+    "ambientLightColor": "#FFFFFF",
+    "ambientLightIntensity": 0.22,
+    "backgroundColor": "#D8E6F7",
+    "backgroundLayers": [],
+    "dimension": "2D",
+    "lighting2DEnabled": false,
+    "name": "Joints2D",
+    "skyboxPath": "",
+    "version": 1
+  }
+}

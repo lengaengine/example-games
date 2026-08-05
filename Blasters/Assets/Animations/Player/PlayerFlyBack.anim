@@ -1,0 +1,29 @@
+{
+  "animationClip": {
+    "events": [],
+    "frames": [
+      {
+        "sourceRect": {
+          "height": 1400.0,
+          "width": 1400.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Sprites/Player Ship/spritesheet.png"
+      }
+    ],
+    "framesPerSecond": 12.0,
+    "loop": true,
+    "name": "PlayerFlyBack",
+    "spriteSheet": {
+      "frameHeight": 1400,
+      "frameWidth": 1400,
+      "marginX": 0,
+      "marginY": 0,
+      "maxFrames": 1,
+      "spacingX": 0,
+      "spacingY": 0,
+      "texturePath": "Assets/Sprites/Player Ship/spritesheet.png"
+    }
+  }
+}

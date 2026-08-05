@@ -1,0 +1,384 @@
+{
+  "canvases": [
+    {
+      "elements": [],
+      "enabled": true,
+      "id": "canvas",
+      "matchWidthOrHeight": 0.0,
+      "name": "HUD",
+      "referenceResolution": {
+        "x": 1280.0,
+        "y": 720.0
+      },
+      "renderMode": "ScreenSpaceOverlay",
+      "sortOrder": 0,
+      "visible": true
+    }
+  ],
+  "gameObjects": [
+    {
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 10.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "fieldOfView": 45.0,
+          "id": "camera",
+          "orthographicSize": 5.0,
+          "primary": true,
+          "projection": "Orthographic",
+          "type": "Camera"
+        }
+      ],
+      "id": "main-camera",
+      "name": "Main Camera"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "class": "Blasters\\Game\\Scripts\\Level\\LevelController",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "boostScrollMultiplier": 2.6,
+            "reverseScrollMultiplier": 0.35,
+            "starScrollSpeed": 120.0
+          },
+          "type": "Behaviour"
+        }
+      ],
+      "id": "gameobject",
+      "layer": 0,
+      "name": "Level Manager",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -6.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFFFFF",
+          "id": "spriterenderer",
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "sourceRect": {
+            "height": 1400.0,
+            "width": 1400.0,
+            "x": 1400.0,
+            "y": 0.0
+          },
+          "texturePath": "Assets/Sprites/Player Ship/spritesheet.png",
+          "type": "SpriteRenderer"
+        },
+        {
+          "class": "Blasters\\Game\\Scripts\\Player\\PlayerController",
+          "enabled": true,
+          "id": "behaviour",
+          "properties": {
+            "deadZone": 0.1,
+            "direction": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "max": {
+              "x": 2.0,
+              "y": 1.0
+            },
+            "min": {
+              "x": -2.0,
+              "y": -1.0
+            },
+            "rollAngle": 45.0,
+            "spawnPoint": {
+              "__lengaRefKind": "Transform",
+              "sceneObjectId": "gameobject-1"
+            },
+            "speed": 10.0
+          },
+          "type": "Behaviour"
+        },
+        {
+          "enabled": true,
+          "id": "boxcollider2d",
+          "isTrigger": false,
+          "materialPath": "",
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        },
+        {
+          "bodyType": "Dynamic",
+          "collisionDetection": "Discrete",
+          "enabled": true,
+          "gravityScale": 1.0,
+          "id": "rigidbody2d",
+          "linearDrag": 0.0,
+          "type": "Rigidbody2D",
+          "useGravity": false,
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "clipPath": "",
+          "controllerPath": "Assets/Animations/Player/PlayerAnimationController.controller",
+          "enabled": true,
+          "id": "spriteanimation",
+          "playOnAwake": true,
+          "speed": 1.0,
+          "state": "",
+          "type": "SpriteAnimation"
+        },
+        {
+          "class": "Blasters\\Game\\Scripts\\Weapons\\Gun",
+          "enabled": true,
+          "id": "behaviour-1",
+          "properties": {},
+          "type": "Behaviour"
+        }
+      ],
+      "id": "sprite",
+      "layer": 0,
+      "name": "Player",
+      "parentId": null,
+      "tag": "Player"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#FFFFFF",
+          "id": "spriterenderer",
+          "orderInLayer": 0,
+          "size": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "sortingLayer": "Default",
+          "texturePath": "Assets/Sprites/asteroid-big.png",
+          "type": "SpriteRenderer"
+        }
+      ],
+      "id": "sprite-1",
+      "layer": 0,
+      "name": "Asteroid",
+      "parentId": null,
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": 1.42681884765625,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        }
+      ],
+      "id": "gameobject-1",
+      "layer": 0,
+      "name": "Spwan Point",
+      "parentId": "sprite",
+      "tag": "Untagged"
+    },
+    {
+      "active": true,
+      "components": [
+        {
+          "id": "transform",
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "emissionAngle": 0.0,
+          "emissionRate": 10.0,
+          "enabled": false,
+          "endColor": "#3952D463",
+          "endSize": 0.10000000149011612,
+          "gravity": {
+            "x": -180.0,
+            "y": 0.0
+          },
+          "id": "particlesystem",
+          "lifetime": 0.25,
+          "looping": true,
+          "maxParticles": 128,
+          "orderInLayer": 0,
+          "playOnAwake": true,
+          "simulationSpace": "Local",
+          "sortingLayer": "Default",
+          "spreadAngle": 45.0,
+          "startColor": "#5FCDFF",
+          "startSize": 0.30000001192092896,
+          "startSpeed": 10.0,
+          "texturePath": "",
+          "type": "ParticleSystem"
+        }
+      ],
+      "id": "particle-system",
+      "layer": 0,
+      "name": "Particle System",
+      "parentId": "sprite",
+      "tag": "Untagged"
+    }
+  ],
+  "scene": {
+    "ambientLightColor": "#FFFFFF",
+    "ambientLightIntensity": 0.2199999988079071,
+    "backgroundColor": "#FFFFFF",
+    "backgroundLayers": [
+      {
+        "depthPreset": "Fixed",
+        "imagePath": "Assets/Sprites/SpaceQuestAssets/layer1.png",
+        "space": "Screen"
+      },
+      {
+        "depthPreset": "Distant",
+        "imagePath": "Assets/Sprites/SpaceQuestAssets/layer2.png",
+        "parallax": {
+          "x": 0.15000000596046448,
+          "y": 0.10000000149011612
+        },
+        "space": "Screen"
+      },
+      {
+        "depthPreset": "Background",
+        "imagePath": "Assets/Sprites/SpaceQuestAssets/layer3.png",
+        "parallax": {
+          "x": 0.30000001192092896,
+          "y": 0.20000000298023224
+        },
+        "space": "Screen"
+      },
+      {
+        "depthPreset": "Midground",
+        "imagePath": "Assets/Sprites/SpaceQuestAssets/layer4.png",
+        "parallax": {
+          "x": 0.550000011920929,
+          "y": 0.4000000059604645
+        },
+        "space": "Screen"
+      }
+    ],
+    "dimension": "2D",
+    "lighting2DEnabled": false,
+    "name": "Level1",
+    "skyboxPath": "",
+    "version": 1
+  }
+}

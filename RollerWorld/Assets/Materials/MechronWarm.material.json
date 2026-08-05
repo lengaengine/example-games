@@ -1,0 +1,11 @@
+{
+  "material": {
+    "name": "MechronWarm",
+    "version": 1,
+    "shader": "Lit"
+  },
+  "baseColor": "#FFD59BFF",
+  "specularStrength": 0.55,
+  "smoothness": 0.48,
+  "baseTexturePath": ""
+}

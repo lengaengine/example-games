@@ -1,0 +1,11 @@
+{
+  "baseColor": "#E6C79C",
+  "baseTexturePath": "",
+  "material": {
+    "name": "CoursePlatformWide",
+    "shader": "Lit",
+    "version": 1
+  },
+  "smoothness": 0.25999999046325684,
+  "specularStrength": 0.18000000715255737
+}

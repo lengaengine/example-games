@@ -1,0 +1,22 @@
+{
+  "autoload": {
+    "psr-4": {
+      "RollerWorld\\Game\\": "Assets/"
+    }
+  },
+  "name": "lenga/rollerworld",
+  "require": {
+    "php": "^8.5",
+    "lenga/engine": "dev-develop"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../../php-engine",
+      "options": {
+        "symlink": false
+      }
+    }
+  ],
+  "type": "project"
+}

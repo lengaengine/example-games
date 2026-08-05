@@ -1,0 +1,11 @@
+{
+  "material": {
+    "name": "CoursePlatformSquare",
+    "version": 1,
+    "shader": "Lit"
+  },
+  "baseColor": "#F0D5A7FF",
+  "specularStrength": 0.2,
+  "smoothness": 0.3,
+  "baseTexturePath": ""
+}

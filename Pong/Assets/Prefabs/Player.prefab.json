@@ -1,0 +1,74 @@
+{
+  "prefab": {
+    "name": "Player",
+    "rootGameObject": {
+      "active": true,
+      "children": [],
+      "components": [
+        {
+          "localEulerAngles": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localPosition": {
+            "x": -500.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 10.0,
+            "z": 1.0
+          },
+          "type": "Transform"
+        },
+        {
+          "color": "#00C0FF",
+          "size": {
+            "x": 64,
+            "y": 64
+          },
+          "type": "RectangleRenderer"
+        },
+        {
+          "class": "Lenga\\Pong\\Scripts\\PlayerController",
+          "enabled": true,
+          "properties": {
+            "speed": 10000.0
+          },
+          "type": "Behaviour"
+        },
+        {
+          "bodyType": "Kinematic",
+          "gravityScale": 1.0,
+          "linearDrag": 0.0,
+          "type": "Rigidbody2D",
+          "useGravity": false,
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "isTrigger": false,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 64.0,
+            "y": 64.0,
+            "z": 0.0
+          },
+          "type": "BoxCollider2D"
+        }
+      ],
+      "layer": 0,
+      "name": "Player",
+      "tag": "Player"
+    }
+  }
+}

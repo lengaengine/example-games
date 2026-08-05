@@ -1,0 +1,414 @@
+{
+  "assetImports": {
+    "assets": [
+      {
+        "assetImport": {
+          "assetId": "296e254bb593e74972735a8f6bfebe62",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Images/Space BG.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "c388520093cab8cb71f393930e4208d6",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/Player Ship/spritesheet.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "6fc57b08b414e16e29c67d9e2f2a7ace",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/Boss_Spawn.mp3"
+      },
+      {
+        "assetImport": {
+          "assetId": "a48746a9545d9172a35ae19078fec12c",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/Swipe.mp3"
+      },
+      {
+        "assetImport": {
+          "assetId": "97b5e231ae642dcb011ed1c2bd3d819b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/asteroid_sprite.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "dc3555c16ee301180d064f44b9d0bbd8",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/beetleDestroy.mp3"
+      },
+      {
+        "assetImport": {
+          "assetId": "14496dd844aa1f1fe9cb89dd64a28384",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/beetleHit.mp3"
+      },
+      {
+        "assetImport": {
+          "assetId": "9bb74a3997d2fb8afb6639986c85d4e2",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/beetle_pop.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "3980c6f2ae85f3fe0ed6ab245ea282e1",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/beetlemorph.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "31de967bda6b1b066bfe0a3b2a134ab6",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/boom1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "5da6402be7b81cf02bad9490a8a18967",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/boom2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4bc589fc7fc6bbd2b6ace8d1b287242d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/boom3.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "4558e837506e89cd32ce19f8e430e2c1",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/boss1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d23e500c37623ffc5d5c490523bde8bd",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/boss2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "62357ebd434d761299a2cf66ab50e97d",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/bullet1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "2dd3d2810d4aecb095b33530059dfa67",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/critter1_burn.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "b4cbdb11a965d881ed0e1dd490e8fc25",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/critter1_sprite.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "45ee845e5b9bc02f1662a5c687e66f9b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/critter1_zapped.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "cbb8177184fc9049cd32ee14a2f3a48b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/layer1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "9a673fb1676fb0e22d045ba3249c7657",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/layer2.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "36577f8b236765261ab436803641e265",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/layer3.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "21d30c8430a6244f79d9e8180e94479e",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/layer4.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "08d58699a4a3fc7532c000db7b63c323",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/locustCharge.mp3"
+      },
+      {
+        "assetImport": {
+          "assetId": "e3f97c4d3e34fd76ece0b1b74968afb0",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/locustDestroy.mp3"
+      },
+      {
+        "assetImport": {
+          "assetId": "98319a2e06f20184c30af62a250c99e8",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/locustHit.mp3"
+      },
+      {
+        "assetImport": {
+          "assetId": "c040133f7de559b337ca3bcdfd22d1db",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/locust_pop.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "d0847c9cd5a37ff7968cb5313bf3f43a",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/locustmorph.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "3d2afcac04e50624f5c12f6d5260cb9c",
+          "audio": {
+            "usage": "SoundEffect"
+          },
+          "type": "Audio",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/mecha_whale.mp3"
+      },
+      {
+        "assetImport": {
+          "assetId": "3d9d43f405c3ed83662bed0854be3292",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/player_game_over.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "ece4b7f9a192b6c351144d7520fd2908",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/player_large.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "0a554ac0db0891e14b15bf1bbaaadf8b",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/player_sprite.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "ba0506f4efe9bf60dbd2c23fbe7fff8f",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/SpaceQuestAssets/space_whales.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "e5ad70891bf1c4748d223b5281a0aa00",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/asteroid-big.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "96c3d345ed100d7d79ef06ddc60203a4",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/bullet.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "0a0f194ae0424741af159a35d8b13ddd",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/enemy-ship-1.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "1a0dc37ca24cbda3b78b1172b3281fed",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/particle-material-01.png"
+      },
+      {
+        "assetImport": {
+          "assetId": "2f89f912b77b0100288b4480becc23b5",
+          "texture": {
+            "filter": "Bilinear"
+          },
+          "type": "Texture2D",
+          "version": 2
+        },
+        "path": "Assets/Sprites/ship.png"
+      }
+    ],
+    "version": 1
+  }
+}

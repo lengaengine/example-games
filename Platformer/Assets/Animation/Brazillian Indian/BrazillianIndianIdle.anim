@@ -1,0 +1,92 @@
+{
+  "animationClip": {
+    "events": [],
+    "frames": [
+      {
+        "sourceRect": {
+          "height": 96.0,
+          "width": 120.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Sprites/Brazilian Indian/Indian - Sprites.png"
+      },
+      {
+        "sourceRect": {
+          "height": 96.0,
+          "width": 120.0,
+          "x": 120.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Sprites/Brazilian Indian/Indian - Sprites.png"
+      },
+      {
+        "sourceRect": {
+          "height": 96.0,
+          "width": 120.0,
+          "x": 240.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Sprites/Brazilian Indian/Indian - Sprites.png"
+      },
+      {
+        "sourceRect": {
+          "height": 96.0,
+          "width": 120.0,
+          "x": 360.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Sprites/Brazilian Indian/Indian - Sprites.png"
+      },
+      {
+        "sourceRect": {
+          "height": 96.0,
+          "width": 120.0,
+          "x": 480.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Sprites/Brazilian Indian/Indian - Sprites.png"
+      },
+      {
+        "sourceRect": {
+          "height": 96.0,
+          "width": 120.0,
+          "x": 600.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Sprites/Brazilian Indian/Indian - Sprites.png"
+      },
+      {
+        "sourceRect": {
+          "height": 96.0,
+          "width": 120.0,
+          "x": 720.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Sprites/Brazilian Indian/Indian - Sprites.png"
+      },
+      {
+        "sourceRect": {
+          "height": 96.0,
+          "width": 120.0,
+          "x": 840.0,
+          "y": 0.0
+        },
+        "texturePath": "Assets/Sprites/Brazilian Indian/Indian - Sprites.png"
+      }
+    ],
+    "framesPerSecond": 12.0,
+    "loop": true,
+    "name": "BrazillianIndianIdle",
+    "spriteSheet": {
+      "frameHeight": 96,
+      "frameWidth": 120,
+      "marginX": 0,
+      "marginY": 0,
+      "maxFrames": 8,
+      "spacingX": 0,
+      "spacingY": 0,
+      "texturePath": "Assets/Sprites/Brazilian Indian/Indian - Sprites.png"
+    }
+  }
+}
