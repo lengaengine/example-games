@@ -5,6 +5,8 @@
     }
   },
   "name": "lenga/blasters",
+  "description": "A 2D space-shooter sample project for the Lenga Engine.",
+  "license": "MIT",
   "require": {
     "php": "^8.5",
     "lenga/engine": "dev-develop"

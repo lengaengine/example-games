@@ -5,6 +5,8 @@
     }
   },
   "name": "lenga/platformer",
+  "description": "A complete 2D platformer sample project for the Lenga Engine.",
+  "license": "MIT",
   "require": {
     "php": "^8.5",
     "lenga/engine": "dev-develop"

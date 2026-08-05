@@ -1,5 +1,7 @@
 {
     "name": "lenga/hello-world",
+    "description": "A mixed 2D and 3D feature sandbox for the Lenga Engine.",
+    "license": "MIT",
     "type": "project",
     "require": {
         "php": "^8.5",

@@ -5,6 +5,8 @@
     }
   },
   "name": "lenga/rollerworld",
+  "description": "A 3D roll-a-ball sample project for the Lenga Engine.",
+  "license": "MIT",
   "require": {
     "php": "^8.5",
     "lenga/engine": "dev-develop"

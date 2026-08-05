@@ -1,9 +1,35 @@
+# Operating-system metadata
 .DS_Store
-vender/
+.DS_Store?
+._*
+Thumbs.db
+
+# Dependencies
+vendor/
 node_modules/
+composer.phar
 
-.cache/
-.vscode/
+# Editors and local Lenga state
 .idea/
+.vscode/
+.vs/
+.codex/
+.cache/
+imgui.ini
+*.swp
+*.swo
+*~
 
+# Generated builds and runtime state
+build/
+dist/
+out/
+output/
+Saved/
+coverage/
+
+# Logs and temporary files
 *.log
+*.cache
+*.tmp
+*.temp

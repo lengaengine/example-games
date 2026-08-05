@@ -1,5 +1,7 @@
 {
     "name": "lenga/pong",
+    "description": "A 2D physics and gameplay sample project for the Lenga Engine.",
+    "license": "MIT",
     "type": "project",
     "require": {
         "php": "^8.5",

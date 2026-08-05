@@ -1,0 +1,33 @@
+# Normalize source and project files across platforms.
+* text=auto eol=lf
+
+# Media and compiled assets must not be line-normalized.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.ico binary
+*.icns binary
+*.psd binary
+*.tga binary
+*.hdr binary
+*.fbx binary
+*.glb binary
+*.gltf binary
+*.blend binary
+*.cdr binary
+*.eps binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.flac binary
+*.mp4 binary
+*.mov binary
+*.zip binary
+*.gz binary
+*.7z binary
