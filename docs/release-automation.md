@@ -19,7 +19,7 @@ The dispatch is idempotent. Repeating it for a version already in use produces n
 Configure the following in the `lengaengine/php-engine` repository:
 
 - Secret `SAMPLES_REPOSITORY_TOKEN`: a fine-grained token with permission to dispatch workflows in the samples repository.
-- Optional variable `LENGA_SAMPLES_REPOSITORY`: the target in `owner/repository` form. It defaults to `lengaengine/samples`.
+- Optional variable `LENGA_SAMPLES_REPOSITORY`: the target in `owner/repository` form. It defaults to `lengaengine/example-games`.
 
 The samples repository must allow GitHub Actions to write repository contents because the receiving workflow commits regenerated dependency locks.
 
