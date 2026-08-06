@@ -1,3 +1,4 @@
+<!--suppress HtmlDeprecatedAttribute -->
 <div align="center">
     <img src="https://lengaengine.com/images/lenga-logo-xl.png" width="140" alt="Lenga Engine Logo" />
 </div>
@@ -6,18 +7,18 @@
 
 This repository contains editable Lenga projects that show how engine features fit together in real games. Open a project in the Lenga Editor, inspect its scenes and components, and use the PHP scripts as practical starting points for your own work.
 
-These are source projects rather than prebuilt game downloads. They evolve independently from the engine repository and may target features on Lenga's current development branch.
+These are source projects rather than prebuilt game downloads. They evolve independently of the engine repository and may target features on Lenga's current development branch.
 
 ## Projects
 
-| Project | Mode | What it demonstrates |
-| --- | --- | --- |
-| [Blasters](./Blasters) | 2D | A compact space-shooter project with input, animation, projectiles, and gameplay behaviours. |
-| [HelloWorld](./HelloWorld) | 2D and 3D | A feature sandbox for camera behaviours, 2D joints, 3D models, and simple scripted objects. |
-| [Platformer](./Platformer) | 2D | A larger platformer project with tile-based levels, animation controllers, combat, menus, audio mixing, and gameplay state. |
-| [Pong](./Pong) | 2D | Physics-driven paddle gameplay, configurable input, runtime spawning, UI, and scene transitions. |
-| [RollerWorld](./RollerWorld) | 3D | A roll-a-ball game using 3D physics, follow cameras, lighting, materials, shaders, audio, UI, and collectibles. |
-| [Super Blastoid](./Super%20Blastoid) | 3D | A minimal 3D project for experimenting with scene setup and native components. |
+| Project                              | Mode      | What it demonstrates                                                                                                        |
+|--------------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------|
+| [Blasters](./Blasters)               | 2D        | A compact space-shooter project with input, animation, projectiles, and gameplay behaviours.                                |
+| [HelloWorld](./HelloWorld)           | 2D and 3D | A feature sandbox for camera behaviours, 2D joints, 3D models, and simple scripted objects.                                 |
+| [Platformer](./Platformer)           | 2D        | A larger platformer project with tile-based levels, animation controllers, combat, menus, audio mixing, and gameplay state. |
+| [Pong](./Pong)                       | 2D        | Physics-driven paddle gameplay, configurable input, runtime spawning, UI, and scene transitions.                            |
+| [RollerWorld](./RollerWorld)         | 3D        | A roll-a-ball game using 3D physics, follow cameras, lighting, materials, shaders, audio, UI, and collectibles.             |
+| [Super Blastoid](./Super%20Blastoid) | 3D        | A minimal 3D project for experimenting with scene setup and native components.                                              |
 
 ## Requirements
 
