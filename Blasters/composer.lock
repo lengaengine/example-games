@@ -4,68 +4,12 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "205c200d72c1444a0a783b925db67c3f",
-    "packages": [
-        {
-            "name": "lenga/engine",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lengaengine/php-engine.git",
-                "reference": "1a2dcd18f8eb6afb4149af818f7cfb9cc5a5ee2b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lengaengine/php-engine/zipball/1a2dcd18f8eb6afb4149af818f7cfb9cc5a5ee2b",
-                "reference": "1a2dcd18f8eb6afb4149af818f7cfb9cc5a5ee2b",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "php": "^8.5"
-            },
-            "require-dev": {
-                "ext-dom": "*",
-                "ext-libxml": "*",
-                "ext-tokenizer": "*",
-                "ext-xml": "*",
-                "ext-xmlwriter": "*",
-                "phpunit/phpunit": "^11.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Lenga\\Engine\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Lenga\\Engine\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "phpunit"
-                ]
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "Lenga Engine PHP runtime bindings",
-            "support": {
-                "source": "https://github.com/lengaengine/php-engine/tree/develop",
-                "issues": "https://github.com/lengaengine/php-engine/issues"
-            },
-            "time": "2026-08-01T18:32:22+00:00"
-        }
-    ],
+    "content-hash": "2ba99980e6abada5739783724f3f390b",
+    "packages": [],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "lenga/engine": 20
-    },
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

@@ -84,6 +84,7 @@
             }
         }
     },
+    "engineVersion": "0.10.0",
     "entry": {
         "scene": "Level1"
     },
@@ -338,6 +339,7 @@
     },
     "name": "Pong",
     "projectType": "2D",
+    "schemaVersion": 1,
     "sortingLayers": [
         "Background",
         "Default",

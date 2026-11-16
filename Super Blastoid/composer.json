@@ -8,14 +8,7 @@
   "description": "A minimal 3D sample project for the Lenga Engine.",
   "license": "MIT",
   "require": {
-    "lenga/engine": "dev-develop",
     "php": "^8.5"
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/lengaengine/php-engine.git"
-    }
-  ],
   "type": "project"
 }

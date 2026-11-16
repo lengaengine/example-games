@@ -96,6 +96,7 @@
             }
         }
     },
+    "engineVersion": "0.10.0",
     "entry": {
         "scene": "Level1"
     },
@@ -312,6 +313,7 @@
     },
     "name": "RollerWorld",
     "projectType": "3D",
+    "schemaVersion": 1,
     "sortingLayers": [
         "Background",
         "Default",

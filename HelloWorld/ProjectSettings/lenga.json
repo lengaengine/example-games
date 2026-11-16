@@ -128,6 +128,7 @@
             }
         }
     },
+    "engineVersion": "0.10.0",
     "entry": {
         "scene": "Level1"
     },
@@ -382,6 +383,7 @@
     },
     "name": "Hello World",
     "projectType": "3D",
+    "schemaVersion": 1,
     "sortingLayers": [
         "Background",
         "Default",

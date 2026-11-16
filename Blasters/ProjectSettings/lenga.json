@@ -79,6 +79,7 @@
             }
         }
     },
+    "engineVersion": "0.10.0",
     "entry": {
         "scene": "Level1"
     },
@@ -266,6 +267,7 @@
     },
     "name": "Blasters",
     "projectType": "2D",
+    "schemaVersion": 1,
     "sortingLayers": [
         "Background",
         "Default",

@@ -4,18 +4,11 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": "^8.5",
-        "lenga/engine": "dev-develop"
+        "php": "^8.5"
     },
     "autoload": {
         "psr-4": {
             "Lenga\\Pong\\": "Assets/"
         }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/lengaengine/php-engine.git"
-        }
-    ]
+    }
 }
