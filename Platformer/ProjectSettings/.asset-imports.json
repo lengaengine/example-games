@@ -93,10 +93,13 @@
         "assetImport": {
           "assetId": "efdf6f5c85867e2226c65893cbe07aac",
           "texture": {
-            "filter": "Bilinear"
+            "alphaIsTransparency": true,
+            "filter": "Bilinear",
+            "generateMipmaps": false,
+            "wrap": "Clamp"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Images/Scene Backdrop 1.png"
       },
@@ -115,10 +118,13 @@
         "assetImport": {
           "assetId": "0d45aa00f4c54b3ca7d8d4f7fb2c64f1",
           "texture": {
-            "filter": "Point"
+            "alphaIsTransparency": false,
+            "filter": "Point",
+            "generateMipmaps": false,
+            "wrap": "Repeat"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Images/Scene Tileset (Default).png"
       },
@@ -126,10 +132,13 @@
         "assetImport": {
           "assetId": "2e64bb989033c3048bc555c778c86ef3",
           "texture": {
-            "filter": "Point"
+            "alphaIsTransparency": false,
+            "filter": "Point",
+            "generateMipmaps": false,
+            "wrap": "Repeat"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Sprites/Brazilian Indian/Indian - Sprites.png"
       },
@@ -137,10 +146,13 @@
         "assetImport": {
           "assetId": "128f69fffb9eefc8654b4c4cd25c3a4b",
           "texture": {
-            "filter": "Bilinear"
+            "alphaIsTransparency": false,
+            "filter": "Point",
+            "generateMipmaps": false,
+            "wrap": "Repeat"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Sprites/Kavumbi/Kavumbi-attack (1).png"
       },
@@ -148,10 +160,13 @@
         "assetImport": {
           "assetId": "6e8219a819e8d1aa17651dd0696476d1",
           "texture": {
-            "filter": "Bilinear"
+            "alphaIsTransparency": false,
+            "filter": "Point",
+            "generateMipmaps": false,
+            "wrap": "Repeat"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Sprites/Kavumbi/Kavumbi-attack.png"
       },
@@ -159,10 +174,13 @@
         "assetImport": {
           "assetId": "f14b0a921d1c0932710e23fd0cf5d629",
           "texture": {
-            "filter": "Bilinear"
+            "alphaIsTransparency": false,
+            "filter": "Point",
+            "generateMipmaps": false,
+            "wrap": "Repeat"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Sprites/Kavumbi/Kavumbi-dash.png"
       },
@@ -170,10 +188,13 @@
         "assetImport": {
           "assetId": "44272b62dccb7309cc9d32317fe148b1",
           "texture": {
-            "filter": "Bilinear"
+            "alphaIsTransparency": false,
+            "filter": "Point",
+            "generateMipmaps": false,
+            "wrap": "Repeat"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Sprites/Kavumbi/Kavumbi-idle (1).png"
       },
@@ -192,10 +213,13 @@
         "assetImport": {
           "assetId": "004a4ae1a968cad95ce08fb90c6e087a",
           "texture": {
-            "filter": "Bilinear"
+            "alphaIsTransparency": false,
+            "filter": "Point",
+            "generateMipmaps": false,
+            "wrap": "Repeat"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Sprites/Kavumbi/Kavumbi-jump.png"
       },
@@ -203,10 +227,13 @@
         "assetImport": {
           "assetId": "173511cd3148b39fbfe754a00118dfdb",
           "texture": {
-            "filter": "Bilinear"
+            "alphaIsTransparency": false,
+            "filter": "Point",
+            "generateMipmaps": false,
+            "wrap": "Repeat"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Sprites/Kavumbi/Kavumbi-walk.png"
       },
@@ -236,10 +263,13 @@
         "assetImport": {
           "assetId": "70d6844569045cbc1a15bb594838d852",
           "texture": {
-            "filter": "Point"
+            "alphaIsTransparency": true,
+            "filter": "Trilinear",
+            "generateMipmaps": true,
+            "wrap": "Clamp"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Sprites/Spiritual Forest/Lush forest with misty background.png"
       },
@@ -258,10 +288,13 @@
         "assetImport": {
           "assetId": "d3db9518dd637900131b72e484c4240b",
           "texture": {
-            "filter": "Point"
+            "alphaIsTransparency": true,
+            "filter": "Trilinear",
+            "generateMipmaps": true,
+            "wrap": "Clamp"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Sprites/Spiritual Forest/mountain-range.png"
       },
@@ -269,10 +302,13 @@
         "assetImport": {
           "assetId": "f7d5e30fa563bd11fb7947844027e792",
           "texture": {
-            "filter": "Point"
+            "alphaIsTransparency": true,
+            "filter": "Trilinear",
+            "generateMipmaps": true,
+            "wrap": "Clamp"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Sprites/Spiritual Forest/sky-bg-2.png"
       },
@@ -379,10 +415,13 @@
         "assetImport": {
           "assetId": "cfb2c71f6c7a76898ea279ceea6c4704",
           "texture": {
-            "filter": "Bilinear"
+            "alphaIsTransparency": false,
+            "filter": "Point",
+            "generateMipmaps": false,
+            "wrap": "Repeat"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Sprites/Zoipa/Zoipa-cast.png"
       },
@@ -390,10 +429,13 @@
         "assetImport": {
           "assetId": "ebed44b26708a576c67d05b2460bb45d",
           "texture": {
-            "filter": "Point"
+            "alphaIsTransparency": false,
+            "filter": "Point",
+            "generateMipmaps": false,
+            "wrap": "Repeat"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Sprites/Zoipa/Zoipa-hit_react.png"
       },
@@ -401,10 +443,13 @@
         "assetImport": {
           "assetId": "e9b8c76f199ec5634ce04a8bcb1c1ad5",
           "texture": {
-            "filter": "Point"
+            "alphaIsTransparency": false,
+            "filter": "Point",
+            "generateMipmaps": false,
+            "wrap": "Repeat"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Sprites/Zoipa/Zoipa-idle.png"
       },
@@ -412,10 +457,13 @@
         "assetImport": {
           "assetId": "0b951fb7ec85c1b31e7aa2ee02e96d9d",
           "texture": {
-            "filter": "Point"
+            "alphaIsTransparency": false,
+            "filter": "Point",
+            "generateMipmaps": false,
+            "wrap": "Repeat"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Sprites/Zoipa/Zoipa-walk.png"
       },
@@ -445,10 +493,13 @@
         "assetImport": {
           "assetId": "597935dae8dc7a33eee8545fc0873c04",
           "texture": {
-            "filter": "Point"
+            "alphaIsTransparency": false,
+            "filter": "Point",
+            "generateMipmaps": false,
+            "wrap": "Repeat"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Sprites/forest-tilemap-optimized.png"
       },
@@ -467,10 +518,13 @@
         "assetImport": {
           "assetId": "c075dcf5e3441e2d1f87fba0f339f92e",
           "texture": {
-            "filter": "Point"
+            "alphaIsTransparency": false,
+            "filter": "Point",
+            "generateMipmaps": false,
+            "wrap": "Repeat"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Sprites/test-tileset.png"
       },
@@ -1248,10 +1302,13 @@
         "assetImport": {
           "assetId": "2d06deded7e34acc16f180b0c4f17022",
           "texture": {
-            "filter": "Bilinear"
+            "alphaIsTransparency": false,
+            "filter": "Point",
+            "generateMipmaps": false,
+            "wrap": "Repeat"
           },
           "type": "Texture2D",
-          "version": 2
+          "version": 3
         },
         "path": "Assets/Tilesets/craftpix-net-141897-free-prototype-2d-platformer-32x32-pixel-tileset/2 TilePrefabs/Prefabs1.png"
       },
