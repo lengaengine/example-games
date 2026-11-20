@@ -78,7 +78,7 @@
           "properties": {
             "boostScrollMultiplier": 2.6,
             "reverseScrollMultiplier": 0.35,
-            "starScrollSpeed": 120.0
+            "scrollSpeed": 1.6667
           },
           "type": "Behaviour"
         }
