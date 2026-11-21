@@ -8,12 +8,13 @@ use Lenga\Engine\Attributes\AddComponentMenu;
 use Lenga\Engine\Attributes\Range;
 use Lenga\Engine\Attributes\Tooltip;
 use Lenga\Engine\Core\Behaviour;
+use Lenga\Engine\Core\CameraRig;
 use Lenga\Engine\Core\Debug;
 use Lenga\Engine\Core\GameObject;
 use Lenga\Engine\Core\ParticleSystem;
 use Lenga\Engine\Core\Time;
+use Lenga\Engine\Core\Vector2;
 use Lenga\Engine\Core\Vector3;
-use Lenga\Platformer\Scripts\Camera\CameraFollow;
 
 #[AddComponentMenu("Combat/Combat Feedback Controller")]
 final class CombatFeedbackController extends Behaviour
@@ -73,7 +74,7 @@ final class CombatFeedbackController extends Behaviour
     private bool $hitStopActive = false;
     private float $resumeAt = -1.0;
     private float $resumeTimeScale = 1.0;
-    private ?CameraFollow $cameraFollow = null;
+    private ?CameraRig $cameraRig = null;
     private ?ParticleSystem $hitImpactFx = null;
     private ?ParticleSystem $landingDustFx = null;
     private bool $hitImpactFxMissingWarningLogged = false;
@@ -83,8 +84,8 @@ final class CombatFeedbackController extends Behaviour
     {
         self::$instance = $this;
         $mainCamera = GameObject::find('Main Camera');
-        $cameraFollow = $mainCamera?->getComponent(CameraFollow::class);
-        $this->cameraFollow = $cameraFollow instanceof CameraFollow ? $cameraFollow : null;
+        $cameraRig = $mainCamera?->getComponent(CameraRig::class);
+        $this->cameraRig = $cameraRig instanceof CameraRig ? $cameraRig : null;
     }
 
     public function update(): void
@@ -126,9 +127,7 @@ final class CombatFeedbackController extends Behaviour
             $this->resumeAt = max($this->resumeAt, $now + $duration);
         }
 
-        if ($this->cameraFollow instanceof CameraFollow) {
-            $this->cameraFollow->requestShake($shakeDuration, $shakeMagnitudeX, $shakeMagnitudeY);
-        }
+        $this->cameraRig?->shake(new Vector2($shakeMagnitudeX, $shakeMagnitudeY), $shakeDuration);
     }
 
     public function playHitImpactAt(Vector3 $worldPosition, bool $kill = false): void

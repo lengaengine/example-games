@@ -269,23 +269,38 @@
           "type": "Camera"
         },
         {
-          "class": "Lenga\\Platformer\\Scripts\\Camera\\CameraFollow",
-          "enabled": true,
-          "id": "behaviour",
-          "properties": {
-            "maxSpeed": 3.4028234663852886e+38,
-            "offset": {
-              "x": 10.0,
-              "y": -3.0,
-              "z": 0.0
-            },
-            "smoothTime": 0.12,
-            "target": {
-              "__lengaRefKind": "Transform",
-              "sceneObjectId": "probe"
-            }
+          "boundsEnabled": false,
+          "boundsMax": {
+            "x": 0.0,
+            "y": 0.0
           },
-          "type": "Behaviour"
+          "boundsMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "dampingTime": {
+            "x": 0.11999999731779099,
+            "y": 0.11999999731779099,
+            "z": 0.11999999731779099
+          },
+          "deadZone": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "enabled": true,
+          "id": "camerarig",
+          "lookaheadDampingTime": 0.30000001192092896,
+          "lookaheadDistance": 0.0,
+          "maxSpeed": 0.0,
+          "offset": {
+            "x": 10.0,
+            "y": -3.0,
+            "z": 0.0
+          },
+          "targetId": "probe",
+          "targetSize": 0.0,
+          "type": "CameraRig",
+          "zoomDampingTime": 0.25
         }
       ],
       "id": "main-camera",
