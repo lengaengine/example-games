@@ -279,9 +279,9 @@
             "y": 0.0
           },
           "dampingTime": {
-            "x": 0.11999999731779099,
-            "y": 0.11999999731779099,
-            "z": 0.11999999731779099
+            "x": 0.12,
+            "y": 0.12,
+            "z": 0.12
           },
           "deadZone": {
             "x": 0.0,
@@ -289,7 +289,7 @@
           },
           "enabled": true,
           "id": "camerarig",
-          "lookaheadDampingTime": 0.30000001192092896,
+          "lookaheadDampingTime": 0.3,
           "lookaheadDistance": 0.0,
           "maxSpeed": 0.0,
           "offset": {
